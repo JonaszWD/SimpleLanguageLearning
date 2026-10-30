@@ -41,17 +41,32 @@ export async function installPack(meta, onProgress) {
   const have = new Set(await db.getAllKeys("media"));
   const todo = m.audio.filter((n) => !have.has(n));
   let done = 0;
+  let failed = 0;
   const total = todo.length;
   const queue = [...todo];
+
+  // Static hosts rate-limit bursts (the reply may even lack CORS headers), so retry with backoff.
+  const download = async (name) => {
+    for (let attempt = 0; attempt < 5; attempt++) {
+      try {
+        const r = await fetch(packsUrl(`/${meta.id}/audio/${encodeURIComponent(name)}`));
+        if (r.ok) return await r.blob();
+        if (r.status !== 429 && r.status < 500) return null; // permanent, e.g. 404
+      } catch { /* network or throttled: retry */ }
+      await new Promise((res) => setTimeout(res, 500 * 2 ** attempt));
+    }
+    return null;
+  };
   const worker = async () => {
     for (let name; (name = queue.shift()); ) {
-      const r = await fetch(packsUrl(`/${meta.id}/audio/${encodeURIComponent(name)}`));
-      if (!r.ok) throw new Error(`Audio download failed (${r.status})`);
-      await db.put("media", { name, blob: await r.blob() });
+      const blob = await download(name);
+      if (blob) await db.put("media", { name, blob });
+      else failed++;
       onProgress({ phase: "Downloading audio…", done: ++done, total });
     }
   };
-  await Promise.all(Array.from({ length: 6 }, worker));
+  await Promise.all(Array.from({ length: 4 }, worker));
+  if (failed) throw new Error(`${failed} audio files failed. They will be retried on the next sync.`);
 
   await db.put("library", { id: `pack:${meta.id}`, packId: meta.id, kind: "clips", title: m.title, clips: m.clips, version: meta.version });
   return merged;
