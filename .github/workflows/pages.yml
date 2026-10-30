@@ -1,0 +1,33 @@
+# Publishes content/packs (deck manifest + audio) to GitHub Pages, so the app can download
+# it from static hosting. Free for public repositories.
+name: Publish content packs
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/packs/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: content/packs
+      - id: deployment
+        uses: actions/deploy-pages@v4

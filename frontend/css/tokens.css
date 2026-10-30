@@ -1,0 +1,64 @@
+/* Tokens mirror DESIGN.md front matter 1:1. Never inline hex elsewhere. */
+@font-face {
+  font-family: "Display";
+  src: url("../fonts/cormorant-garamond-300.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-var.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --primary: #292524;
+  --primary-active: #0c0a09;
+  --ink: #0c0a09;
+  --body: #4e4e4e;
+  --body-strong: #292524;
+  --muted: #777169;
+  --muted-soft: #a8a29e;
+  --hairline: #e7e5e4;
+  --hairline-soft: #f0efed;
+  --hairline-strong: #d6d3d1;
+  --canvas: #f5f5f5;
+  --canvas-soft: #fafafa;
+  --surface-card: #ffffff;
+  --surface-strong: #f0efed;
+  --surface-dark: #0c0a09;
+  --on-primary: #ffffff;
+  --gradient-mint: #a7e5d3;
+  --gradient-peach: #f4c5a8;
+  --gradient-lavender: #c8b8e0;
+  --gradient-sky: #a8c8e8;
+  --gradient-rose: #e8b8c4;
+  --semantic-error: #dc2626;
+  --semantic-success: #16a34a;
+
+  /* Waldenburg is licensed -> self-hosted substitute (see DESIGN.md "Note on Font Substitutes") */
+  --font-display: "Waldenburg", "Display", "Times New Roman", serif;
+  --font-body: "Inter", sans-serif;
+
+  --r-xs: 4px;
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 12px;
+  --r-xl: 16px;
+  --r-xxl: 24px;
+  --r-pill: 9999px;
+
+  --s-xxs: 4px;
+  --s-xs: 8px;
+  --s-sm: 12px;
+  --s-base: 16px;
+  --s-md: 20px;
+  --s-lg: 24px;
+  --s-xl: 32px;
+  --s-xxl: 48px;
+
+  --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.04);
+  --tab-h: 64px;
+  --top-h: 64px;
+}

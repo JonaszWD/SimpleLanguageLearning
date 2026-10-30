@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# large/derived: rebuilt locally
+backend/data/
+# source deck (over GitHub's 100 MB file limit); content/packs is what gets committed
+*.apkg

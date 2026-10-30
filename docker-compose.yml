@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      PACKS_DIR: /srv/content/packs
+    volumes:
+      # Live frontend: edit files in ./frontend and phones update themselves, no image rebuild.
+      - ./frontend:/srv/frontend:ro
+      - ./content:/srv/content:ro
+      - ./backend/data:/srv/backend/data
+    restart: unless-stopped
