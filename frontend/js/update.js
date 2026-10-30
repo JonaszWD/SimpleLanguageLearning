@@ -14,7 +14,7 @@ export async function initUpdates() {
     if (hadController) { stale = true; toast("Updated. Applies on the next screen."); }
     hadController = true;
   });
-  reg = await navigator.serviceWorker.register("/sw.js", { updateViaCache: "none" });
+  reg = await navigator.serviceWorker.register("sw.js", { updateViaCache: "none" });
   const check = () => reg.update().catch(() => {});
   document.addEventListener("visibilitychange", () => { if (!document.hidden) check(); });
   setInterval(check, 15 * 60_000);

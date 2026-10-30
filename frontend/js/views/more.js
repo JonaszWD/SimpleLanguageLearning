@@ -5,6 +5,7 @@ import { mergeDeck, installPack, installedPacks, availablePacks } from "../packs
 import { topNav } from "./shared.js";
 import { checkNow, runningVersion } from "../update.js";
 import { syncAll } from "../sync.js";
+import { apiUrl } from "../config.js";
 
 const isDone = async (d) => {
   const day = await db.get("days", dateKey(d));
@@ -116,7 +117,8 @@ export async function importDeck(ctx) {
     try {
       const body = new FormData();
       body.append("file", f);
-      const res = await fetch("/api/anki/import", { method: "POST", body });
+      const res = await fetch(apiUrl("/anki/import"), { method: "POST", body });
+      if ([404, 405, 501].includes(res.status)) throw new Error("Importing needs the backend server. It isn't available on this hosting.");
       if (!res.ok) throw new Error((await res.json().catch(() => ({}))).detail || `Server error ${res.status}`);
       const data = await res.json();
       const r = await mergeDeck(data);

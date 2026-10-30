@@ -1,6 +1,7 @@
 // Background content sync: the deck pack (cards + audio) and the daily articles appear on their
 // own. Everything is resumable, so closing the app mid-download is fine.
 import * as db from "./db.js";
+import { apiUrl } from "./config.js";
 import { availablePacks, installPack, installedPacks } from "./packs.js";
 
 const listeners = new Set();
@@ -33,14 +34,16 @@ export async function dismissArticle(id) {
 }
 
 async function syncArticles() {
-  const index = await (await fetch("/api/articles/daily")).json();
+  const idxRes = await fetch(apiUrl("/articles/daily"));
+  if (!idxRes.ok) return; // no backend (static hosting): nothing to sync
+  const index = await idxRes.json();
   const items = await db.getAll("library");
   const have = new Set(items.map((i) => i.id));
   const dismissed = new Set((await db.get("settings", DISMISSED))?.value || []);
   const fresh = index.filter((a) => !have.has(`article:${a.id}`) && !dismissed.has(`article:${a.id}`));
   for (const [n, a] of fresh.entries()) {
     set({ phase: "Fetching articles", done: n, total: fresh.length });
-    const res = await fetch(`/api/articles/daily/${a.id}`);
+    const res = await fetch(apiUrl(`/articles/daily/${a.id}`));
     if (!res.ok) continue;
     const art = await res.json();
     await db.put("library", {

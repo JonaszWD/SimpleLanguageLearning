@@ -51,9 +51,12 @@ cd ../.. && uv run python -m app.dictionary build data/dict/kaikki-spanish.jsonl
 ```
 Dictionary data: Wiktionary via kaikki.org, CC BY-SA 4.0.
 
-## Hosting the pack on GitHub Pages (free, public repo)
+## Hosting on GitHub Pages (free, public repo)
 
-1. Push this repo to GitHub as a **public** repository (Pages on private repos needs a paid plan).
-2. Settings → Pages → Source: **GitHub Actions**. The workflow `.github/workflows/pages.yml` publishes `content/packs`.
-3. Set `PACKS_BASE` in `frontend/js/config.js` to `https://<user>.github.io/<repo>`.
-Pages sends open CORS headers, so the app can download from it wherever the frontend is hosted. Limits: 1 GB site, soft 100 GB/month bandwidth. The pack is about 100 MB.
+The whole app is static, so GitHub Pages can host it: `.github/workflows/pages.yml` assembles `frontend/` + `content/packs/` into one site (and generates `sw.js` with `backend/app/build.py`).
+
+1. Settings → Pages → Source: **GitHub Actions**.
+2. Push to `main`. Live at `https://<user>.github.io/<repo>/`. Open it in Safari, Share → Add to Home Screen.
+3. Later pushes redeploy, and installed phones update themselves.
+
+All URLs are relative (`frontend/js/config.js`), so the same files run at `/` (Docker) and `/<repo>/` (Pages). Static hosting has no backend, so article import and the daily article sync need the Docker server (or a scheduled job that publishes articles as static files). Limits: 1 GB site, soft 100 GB/month bandwidth.

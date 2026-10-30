@@ -1,11 +1,16 @@
-# Publishes content/packs (deck manifest + audio) to GitHub Pages, so the app can download
-# it from static hosting. Free for public repositories.
-name: Publish content packs
+# Publishes the app (frontend/) and the content packs (content/packs) as one static site on
+# GitHub Pages: https://<user>.github.io/<repo>/. Free for public repositories.
+# Pushing a frontend change redeploys; installed phones then update themselves.
+name: Deploy site
 
 on:
   push:
     branches: [main]
-    paths: ["content/packs/**", ".github/workflows/pages.yml"]
+    paths:
+      - "frontend/**"
+      - "content/**"
+      - "backend/app/build.py"
+      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -25,9 +30,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Build site
+        run: |
+          python3 backend/app/build.py frontend site   # copies the app + generates sw.js
+          cp -r content/packs site/packs
+          touch site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: content/packs
+          path: site
       - id: deployment
         uses: actions/deploy-pages@v4

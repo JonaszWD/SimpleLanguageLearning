@@ -2,6 +2,7 @@ import { h, icon, uid, toast } from "../util.js";
 import * as db from "../db.js";
 import { createNote } from "./add.js";
 import { dismissArticle } from "../sync.js";
+import { apiUrl } from "../config.js";
 import { topNav, timerFor, empty } from "./shared.js";
 
 const esc = (s) => s.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
@@ -15,10 +16,11 @@ const BOOKMARKLET = "javascript:(()=>{const a=document.querySelector('article')|
 async function post(path, body) {
   let res;
   try {
-    res = await fetch(`/api/articles/${path}`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+    res = await fetch(apiUrl(`/articles/${path}`), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
   } catch {
     throw new Error("Importing needs a connection to your server.");
   }
+  if ([404, 405, 501].includes(res.status)) throw new Error("Importing needs the backend server. It isn't available on this hosting.");
   const data = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(data.detail || `Server error ${res.status}`);
   return data;
@@ -54,7 +56,7 @@ export async function addArticle(ctx) {
     list.hidden = false;
     list.replaceChildren(h("p", { class: "muted", style: "padding:16px 0" }, "Loading…"));
     try {
-      const res = await fetch(`/api/articles/feed?source=${src.value}`);
+      const res = await fetch(apiUrl(`/articles/feed?source=${src.value}`));
       if (!res.ok) throw new Error();
       const items = await res.json();
       list.replaceChildren(...items.map((it) => h("button", { class: "list-row", onClick: () => {

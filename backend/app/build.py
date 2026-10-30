@@ -23,9 +23,9 @@ def build_info(root: Path) -> dict:
     sig = tuple((str(p), p.stat().st_size, p.stat().st_mtime_ns) for p in files)
     if _cache["sig"] != sig:  # rehash only when something changed
         h = hashlib.sha1()
-        shell = ["/"]
+        shell = ["./"]
         for p in files:
-            rel = "/" + p.relative_to(root).as_posix()
+            rel = p.relative_to(root).as_posix()
             h.update(rel.encode())
             h.update(p.read_bytes())
             shell.append(rel)
@@ -35,3 +35,18 @@ def build_info(root: Path) -> dict:
 
 def service_worker_source(root: Path) -> str:
     return f"self.__BUILD__ = {json.dumps(build_info(root))};\n" + (root / "sw.js").read_text()
+
+
+def write_site(frontend: Path, out: Path) -> None:
+    """Static hosting: copy the app to `out` with a generated sw.js (no server involved)."""
+    import shutil
+
+    shutil.copytree(frontend, out, dirs_exist_ok=True)
+    (out / "sw.js").write_text(service_worker_source(frontend))
+
+
+if __name__ == "__main__":
+    import sys
+
+    write_site(Path(sys.argv[1]), Path(sys.argv[2]))
+    print(f"wrote {sys.argv[2]} (version {build_info(Path(sys.argv[1]))['version']})")

@@ -71,7 +71,7 @@ def test_service_worker_tracks_frontend(tmp_path, monkeypatch):
     c = TestClient(app)
     v1 = c.get("/api/version").json()["version"]
     body = c.get("/sw.js").text
-    assert body.startswith("self.__BUILD__") and '"/js/x.js"' in body and '"/sw.js"' not in body.split("\n")[0]
+    assert body.startswith("self.__BUILD__") and '"js/x.js"' in body and '"/sw.js"' not in body.split("\n")[0]
     (tmp_path / "js" / "x.js").write_text("2")
     assert c.get("/api/version").json()["version"] != v1
 
