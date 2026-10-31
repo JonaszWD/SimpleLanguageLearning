@@ -6,6 +6,7 @@ import { topNav } from "./shared.js";
 import { checkNow, runningVersion } from "../update.js";
 import { syncAll } from "../sync.js";
 import { apiUrl } from "../config.js";
+import { setMixing } from "../media.js";
 
 const isDone = async (d) => {
   const day = await db.get("days", dateKey(d));
@@ -72,6 +73,9 @@ export async function settings(ctx) {
   const auto = h("select", { class: "select-pill", "aria-label": "Auto-download content" },
     h("option", { value: "on", selected: s.autoSync }, "On"), h("option", { value: "off", selected: !s.autoSync }, "Off"));
   auto.addEventListener("change", () => (s.autoSync = auto.value === "on"));
+  const mix = h("select", { class: "select-pill", "aria-label": "Play over other audio" },
+    h("option", { value: "on", selected: s.mixAudio }, "On"), h("option", { value: "off", selected: !s.mixAudio }, "Off"));
+  mix.addEventListener("change", () => { s.mixAudio = mix.value === "on"; setMixing(s.mixAudio); });
   const syncNow = async () => { toast("Syncing…"); await syncAll({ force: true }); toast("Content is up to date"); };
 
   const ver = h("p", { class: "caption muted" }, "Version …");
@@ -90,6 +94,9 @@ export async function settings(ctx) {
       num("graduatingIvl", "Graduating interval (days)"), num("easyIvl", "Easy interval (days)"),
       num("intervalModifier", "Interval modifier", 0.05),
       h("div", { class: "field" }, h("label", {}, "Auto-download deck and articles"), auto),
+      h("div", { class: "field" },
+        h("label", {}, "Keep other audio playing"), mix,
+        h("p", { class: "caption muted" }, "On: your music keeps playing while a card or clip plays. The iPhone silent switch then mutes the app too. Off: the app pauses other audio but ignores the switch.")),
       h("button", { class: "btn btn-primary btn-block", onClick: save }, "Save")),
     h("div", { class: "feature-card stack" },
       h("span", { class: "title-sm" }, "Backup"),

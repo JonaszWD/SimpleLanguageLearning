@@ -1,7 +1,7 @@
 // Background content sync: the deck pack (cards + audio) and the daily articles appear on their
 // own. Everything is resumable, so closing the app mid-download is fine.
 import * as db from "./db.js";
-import { apiUrl } from "./config.js";
+import { apiUrl, articlesUrl } from "./config.js";
 import { availablePacks, installPack, installedPacks } from "./packs.js";
 
 const listeners = new Set();
@@ -34,16 +34,25 @@ export async function dismissArticle(id) {
 }
 
 async function syncArticles() {
-  const idxRes = await fetch(apiUrl("/articles/daily"));
-  if (!idxRes.ok) return; // no backend (static hosting): nothing to sync
-  const index = await idxRes.json();
+  // Backend API if there is one (Docker), otherwise the static files published by GitHub Actions.
+  let index, articleUrl;
+  const api = await fetch(apiUrl("/articles/daily")).catch(() => null);
+  if (api?.ok) {
+    index = await api.json();
+    articleUrl = (id) => apiUrl(`/articles/daily/${id}`);
+  } else {
+    const st = await fetch(articlesUrl("/index.json"), { cache: "no-cache" });
+    if (!st.ok) return;
+    index = await st.json();
+    articleUrl = (id) => articlesUrl(`/${id}.json`);
+  }
   const items = await db.getAll("library");
   const have = new Set(items.map((i) => i.id));
   const dismissed = new Set((await db.get("settings", DISMISSED))?.value || []);
   const fresh = index.filter((a) => !have.has(`article:${a.id}`) && !dismissed.has(`article:${a.id}`));
   for (const [n, a] of fresh.entries()) {
     set({ phase: "Fetching articles", done: n, total: fresh.length });
-    const res = await fetch(apiUrl(`/articles/daily/${a.id}`));
+    const res = await fetch(articleUrl(a.id));
     if (!res.ok) continue;
     const art = await res.json();
     await db.put("library", {

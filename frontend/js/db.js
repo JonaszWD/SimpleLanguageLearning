@@ -81,6 +81,7 @@ export const DEFAULT_SETTINGS = {
   intervalModifier: 1.0,
   language: "es",
   autoSync: true,
+  mixAudio: true,
 };
 
 export async function getSettings() {

@@ -3,6 +3,21 @@
 import * as db from "./db.js";
 
 const el = new Audio();
+
+// iOS Safari pauses other apps' audio (music, podcasts) when a page plays sound. The Audio Session
+// API lets us mix instead: "ambient" plays alongside other audio and leaves it untouched. Caveat:
+// ambient follows the iPhone's silent switch, so "playback" is offered as the opt-out.
+let mix = true;
+export function setMixing(on) {
+  mix = on;
+  applySession();
+}
+function applySession() {
+  try {
+    if (navigator.audioSession) navigator.audioSession.type = mix ? "ambient" : "playback";
+  } catch { /* unsupported value: keep the default */ }
+}
+applySession();
 const urls = new Map(); // name -> object URL
 let current = null;
 
@@ -29,6 +44,7 @@ export async function prepare(name) {
 }
 
 export function play(rate = 1) {
+  applySession();
   el.playbackRate = rate;
   el.currentTime = 0;
   return el.play().catch(() => {});
@@ -46,6 +62,7 @@ export async function playSequence(names, { rate = 1, gap = 400, isCancelled = (
     const u = await urlFor(names[i]);
     if (!u) continue;
     el.src = u; current = names[i];
+    applySession();
     el.playbackRate = rate;
     await new Promise((res) => {
       const done = () => { el.removeEventListener("ended", done); el.removeEventListener("pause", done); res(); };

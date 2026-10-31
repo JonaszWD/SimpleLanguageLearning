@@ -56,6 +56,7 @@ def refresh(dictionary, directory: Path = ARTICLES_DIR) -> int:
         path.write_text(json.dumps(art, ensure_ascii=False))
         added += 1
     _prune(directory)
+    write_index(directory)
     return added
 
 
@@ -69,6 +70,8 @@ def _prune(directory: Path) -> None:
 def index(directory: Path = ARTICLES_DIR) -> list[dict]:
     out = []
     for p in directory.glob("*.json") if directory.is_dir() else []:
+        if p.name == "index.json":
+            continue
         d = json.loads(p.read_text())
         if d.get("skip"):
             continue
@@ -76,9 +79,23 @@ def index(directory: Path = ARTICLES_DIR) -> list[dict]:
     return sorted(out, key=lambda a: a["published"], reverse=True)
 
 
+def write_index(directory: Path = ARTICLES_DIR) -> None:
+    """index.json lets static hosting (no API) serve the same list."""
+    (directory / "index.json").write_text(json.dumps(index(directory), ensure_ascii=False))
+
+
 def get(aid: str, directory: Path = ARTICLES_DIR) -> dict | None:
     p = directory / f"{aid}.json"
-    if not aid.isalnum() or not p.exists():
+    if not aid.isalnum() or aid == "index" or not p.exists():
         return None
     d = json.loads(p.read_text())
     return None if d.get("skip") else d
+
+
+if __name__ == "__main__":
+    from .dictionary import Dictionary
+
+    dic = Dictionary()
+    if not dic.available:
+        raise SystemExit("Dictionary missing: run `python -m app.dictionary build <kaikki.jsonl>` first.")
+    print(f"added {refresh(dic)} articles, {len(index())} in index ({ARTICLES_DIR})")

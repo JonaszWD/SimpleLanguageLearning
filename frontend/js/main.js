@@ -2,6 +2,7 @@ import { h, icon } from "./util.js";
 import * as db from "./db.js";
 import { initUpdates, isStale } from "./update.js";
 import { initSync, subscribe } from "./sync.js";
+import { setMixing } from "./media.js";
 import { today } from "./views/today.js";
 import { decks, study, browse, editNote } from "./views/cards.js";
 import { add } from "./views/add.js";
@@ -121,6 +122,7 @@ addEventListener("hashchange", render);
 
 (async () => {
   await db.seed();
+  setMixing((await db.getSettings()).mixAudio);
   navigator.storage?.persist?.();
   initUpdates().catch(console.error);
   initSync();

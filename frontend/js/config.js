@@ -5,6 +5,10 @@
 // PACKS_BASE: where deck packs are downloaded from. "" = the "packs/" folder next to the app.
 export const API_BASE = "api";
 export const PACKS_BASE = "";
+// ARTICLES_BASE: static copy of the daily articles (published by a scheduled GitHub Action).
+//   Used when the backend API isn't there.
+export const ARTICLES_BASE = "articles";
 
 export const apiUrl = (path = "") => `${API_BASE}${path}`;
+export const articlesUrl = (path = "") => `${ARTICLES_BASE}${path}`;
 export const packsUrl = (path = "") => `${PACKS_BASE || "packs"}${path}`;
