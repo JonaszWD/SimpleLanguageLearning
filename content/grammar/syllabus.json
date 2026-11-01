@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "note": "Draft built from general knowledge of the Plan curricular del Instituto Cervantes (PCIC). Levels and topic boundaries are NOT checked against the PCIC: see each topic's 'verify' list.",
+  "tracks": [
+    {
+      "id": "b1-b2",
+      "title": "B1 → B2 grammar",
+      "topics": [
+        {
+          "id": "ser-estar", "week": 1, "level": "B1", "phase": "Months 1–2",
+          "title": {"es": "Ser y estar", "en": "Ser vs. estar"},
+          "explanation": {
+            "es": "Ser expresa identidad, origen, profesión, material y características que se perciben como propias del sujeto. Estar expresa estados, ubicación y el resultado de un cambio. Algunos adjetivos cambian de significado según el verbo.",
+            "en": "Ser is for identity, origin, profession, material and characteristics seen as inherent. Estar is for states, location and the result of a change. Some adjectives change meaning with the verb."
+          },
+          "key_rules": [
+            "Ser: identity, origin, profession, material, time and date, possession. Mi hermano es médico. La mesa es de madera. Son las tres.",
+            "Estar: location of people and things, temporary states, results. El libro está en la mesa. Estoy cansado. La puerta está abierta.",
+            "Events take place with ser: La fiesta es en mi casa.",
+            "Meaning changes: ser aburrido (boring) / estar aburrido (bored); ser listo (clever) / estar listo (ready); ser malo (bad) / estar malo (ill).",
+            "Estar + gerund for ongoing actions: Estoy estudiando."
+          ],
+          "common_mistakes": [
+            "*Estoy médico → Soy médico (profession needs ser).",
+            "*La reunión está a las cinco → La reunión es a las cinco (events use ser).",
+            "*El banco es en la esquina → El banco está en la esquina (location of things uses estar)."
+          ],
+          "tags": ["verbs", "copulas", "contrast"],
+          "verify": ["Level (A2–B1) and the exact adjective list under 'Ser y estar' in the PCIC."]
+        },
+        {
+          "id": "por-para", "week": 2, "level": "B1", "phase": "Months 1–2",
+          "title": {"es": "Por y para", "en": "Por vs. para"},
+          "explanation": {
+            "es": "Por expresa causa, medio, duración, lugar de paso e intercambio. Para expresa finalidad, destinatario, plazo y destino. En inglés ambas se traducen a menudo por «for».",
+            "en": "Por expresses cause, means, duration, passage through a place and exchange. Para expresses purpose, recipient, deadline and destination. Both are often translated as 'for'."
+          },
+          "key_rules": [
+            "Por: cause (Lo hizo por miedo), means (por teléfono), duration (por dos horas), through or along (por el parque), exchange (pagué diez euros por el libro), agent (escrito por Cervantes).",
+            "Para: purpose (estudio para aprender), recipient (un regalo para ti), deadline (para el lunes), destination (salgo para Madrid), opinion (para mí, es difícil).",
+            "Para with an employer: trabajo para una empresa. Por with the reason for thanks: gracias por tu ayuda.",
+            "Comparison with expectations: para su edad, está muy alto."
+          ],
+          "common_mistakes": [
+            "*Gracias para ayudarme → Gracias por ayudarme.",
+            "*Estudio por aprender → Estudio para aprender (purpose).",
+            "*Trabajo por una empresa → Trabajo para una empresa."
+          ],
+          "tags": ["prepositions", "contrast"],
+          "verify": ["Whether the PCIC places the full list of uses at B1 or splits it across A2 and B1."]
+        },
+        {
+          "id": "preterito-imperfecto", "week": 3, "level": "B1", "phase": "Months 1–2",
+          "title": {"es": "Pretérito indefinido e imperfecto", "en": "Preterite vs. imperfect"},
+          "explanation": {
+            "es": "El pretérito indefinido presenta acciones terminadas y puntuales. El imperfecto describe situaciones, hábitos y acciones en curso en el pasado. Se combinan al contar una historia: el imperfecto da el fondo y el indefinido hace avanzar la acción.",
+            "en": "The preterite presents completed, bounded actions. The imperfect describes situations, habits and ongoing actions in the past. They combine in narration: the imperfect is the background, the preterite moves the story forward."
+          },
+          "key_rules": [
+            "Preterite: completed events (Ayer comí paella), sequences (Entré, saludé y me senté), a stated number of times (Fui tres veces).",
+            "Imperfect: habits (Cada verano íbamos a la playa), descriptions (Hacía sol, era joven), age and time in the past, ongoing background (Leía cuando llegaste).",
+            "An interrupting event uses the preterite over an imperfect background: Cenábamos cuando sonó el teléfono.",
+            "Some verbs change meaning: sabía (knew) / supe (found out); conocía (knew) / conocí (met); quería (wanted) / quise (tried)."
+          ],
+          "common_mistakes": [
+            "*De niño jugué cada día → De niño jugaba cada día (habit).",
+            "*Mientras comí, sonó el teléfono → Mientras comía, sonó el teléfono (ongoing background action).",
+            "*Cuando llegué, ya salía → ya había salido (earlier completed action)."
+          ],
+          "tags": ["verbs", "past", "indicative", "contrast"],
+          "verify": ["Verbs whose meaning changes (saber, conocer, querer, poder): confirm which the PCIC lists at B1."]
+        },
+        {
+          "id": "preterito-perfecto", "week": 4, "level": "B1", "phase": "Months 1–2",
+          "title": {"es": "Pretérito perfecto", "en": "Present perfect"},
+          "explanation": {
+            "es": "El pretérito perfecto (haber + participio) presenta acciones pasadas conectadas con el presente: hoy, esta semana, ya, todavía no, alguna vez. En gran parte de España se usa más que en América Latina, donde suele preferirse el indefinido.",
+            "en": "The present perfect (haber + participle) presents past actions connected to the present: today, this week, ya, todavía no, alguna vez. It is used more in much of Spain than in Latin America, where the preterite is often preferred."
+          },
+          "key_rules": [
+            "Formation: he, has, ha, hemos, habéis, han + participle (-ado, -ido).",
+            "Irregular participles: hecho, dicho, puesto, visto, escrito, vuelto, roto, abierto, cubierto, muerto.",
+            "Markers: hoy, esta mañana, este año, ya, todavía no, alguna vez, nunca.",
+            "The participle never agrees with the subject, and nothing goes between haber and the participle: Lo he visto."
+          ],
+          "common_mistakes": [
+            "*He ido a Madrid ayer → Fui a Madrid ayer (ayer is a finished time).",
+            "*Lo visto he → Lo he visto.",
+            "*He escribido → He escrito."
+          ],
+          "tags": ["verbs", "past", "indicative", "compound"],
+          "verify": ["The Spain / Latin America usage note: confirm how the PCIC frames it."]
+        },
+        {
+          "id": "pluscuamperfecto", "week": 5, "level": "B1", "phase": "Months 1–2",
+          "title": {"es": "Pretérito pluscuamperfecto", "en": "Past perfect"},
+          "explanation": {
+            "es": "El pluscuamperfecto (había + participio) expresa una acción pasada anterior a otro momento del pasado: Cuando llegué, ya se había ido.",
+            "en": "The past perfect (había + participle) expresses a past action that happened before another past moment: When I arrived, he had already left."
+          },
+          "key_rules": [
+            "Formation: había, habías, había, habíamos, habíais, habían + participle.",
+            "Often with ya, todavía no, antes, nunca: Nunca había visto el mar.",
+            "Pronouns go before haber: Ya lo había terminado.",
+            "Gives the earlier event in a narrative; the later event is in the preterite or imperfect."
+          ],
+          "common_mistakes": [
+            "*Cuando llegué, ya salió → Cuando llegué, ya había salido.",
+            "*Había escribido → Había escrito.",
+            "*Cuando llegué, ya ha salido → ya había salido (tenses must match the past frame)."
+          ],
+          "tags": ["verbs", "past", "indicative", "compound"],
+          "verify": []
+        },
+        {
+          "id": "futuro", "week": 6, "level": "B1", "phase": "Months 1–2",
+          "title": {"es": "Futuro simple", "en": "Simple future"},
+          "explanation": {
+            "es": "El futuro simple se forma con el infinitivo y las terminaciones -é, -ás, -á, -emos, -éis, -án. Expresa planes, predicciones, promesas y también probabilidad en el presente.",
+            "en": "The simple future is formed from the infinitive plus -é, -ás, -á, -emos, -éis, -án. It expresses plans, predictions, promises and also probability about the present."
+          },
+          "key_rules": [
+            "Irregular stems: tendr-, podr-, sabr-, habr-, querr-, pondr-, vendr-, saldr-, valdr-, dir-, har-.",
+            "Probability in the present: Serán las tres (it is probably three o'clock).",
+            "Near future with ir a + infinitive is common in speech: Voy a llamarte.",
+            "After si (condition), use the present, not the future: Si llueve, me quedo."
+          ],
+          "common_mistakes": [
+            "*Si lloverá, me quedaré → Si llueve, me quedaré.",
+            "*Tenerá → Tendrá (irregular stem).",
+            "*Haceré → Haré."
+          ],
+          "tags": ["verbs", "future", "indicative"],
+          "verify": []
+        },
+        {
+          "id": "condicional", "week": 7, "level": "B1", "phase": "Months 1–2",
+          "title": {"es": "Condicional simple", "en": "Conditional"},
+          "explanation": {
+            "es": "El condicional se forma con el infinitivo y -ía, -ías, -ía, -íamos, -íais, -ían (mismas raíces irregulares que el futuro). Sirve para cortesía, consejos, hipótesis y el futuro desde el pasado.",
+            "en": "The conditional is formed from the infinitive plus -ía, -ías, -ía, -íamos, -íais, -ían (same irregular stems as the future). It is used for politeness, advice, hypotheses and the future seen from the past."
+          },
+          "key_rules": [
+            "Polite requests and advice: ¿Podrías ayudarme? Deberías descansar.",
+            "Hypothesis: Yo en tu lugar, hablaría con él.",
+            "Future from the past: Dijo que vendría.",
+            "Probability in the past: Serían las tres."
+          ],
+          "common_mistakes": [
+            "*De niño jugaría cada día → De niño jugaba cada día (habit: use the imperfect).",
+            "*Si tendría dinero, viajaría → Si tuviera dinero, viajaría (si-clause takes the imperfect subjunctive).",
+            "*Tenería → Tendría."
+          ],
+          "tags": ["verbs", "conditional", "indicative"],
+          "verify": ["Whether the PCIC introduces the conditional's 'probability in the past' use at B1 or B2."]
+        },
+        {
+          "id": "pronombres-od-oi", "week": 8, "level": "B1", "phase": "Months 1–2",
+          "title": {"es": "Pronombres de objeto directo e indirecto", "en": "Direct and indirect object pronouns"},
+          "explanation": {
+            "es": "Los pronombres de objeto directo (lo, la, los, las) sustituyen a lo que recibe la acción; los de objeto indirecto (le, les) al destinatario. Cuando aparecen juntos, el indirecto va primero y le/les pasan a se.",
+            "en": "Direct object pronouns (lo, la, los, las) replace the thing receiving the action; indirect object pronouns (le, les) replace the recipient. When both appear, the indirect comes first and le/les become se."
+          },
+          "key_rules": [
+            "Placement: before a conjugated verb (Lo veo); attached to an infinitive, gerund or affirmative imperative (Quiero verlo, Dímelo).",
+            "Le/les + lo/la/los/las → se lo/la/los/las: Se lo di.",
+            "Order: reflexive, indirect, direct (Me lo pongo; Te lo dije).",
+            "Clitic doubling with a + noun: Le doy el libro a Ana.",
+            "Add an accent when attaching pronouns would move the stress: dándomelo."
+          ],
+          "common_mistakes": [
+            "*Le lo di → Se lo di.",
+            "*Dar-lo me → Dármelo.",
+            "*Lo dije a ella → Le dije eso a ella."
+          ],
+          "tags": ["pronouns", "syntax"],
+          "verify": ["Leísmo: the RAE accepts 'le' as a direct object for masculine singular people. Check how the PCIC treats it at B1."]
+        },
+        {
+          "id": "subj-presente-regular", "week": 9, "level": "B1", "phase": "Months 3–4",
+          "title": {"es": "Presente de subjuntivo: verbos regulares", "en": "Present subjunctive: regular verbs"},
+          "explanation": {
+            "es": "El subjuntivo es un modo, no un tiempo. Se forma desde la primera persona del presente de indicativo: se quita la -o y se añade la vocal «contraria» (-ar → -e, -er/-ir → -a).",
+            "en": "The subjunctive is a mood, not a tense. It is formed from the yo form of the present indicative: drop the -o and add the 'opposite' vowel (-ar → -e, -er/-ir → -a)."
+          },
+          "key_rules": [
+            "-ar: hable, hables, hable, hablemos, habléis, hablen.",
+            "-er/-ir: coma, comas, coma, comamos, comáis, coman; viva, vivas, viva, vivamos, viváis, vivan.",
+            "Spelling changes: buscar → busque, llegar → llegue, empezar → empiece, coger → coja.",
+            "Stem-changing verbs: pensar → piense (but pensemos); sentir → sienta, sintamos; dormir → duerma, durmamos."
+          ],
+          "common_mistakes": [
+            "*Quiero que hablas → Quiero que hables.",
+            "*Espero que buscas → Espero que busques (c → qu).",
+            "*Que comes → Que comas (-er verbs take -a)."
+          ],
+          "tags": ["verbs", "subjunctive", "present", "morphology"],
+          "verify": ["Triggers are covered in the next topics; confirm the PCIC introduces form and use together or separately."]
+        },
+        {
+          "id": "subj-presente-irregular", "week": 10, "level": "B1", "phase": "Months 3–4",
+          "title": {"es": "Presente de subjuntivo: verbos irregulares", "en": "Present subjunctive: irregular verbs"},
+          "explanation": {
+            "es": "Los verbos con primera persona irregular conservan esa irregularidad en todo el presente de subjuntivo. Seis verbos tienen formas propias: ser, estar, ir, saber, haber y dar.",
+            "en": "Verbs with an irregular yo form keep that irregularity throughout the present subjunctive. Six verbs have their own forms: ser, estar, ir, saber, haber and dar."
+          },
+          "key_rules": [
+            "From the yo form: tener → tenga, hacer → haga, decir → diga, salir → salga, venir → venga, poner → ponga, conocer → conozca, traer → traiga, oír → oiga.",
+            "Truly irregular: ser → sea, estar → esté, ir → vaya, saber → sepa, haber → haya, dar → dé.",
+            "dé takes an accent to distinguish it from the preposition de; esté and estés also carry accents.",
+            "-ir stem changers change in nosotros/vosotros too: pedir → pida, pidamos; dormir → duerma, durmamos."
+          ],
+          "common_mistakes": [
+            "*Quiero que vengo → Quiero que vengas.",
+            "*Dudo que sabe → Dudo que sepa.",
+            "*Espero que va → Espero que vaya."
+          ],
+          "tags": ["verbs", "subjunctive", "present", "morphology", "irregular"],
+          "verify": []
+        },
+        {
+          "id": "subj-deseos", "week": 11, "level": "B1", "phase": "Months 3–4",
+          "title": {"es": "Subjuntivo con deseos, peticiones y consejos", "en": "Subjunctive after wishes, requests and advice"},
+          "explanation": {
+            "es": "Tras verbos de voluntad, petición, consejo o prohibición, el verbo subordinado va en subjuntivo si los sujetos son distintos. Si el sujeto es el mismo, se usa el infinitivo.",
+            "en": "After verbs of wish, request, advice or prohibition, the subordinate verb is in the subjunctive when the subjects differ. With the same subject, use the infinitive."
+          },
+          "key_rules": [
+            "Triggers: querer que, esperar que, preferir que, pedir que, aconsejar que, necesitar que, prohibir que, permitir que, recomendar que.",
+            "Different subjects → que + subjunctive (Quiero que vengas). Same subject → infinitive (Quiero venir).",
+            "Ojalá (que) + subjunctive for wishes: Ojalá haga buen tiempo.",
+            "Impersonal expressions of need or preference: es mejor / necesario / importante que + subjunctive."
+          ],
+          "common_mistakes": [
+            "*Quiero que yo coma → Quiero comer (same subject).",
+            "*Te aconsejo que vienes → Te aconsejo que vengas.",
+            "*Ojalá que vienes → Ojalá que vengas."
+          ],
+          "tags": ["verbs", "subjunctive", "present", "triggers"],
+          "verify": ["'Esperar que' + future indicative is heard in speech. Check what the PCIC treats as standard."]
+        },
+        {
+          "id": "subj-emociones", "week": 12, "level": "B1", "phase": "Months 3–4",
+          "title": {"es": "Subjuntivo con emociones y valoraciones", "en": "Subjunctive after emotions and evaluations"},
+          "explanation": {
+            "es": "Con expresiones de sentimiento o valoración (me alegro de que, me molesta que, es una lástima que) se usa subjuntivo aunque el hecho sea real. Con el mismo sujeto se usa el infinitivo.",
+            "en": "Expressions of feeling or evaluation (me alegro de que, me molesta que, es una lástima que) take the subjunctive even when the fact is real. With the same subject, use the infinitive."
+          },
+          "key_rules": [
+            "Triggers: me alegro de que, me molesta que, siento que, es una pena que, tengo miedo de que, me encanta que, me sorprende que.",
+            "Gustar-type verbs: Me gusta que vengas.",
+            "Same subject → infinitive: Me alegro de verte.",
+            "Keep the preposition: me alegro DE que (not *me alegro que)."
+          ],
+          "common_mistakes": [
+            "*Me gusta que vienes → Me gusta que vengas.",
+            "*Me alegro que estés aquí → Me alegro de que estés aquí.",
+            "*Siento que no puedes → Siento que no puedas."
+          ],
+          "tags": ["verbs", "subjunctive", "present", "triggers"],
+          "verify": ["Dropping 'de' before que (queísmo / dequeísmo) varies by region: check how the PCIC phrases the rule."]
+        },
+        {
+          "id": "subj-duda", "week": 13, "level": "B1", "phase": "Months 3–4",
+          "title": {"es": "Subjuntivo con duda, negación y posibilidad", "en": "Subjunctive after doubt, denial and possibility"},
+          "explanation": {
+            "es": "Las expresiones de duda, negación o posibilidad llevan subjuntivo (no creo que, dudo que, es posible que). Si se afirma la creencia (creo que, es verdad que), se usa indicativo.",
+            "en": "Expressions of doubt, denial or possibility take the subjunctive (no creo que, dudo que, es posible que). Affirmed belief (creo que, es verdad que) takes the indicative."
+          },
+          "key_rules": [
+            "Subjunctive: no creo que, dudo que, no pienso que, es posible/probable que, puede ser que, no es verdad que.",
+            "Indicative: creo que, pienso que, es verdad que, es seguro que, estoy seguro de que.",
+            "Quizá(s) and tal vez take the subjunctive for more doubt, the indicative for more certainty; a lo mejor takes the indicative.",
+            "Negative commands of thought (no creas que...) work the same way."
+          ],
+          "common_mistakes": [
+            "*No creo que es verdad → No creo que sea verdad.",
+            "*Creo que sea fácil → Creo que es fácil.",
+            "*A lo mejor venga → A lo mejor viene."
+          ],
+          "tags": ["verbs", "subjunctive", "present", "triggers"],
+          "verify": ["Quizás/tal vez + indicative vs. subjunctive nuance: confirm the PCIC level (B1 or B2)."]
+        },
+        {
+          "id": "imperativo-afirmativo", "week": 14, "level": "B1", "phase": "Months 3–4",
+          "title": {"es": "Imperativo afirmativo", "en": "Affirmative imperative"},
+          "explanation": {
+            "es": "El imperativo se usa para dar órdenes, instrucciones, consejos e invitaciones. Para tú usa la forma de tercera persona del presente; para usted, ustedes y nosotros, el presente de subjuntivo; para vosotros, el infinitivo cambiando -r por -d.",
+            "en": "The imperative gives orders, instructions, advice and invitations. For tú use the third-person singular present; for usted, ustedes and nosotros, the present subjunctive; for vosotros, the infinitive with -r changed to -d."
+          },
+          "key_rules": [
+            "tú: habla, come, escribe. usted: hable, coma. vosotros: hablad, comed. nosotros: hablemos.",
+            "Eight irregular tú forms: di, haz, ve, ten, pon, sal, sé, ven.",
+            "Pronouns attach to the end: dímelo, cómpralo; vosotros drops the -d before os: levantaos (but idos).",
+            "Attached pronouns can shift the stress, so an accent is written when needed: dame (no accent), but dámelo, dímelo, cómpralo."
+          ],
+          "common_mistakes": [
+            "*Tienes paciencia → Ten paciencia.",
+            "*Dices la verdad → Di la verdad.",
+            "*Habla-te → Háblate."
+          ],
+          "tags": ["verbs", "imperative", "morphology"],
+          "verify": [
+            "Voseo imperatives (vení, hablá) are omitted. Confirm whether the PCIC includes them at B1."
+          ]
+        },
+        {
+          "id": "imperativo-negativo-pronombres", "week": 15, "level": "B1", "phase": "Months 3–4",
+          "title": {"es": "Imperativo negativo y pronombres", "en": "Negative imperative and pronouns"},
+          "explanation": {
+            "es": "El imperativo negativo usa siempre el presente de subjuntivo en todas las personas, y los pronombres van delante del verbo, no detrás.",
+            "en": "The negative imperative always uses the present subjunctive in every person, and pronouns go before the verb, not after."
+          },
+          "key_rules": [
+            "No hables, no hable, no hablemos, no habléis, no hablen.",
+            "Pronouns before the verb: No me lo digas. No te levantes.",
+            "Affirmative has pronouns attached (Díselo); negative separates them (No se lo digas).",
+            "Irregular affirmatives become regular subjunctive forms in the negative: haz → no hagas, ven → no vengas."
+          ],
+          "common_mistakes": [
+            "*No habla → No hables.",
+            "*No dime → No me digas.",
+            "*No comed → No comáis."
+          ],
+          "tags": ["verbs", "imperative", "subjunctive", "pronouns"],
+          "verify": []
+        },
+        {
+          "id": "oraciones-relativo", "week": 16, "level": "B1", "phase": "Months 3–4",
+          "title": {"es": "Oraciones de relativo", "en": "Relative clauses"},
+          "explanation": {
+            "es": "Los relativos (que, quien, el que, donde, cuyo, lo que) introducen información sobre un antecedente. Con antecedente conocido se usa indicativo; con antecedente desconocido o inexistente, subjuntivo.",
+            "en": "Relative pronouns (que, quien, el que, donde, cuyo, lo que) add information about an antecedent. A known antecedent takes the indicative; an unknown or non-existent one takes the subjunctive."
+          },
+          "key_rules": [
+            "que (people and things), quien/quienes (people, after a preposition or a comma), el que / la que / los que / las que, lo que (a whole idea), donde, cuyo (agrees with the noun that follows).",
+            "The preposition comes before the relative; never stranded: la persona con quien hablo / con la que hablo.",
+            "Known antecedent → indicative (Busco el libro que tiene fotos). Unknown → subjunctive (Busco un libro que tenga fotos; No hay nadie que sepa).",
+            "Commas make a clause non-restrictive (adds information): Mi hermano, que vive en Roma, es médico."
+          ],
+          "common_mistakes": [
+            "*La chica que hablé con → La chica con la que hablé.",
+            "*El hombre que su hijo es médico → El hombre cuyo hijo es médico.",
+            "*Busco una secretaria que habla inglés → Busco una secretaria que hable inglés."
+          ],
+          "tags": ["syntax", "subjunctive", "relatives"],
+          "verify": ["'El cual' and 'cuyo' may sit at B2 in the PCIC; confirm the level split."]
+        },
+        {
+          "id": "subj-imperfecto-formacion", "week": 17, "level": "B2", "phase": "Months 5–6",
+          "title": {"es": "Imperfecto de subjuntivo: formación", "en": "Imperfect subjunctive: formation"},
+          "explanation": {
+            "es": "El imperfecto de subjuntivo se forma desde la tercera persona del plural del pretérito indefinido: se quita -ron y se añade -ra, -ras, -ra, -ramos, -rais, -ran (o las formas en -se, equivalentes).",
+            "en": "The imperfect subjunctive is formed from the third-person plural of the preterite: remove -ron and add -ra, -ras, -ra, -ramos, -rais, -ran (or the equivalent -se forms)."
+          },
+          "key_rules": [
+            "hablaron → hablara; comieron → comiera; vivieron → viviera.",
+            "Irregular preterites carry over: tuvieron → tuviera, fueron → fuera, dijeron → dijera, hicieron → hiciera, vinieron → viniera.",
+            "Nosotros takes an accent: habláramos, comiéramos.",
+            "The -se forms (hablase, comiese) mean the same and are rarer in speech."
+          ],
+          "common_mistakes": [
+            "*Tenieran → Tuvieran.",
+            "*Dijiera → Dijera (-jeron verbs lose the i).",
+            "*Hablaramos → Habláramos (written accent)."
+          ],
+          "tags": ["verbs", "subjunctive", "imperfect", "morphology"],
+          "verify": ["Level: some PCIC sources place the imperfect subjunctive at B2; confirm for your B1+/B2 goal."]
+        },
+        {
+          "id": "subj-imperfecto-usos", "week": 18, "level": "B2", "phase": "Months 5–6",
+          "title": {"es": "Imperfecto de subjuntivo: usos", "en": "Imperfect subjunctive: uses"},
+          "explanation": {
+            "es": "Se usa con los mismos desencadenantes que el presente de subjuntivo cuando el verbo principal está en pasado o en condicional, y en deseos poco probables, peticiones corteses y comparaciones irreales.",
+            "en": "It follows the same triggers as the present subjunctive when the main verb is in a past tense or the conditional, and appears in unlikely wishes, polite requests and unreal comparisons."
+          },
+          "key_rules": [
+            "Sequence: present main verb → present subjunctive (Quiero que vengas); past or conditional → imperfect subjunctive (Quería que vinieras; Me gustaría que vinieras).",
+            "Ojalá + imperfect subjunctive = unlikely wish: Ojalá tuviera más tiempo.",
+            "Polite requests: Quisiera pedirle un favor.",
+            "Como si + imperfect subjunctive: Habla como si lo supiera todo."
+          ],
+          "common_mistakes": [
+            "*Quería que vienes → Quería que vinieras.",
+            "*Me gustaría que vengas → Me gustaría que vinieras.",
+            "*Habla como si sabe todo → Habla como si supiera todo."
+          ],
+          "tags": ["verbs", "subjunctive", "imperfect", "triggers"],
+          "verify": ["Sequence-of-tenses details (e.g., present perfect main verbs) may differ in the PCIC."]
+        },
+        {
+          "id": "si-reales", "week": 19, "level": "B1", "phase": "Months 5–6",
+          "title": {"es": "Oraciones condicionales reales (si)", "en": "Real conditionals with si"},
+          "explanation": {
+            "es": "Con condiciones posibles o reales, si va con indicativo: si + presente, y la consecuencia en presente, futuro o imperativo. Nunca se usa el futuro ni el presente de subjuntivo después de si.",
+            "en": "For possible or real conditions, si takes the indicative: si + present, with the result in the present, future or imperative. Never use the future or the present subjunctive after si."
+          },
+          "key_rules": [
+            "Si + present → present, future or imperative: Si llueve, me quedo / me quedaré / quédate.",
+            "General truths and habits: Si bebo café, no duermo.",
+            "Past habit or fact: Si hacía frío, nos quedábamos; Si lo dijo, es verdad.",
+            "Si never takes the present subjunctive."
+          ],
+          "common_mistakes": [
+            "*Si tendré tiempo, iré → Si tengo tiempo, iré.",
+            "*Si venga, te aviso → Si viene, te aviso.",
+            "*Si me llamarías → Si me llamas."
+          ],
+          "tags": ["syntax", "conditional", "si-clauses"],
+          "verify": []
+        },
+        {
+          "id": "si-irreales", "week": 20, "level": "B2", "phase": "Months 5–6",
+          "title": {"es": "Oraciones condicionales irreales (si)", "en": "Unreal conditionals with si"},
+          "explanation": {
+            "es": "Para hipótesis improbables o irreales en el presente: si + imperfecto de subjuntivo, y condicional en la consecuencia. Para hipótesis imposibles en el pasado: si + pluscuamperfecto de subjuntivo y condicional compuesto.",
+            "en": "For unlikely or unreal present hypotheses: si + imperfect subjunctive, with the conditional in the result. For impossible past hypotheses: si + pluperfect subjunctive and the perfect conditional."
+          },
+          "key_rules": [
+            "Si tuviera dinero, viajaría (but I don't have it).",
+            "Si yo fuera tú, hablaría con él.",
+            "Past: Si hubiera estudiado, habría aprobado.",
+            "Never the conditional after si: *Si tendría → Si tuviera."
+          ],
+          "common_mistakes": [
+            "*Si tendría dinero, viajaría → Si tuviera dinero, viajaría.",
+            "*Si hubiera estudiaría → Si hubiera estudiado, habría aprobado.",
+            "*Si era tú → Si fuera tú."
+          ],
+          "tags": ["syntax", "conditional", "subjunctive", "si-clauses"],
+          "verify": ["The pluperfect subjunctive (hubiera + participle) is not in your listed topics but is needed for the past pattern. Check which level and week the PCIC assigns it."]
+        },
+        {
+          "id": "se-impersonal-pasiva-refleja", "week": 21, "level": "B1", "phase": "Months 5–6",
+          "title": {"es": "Construcciones con se", "en": "Se constructions"},
+          "explanation": {
+            "es": "Se aparece en la pasiva refleja (Se venden pisos), en oraciones impersonales (Se vive bien aquí) y en construcciones de acontecimiento accidental (Se me cayó el vaso).",
+            "en": "Se appears in the reflexive passive (Se venden pisos), in impersonal sentences (Se vive bien aquí) and in accidental-event constructions (Se me cayó el vaso)."
+          },
+          "key_rules": [
+            "Passive se: se + verb agreeing with the thing: Se vende una casa / Se venden casas.",
+            "Impersonal se: se + 3rd person singular: Se come bien aquí. With a person object, use personal a: Se busca a un camarero.",
+            "Accidental se: se + indirect pronoun + verb agreeing with the thing: Se me olvidaron las llaves.",
+            "Do not mix with se replacing le/les (Se lo di)."
+          ],
+          "common_mistakes": [
+            "*Se vende pisos → Se venden pisos.",
+            "*Se me caí el vaso → Se me cayó el vaso.",
+            "*Se me olvidó las llaves → Se me olvidaron las llaves."
+          ],
+          "tags": ["syntax", "se", "passive"],
+          "verify": ["Whether 'Se busca camarero' vs. 'Se busca a un camarero' is taught as the standard at this level."]
+        },
+        {
+          "id": "voz-pasiva", "week": 22, "level": "B2", "phase": "Months 5–6",
+          "title": {"es": "Voz pasiva con ser y estar + participio", "en": "Passive voice and estar + participle"},
+          "explanation": {
+            "es": "La pasiva perifrástica se forma con ser + participio (concordando con el sujeto) y, si hay agente, por. Es frecuente en la prensa. Con estar + participio se expresa el estado resultante.",
+            "en": "The periphrastic passive is formed with ser + participle (agreeing with the subject) and, if there is an agent, por. It is common in news writing. With estar + participle you express the resulting state."
+          },
+          "key_rules": [
+            "La novela fue escrita por Cervantes. Los libros fueron publicados en 1990.",
+            "The participle agrees in gender and number with the subject.",
+            "Estar + participle describes a state: La puerta está cerrada (result) vs. La puerta fue cerrada (action).",
+            "Speech prefers the active voice or passive se over ser + participle."
+          ],
+          "common_mistakes": [
+            "*La casa fue construido → La casa fue construida.",
+            "*Fue escrito de Cervantes → Fue escrito por Cervantes.",
+            "*La ventana es rota → La ventana está rota (state)."
+          ],
+          "tags": ["syntax", "passive", "participle"],
+          "verify": ["Level of ser + participle (B1 vs. B2) in the PCIC."]
+        },
+        {
+          "id": "conectores-contraste", "week": 23, "level": "B2", "phase": "Months 5–6",
+          "title": {"es": "Conectores de contraste y concesión", "en": "Contrast and concession connectors"},
+          "explanation": {
+            "es": "Sin embargo, no obstante y en cambio contrastan ideas. Aunque y a pesar de que introducen una concesión: con indicativo si el hecho es real o conocido, con subjuntivo si es hipotético o irrelevante.",
+            "en": "Sin embargo, no obstante and en cambio contrast ideas. Aunque and a pesar de que introduce a concession: indicative when the fact is real or known, subjunctive when hypothetical or irrelevant."
+          },
+          "key_rules": [
+            "Sin embargo / no obstante: sentence connectors, followed by a comma.",
+            "Aunque + indicative: known fact (Aunque llueve, salgo: although it is raining). Aunque + subjunctive: even if (Aunque llueva, saldré).",
+            "A pesar de + noun or infinitive; a pesar de que + clause.",
+            "Mientras que and en cambio contrast two situations."
+          ],
+          "common_mistakes": [
+            "*A pesar que → A pesar de que.",
+            "*A pesar de es tarde → A pesar de que es tarde.",
+            "*Aunque llueve mañana, iré → Aunque llueva mañana, iré."
+          ],
+          "tags": ["connectors", "subjunctive", "concession"],
+          "verify": ["List of connectors per level in the PCIC: 'no obstante' may sit at B2."]
+        },
+        {
+          "id": "conectores-causa-consecuencia", "week": 24, "level": "B2", "phase": "Months 5–6",
+          "title": {"es": "Conectores de causa, consecuencia y finalidad", "en": "Cause, consequence and purpose connectors"},
+          "explanation": {
+            "es": "Porque, ya que y puesto que expresan causa; por eso, por lo tanto y así que, consecuencia; para y para que, finalidad. Para que exige subjuntivo.",
+            "en": "Porque, ya que and puesto que express cause; por eso, por lo tanto and así que, consequence; para and para que, purpose. Para que requires the subjunctive."
+          },
+          "key_rules": [
+            "Cause: porque, ya que, puesto que, como (sentence start), debido a + noun.",
+            "Consequence: por eso, por lo tanto, así que, de modo que (+ indicative), por consiguiente.",
+            "Purpose: para + infinitive (same subject); para que + subjunctive (different subjects).",
+            "Distinguish porque (because), por qué (why), por que (relative), porqué (noun: the reason)."
+          ],
+          "common_mistakes": [
+            "*Te llamo para que sabes → Te llamo para que sepas.",
+            "*Debido que llueve → Debido a que llueve.",
+            "*Como llegué tarde, así que no entré → Como llegué tarde, no entré (como and así que do not combine)."
+          ],
+          "tags": ["connectors", "subjunctive", "cause", "purpose"],
+          "verify": []
+        },
+        {
+          "id": "subj-perfecto", "week": 25, "level": "B2", "phase": "Months 7–8",
+          "title": {"es": "Pretérito perfecto de subjuntivo", "en": "Perfect subjunctive"},
+          "explanation": {
+            "es": "Se forma con haya + participio. Se usa con los mismos desencadenantes que el subjuntivo cuando la acción es anterior o terminada: Espero que hayas llegado bien.",
+            "en": "It is formed with haya + participle. It follows the usual subjunctive triggers when the action is earlier or completed: Espero que hayas llegado bien."
+          },
+          "key_rules": [
+            "Formation: haya, hayas, haya, hayamos, hayáis, hayan + participle.",
+            "Completed action after a trigger: No creo que haya terminado.",
+            "Future-perfect meaning after cuando or en cuanto: Cuando hayas terminado, llámame.",
+            "Pronouns go before haya: Dudo que lo haya hecho."
+          ],
+          "common_mistakes": [
+            "*Espero que has llegado → Espero que hayas llegado.",
+            "*Dudo que ha venido → Dudo que haya venido.",
+            "*Dudo que haya lo hecho → Dudo que lo haya hecho."
+          ],
+          "tags": ["verbs", "subjunctive", "compound", "present"],
+          "verify": []
+        },
+        {
+          "id": "estilo-indirecto-presente", "week": 26, "level": "B1", "phase": "Months 7–8",
+          "title": {"es": "Estilo indirecto con verbo introductor en presente", "en": "Reported speech: present reporting verb"},
+          "explanation": {
+            "es": "Con un verbo introductor en presente o pretérito perfecto (dice que, ha dicho que) los tiempos no cambian; cambian los pronombres y los marcadores. Las órdenes pasan a subjuntivo.",
+            "en": "With a reporting verb in the present or present perfect (dice que, ha dicho que) the tenses stay the same; pronouns and time markers change. Commands become subjunctive."
+          },
+          "key_rules": [
+            "«Estoy cansado» → Dice que está cansado.",
+            "Yes/no questions use si: Pregunta si vienes. Question words stay: Pregunta dónde vives.",
+            "Commands use que + subjunctive: «Ven» → Dice que vengas.",
+            "Que cannot be dropped after decir."
+          ],
+          "common_mistakes": [
+            "*Dice está cansado → Dice que está cansado.",
+            "*Pregunta que si vienes → Pregunta si vienes.",
+            "*Dice que venir → Dice que vengas."
+          ],
+          "tags": ["syntax", "reported-speech"],
+          "verify": ["Level (B1 vs. B2) of the imperative → subjunctive shift in the PCIC."]
+        },
+        {
+          "id": "estilo-indirecto-pasado", "week": 27, "level": "B2", "phase": "Months 7–8",
+          "title": {"es": "Estilo indirecto con verbo introductor en pasado", "en": "Reported speech: past reporting verb"},
+          "explanation": {
+            "es": "Con un verbo introductor en pasado (dijo que, preguntó si) los tiempos retroceden: presente → imperfecto, perfecto e indefinido → pluscuamperfecto, futuro → condicional. Cambian también los marcadores de tiempo y lugar.",
+            "en": "With a past reporting verb (dijo que, preguntó si) tenses shift back: present → imperfect, perfect and preterite → pluperfect, future → conditional. Time and place markers also change."
+          },
+          "key_rules": [
+            "Presente → imperfecto: «Estoy cansado» → Dijo que estaba cansado.",
+            "Perfecto / indefinido → pluscuamperfecto: Dijo que había comido.",
+            "Futuro → condicional: Dijo que vendría.",
+            "Imperative or present subjunctive → imperfect subjunctive: Me dijo que viniera.",
+            "Markers: hoy → ese día, ayer → el día anterior, mañana → al día siguiente, aquí → allí.",
+            "No backshift is required if the fact is still true: Dijo que la Tierra es redonda."
+          ],
+          "common_mistakes": [
+            "*Dijo que viene mañana → Dijo que vendría al día siguiente.",
+            "*Preguntó si voy → Preguntó si iba.",
+            "*Me dijo que vengo → Me dijo que viniera."
+          ],
+          "tags": ["syntax", "reported-speech", "past"],
+          "verify": ["Whether the PCIC marks backshift of the preterite (→ pluperfect) at B1 or B2, and what it says about optional backshift."]
+        },
+        {
+          "id": "repaso-indicativo", "week": 28, "level": "B2", "phase": "Months 7–8", "type": "review",
+          "reviews": ["ser-estar", "por-para", "preterito-imperfecto", "preterito-perfecto", "pluscuamperfecto", "futuro", "condicional", "pronombres-od-oi"],
+          "title": {"es": "Repaso general: indicativo", "en": "General review: indicative, ser/estar, por/para, pronouns"},
+          "explanation": {
+            "es": "Semana de repaso. Recorre los temas de las semanas 1 a 8 y prioriza los que más fallas en tus estadísticas.",
+            "en": "Review week. Go back over weeks 1–8 and prioritise the topics where your own stats are weakest."
+          },
+          "key_rules": [
+            "Choose the past tense by the viewpoint: bounded event (preterite), background (imperfect), earlier event (pluperfect), link to now (present perfect).",
+            "Check ser/estar by the question: identity or state? Check por/para by: cause or purpose?",
+            "Before attaching pronouns, check the order: reflexive, indirect, direct."
+          ],
+          "common_mistakes": ["Reviewing only the topics you already feel comfortable with."],
+          "tags": ["review"],
+          "verify": []
+        },
+        {
+          "id": "repaso-subjuntivo", "week": 29, "level": "B2", "phase": "Months 7–8", "type": "review",
+          "reviews": ["subj-presente-regular", "subj-presente-irregular", "subj-deseos", "subj-emociones", "subj-duda", "subj-imperfecto-formacion", "subj-imperfecto-usos", "subj-perfecto"],
+          "title": {"es": "Repaso general: subjuntivo", "en": "General review: subjunctive"},
+          "explanation": {
+            "es": "Semana de repaso del subjuntivo: formas, desencadenantes y secuencia de tiempos.",
+            "en": "Subjunctive review week: forms, triggers and sequence of tenses."
+          },
+          "key_rules": [
+            "Ask first: is there a trigger (wish, emotion, doubt, purpose, unknown antecedent)? Different subjects?",
+            "Main verb present → present or perfect subjunctive; past or conditional → imperfect subjunctive.",
+            "After si, use the indicative (real) or imperfect/pluperfect subjunctive (unreal), never the present subjunctive."
+          ],
+          "common_mistakes": ["Using the indicative after doubt or negated belief (*No creo que es...)."],
+          "tags": ["review", "subjunctive"],
+          "verify": []
+        },
+        {
+          "id": "repaso-conectores-se", "week": 30, "level": "B2", "phase": "Months 7–8", "type": "review",
+          "reviews": ["oraciones-relativo", "imperativo-afirmativo", "imperativo-negativo-pronombres", "si-reales", "si-irreales", "se-impersonal-pasiva-refleja", "voz-pasiva", "conectores-contraste", "conectores-causa-consecuencia"],
+          "title": {"es": "Repaso general: relativos, si, se y conectores", "en": "General review: relatives, si-clauses, se and connectors"},
+          "explanation": {
+            "es": "Repaso de relativos, imperativo, condicionales, construcciones con se, pasiva y conectores.",
+            "en": "Review of relatives, imperatives, conditionals, se constructions, passive and connectors."
+          },
+          "key_rules": [
+            "Relative clauses: known antecedent → indicative, unknown → subjunctive.",
+            "Si-clauses: match both halves of the sentence to the pattern.",
+            "Connectors: check whether they take the indicative, the subjunctive or the infinitive."
+          ],
+          "common_mistakes": ["Dropping 'de' in a pesar de que and debido a que."],
+          "tags": ["review"],
+          "verify": []
+        },
+        {
+          "id": "simulacro-b1", "week": 31, "level": "B1", "phase": "Months 7–8", "type": "review",
+          "reviews": ["ser-estar", "por-para", "preterito-imperfecto", "preterito-perfecto", "pluscuamperfecto", "futuro", "condicional", "pronombres-od-oi", "subj-presente-regular", "subj-presente-irregular", "subj-deseos", "subj-emociones", "subj-duda", "imperativo-afirmativo", "imperativo-negativo-pronombres", "oraciones-relativo", "si-reales", "se-impersonal-pasiva-refleja"],
+          "title": {"es": "Simulacro de examen B1+", "en": "Mock test B1+"},
+          "explanation": {
+            "es": "Prueba mixta con ejercicios de los temas B1. Hazla de una sola vez y sin mirar las explicaciones.",
+            "en": "A mixed test drawing on the B1 topics. Do it in one go, without looking at the explanations."
+          },
+          "key_rules": ["Work in one sitting.", "Read the explanation of every topic you miss.", "Missed items become mistake cards automatically."],
+          "common_mistakes": ["Peeking at the rule before answering."],
+          "tags": ["review", "mock-test"],
+          "verify": ["The format is a self-made approximation. It is not a DELE/SIELE practice test."]
+        },
+        {
+          "id": "simulacro-b2", "week": 32, "level": "B2", "phase": "Months 7–8", "type": "review",
+          "reviews": ["subj-imperfecto-formacion", "subj-imperfecto-usos", "si-irreales", "voz-pasiva", "conectores-contraste", "conectores-causa-consecuencia", "subj-perfecto", "estilo-indirecto-presente", "estilo-indirecto-pasado", "repaso-indicativo"],
+          "title": {"es": "Simulacro de examen B2", "en": "Mock test B2"},
+          "explanation": {
+            "es": "Prueba mixta con ejercicios de los temas B2. Hazla de una sola vez y revisa después tus errores.",
+            "en": "A mixed test drawing on the B2 topics. Do it in one go and review your errors afterwards."
+          },
+          "key_rules": ["Work in one sitting.", "Compare your accuracy with the first mock test.", "Repeat any topic below 70%."],
+          "common_mistakes": ["Skipping the error review."],
+          "tags": ["review", "mock-test"],
+          "verify": ["Self-made approximation, not an official exam format."]
+        }
+      ]
+    }
+  ]
+}

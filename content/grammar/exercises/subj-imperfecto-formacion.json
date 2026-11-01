@@ -1,0 +1,832 @@
+{
+ "topic": "subj-imperfecto-formacion",
+ "level": "B2",
+ "exercises": [
+  {
+   "id": "subj-imperfecto-formacion-f5f022f9c616",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "Sería mejor si ____ conmigo.",
+   "answer": "vinieras",
+   "alternatives": [
+    "vinieses"
+   ],
+   "options": [],
+   "hint": "venir",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "It'd be better if you would come with me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "535215",
+    "tatoeba_en": "707084"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "venir",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-6652db5fe3c2",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "Me disgustaría mucho que eso ____.",
+   "answer": "sucediera",
+   "alternatives": [
+    "sucediese"
+   ],
+   "options": [],
+   "hint": "suceder",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I'd be very upset if that happened.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6671660",
+    "tatoeba_en": "6671419"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "suceder",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-7ce6f8dd84d6",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "Pensé que sería una buena oportunidad para que ____ tu francés.",
+   "answer": "mejoraras",
+   "alternatives": [
+    "mejorases"
+   ],
+   "options": [],
+   "hint": "mejorar",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I thought it would be an opportunity for you to improve your French.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2129580",
+    "tatoeba_en": "1961376"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "mejorar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-5818bda3c0d0",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "No pensé que te ____.",
+   "answer": "importase",
+   "alternatives": [
+    "importara"
+   ],
+   "options": [],
+   "hint": "importar",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I didn't think it mattered to you.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5714229",
+    "tatoeba_en": "5688627"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "importar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-91832e0f1dae",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "Esperábamos que él nos ____.",
+   "answer": "apoyara",
+   "alternatives": [
+    "apoyase"
+   ],
+   "options": [],
+   "hint": "apoyar",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "We expected him to support us.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1189742",
+    "tatoeba_en": "22767"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "apoyar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-cfd898343d43",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "¿Cómo te gustaría que te ____ tus alumnos?",
+   "answer": "recordaran",
+   "alternatives": [
+    "recordasen"
+   ],
+   "options": [],
+   "hint": "recordar",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "How would you like your students to remember you?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6866659",
+    "tatoeba_en": "6866294"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "recordar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-2b1b58cc4326",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "Nunca perseguí que Tom ____ problemas.",
+   "answer": "tuviera",
+   "alternatives": [
+    "tuviese"
+   ],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I never meant for Tom to get in trouble.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5692870",
+    "tatoeba_en": "1994479"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-7a54fbadbbda",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "Probablemente me apresarían si lo ____.",
+   "answer": "hiciera",
+   "alternatives": [
+    "hiciese"
+   ],
+   "options": [],
+   "hint": "hacer",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I'd probably be arrested if I did that.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6695018",
+    "tatoeba_en": "6694781"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "hacer",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-c04a043b81a5",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "Hice que ____ mi reloj.",
+   "answer": "arreglara",
+   "alternatives": [
+    "arreglase"
+   ],
+   "options": [],
+   "hint": "arreglar",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I had him fix my watch.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1441637",
+    "tatoeba_en": "1300112"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "arreglar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-7ace0d094d30",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperfecto de subjuntivo.",
+   "text": "Ojalá ____ un auto.",
+   "answer": "tuviéramos",
+   "alternatives": [
+    "tuviésemos"
+   ],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I wish we had a car.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3563922",
+    "tatoeba_en": "2975865"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-b1c30a43625e",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Sería bueno que lo ____.",
+   "answer": "comierais",
+   "alternatives": [],
+   "options": [
+    "comáis",
+    "comíais",
+    "comierais",
+    "comeríais"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "It would be good if you ate it.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5967465",
+    "tatoeba_en": "7558167"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "comer",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-511d31393bf5",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No me pareció correcto que ____ estar enfermo para no ir a trabajar.",
+   "answer": "fingieras",
+   "alternatives": [],
+   "options": [
+    "fingirías",
+    "fingiste",
+    "fingieras",
+    "finjas"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I did not approve of your pretending to be sick to skip work.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5629124",
+    "tatoeba_en": "6620417"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "fingir",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-99bcb9b3645b",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No sabía que ____ francés.",
+   "answer": "hablaras",
+   "alternatives": [],
+   "options": [
+    "hablaste",
+    "hablabas",
+    "hablarías",
+    "hablaras"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I didn't know you spoke French.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2471368",
+    "tatoeba_en": "2290393"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "hablar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-78cc4d15f37f",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quisiera que me ____.",
+   "answer": "ayudaras",
+   "alternatives": [],
+   "options": [
+    "ayudabas",
+    "ayudes",
+    "ayudaras",
+    "ayudarías"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I'd like you to help me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1439400",
+    "tatoeba_en": "953783"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ayudar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-45c42a441ce6",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No me puedo creer que te ____ con Tom.",
+   "answer": "casaras",
+   "alternatives": [],
+   "options": [
+    "casaras",
+    "cases",
+    "casaste",
+    "casarías"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "I can't believe you married Tom.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2223492",
+    "tatoeba_en": "1950919"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "casar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-480144483657",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Tom les dijo a los chicos que se ____ en fila.",
+   "answer": "pusieran",
+   "alternatives": [],
+   "options": [
+    "pongan",
+    "ponían",
+    "pusieran",
+    "pondrían"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "Tom told the boys to line up.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1451284",
+    "tatoeba_en": "1024086"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poner",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-61db31011f4d",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Tienes suerte de que no te disparen.",
+   "answer": "Tienes suerte de que no te dispararan.",
+   "alternatives": [
+    "Tienes suerte de que no te disparasen."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "You're lucky you didn't get shot.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4147330",
+    "tatoeba_en": "1895602"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-8bb91bfc82e5",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Hablas como si lo sepas todo.",
+   "answer": "Hablas como si lo supieras todo.",
+   "alternatives": [
+    "Hablas como si lo supieses todo."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "You talk as if you knew everything.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1328341",
+    "tatoeba_en": "32332"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-d29f0ca224c3",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · vosotros",
+   "text": "",
+   "answer": "usarais",
+   "alternatives": [],
+   "options": [],
+   "hint": "usar",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "usar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "usar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-414cf91d7424",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · él / ella / usted",
+   "text": "",
+   "answer": "quisiera",
+   "alternatives": [],
+   "options": [],
+   "hint": "querer",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "querer"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "querer",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-3de811085278",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · nosotros",
+   "text": "",
+   "answer": "viniéramos",
+   "alternatives": [],
+   "options": [],
+   "hint": "venir",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "venir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "venir",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-formacion-2d048d7f0fee",
+   "topic": "subj-imperfecto-formacion",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · vosotros",
+   "text": "",
+   "answer": "olvidarais",
+   "alternatives": [],
+   "options": [],
+   "hint": "olvidar",
+   "explanation": "Imperfecto de subjuntivo: 3.ª persona plural del indefinido sin -ron + -ra/-se.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "olvidar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "olvidar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-formacion",
+    "B2",
+    "grammar"
+   ]
+  }
+ ]
+}

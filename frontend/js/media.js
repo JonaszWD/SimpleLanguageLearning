@@ -76,3 +76,48 @@ export async function playSequence(names, { rate = 1, gap = 400, isCancelled = (
 }
 
 export function stop() { el.pause(); }
+
+export const audioEl = () => el;
+
+/** Point the shared player at a stored blob (e.g. "ep:abc123"). Resolves when seeking is possible. */
+export async function load(name) {
+  const u = await urlFor(name);
+  if (!u) return false;
+  if (current !== name) {
+    el.src = u;
+    current = name;
+    await new Promise((res) => {
+      if (el.readyState >= 1) return res();
+      el.addEventListener("loadedmetadata", res, { once: true });
+      el.addEventListener("error", res, { once: true });
+    });
+  }
+  return true;
+}
+
+/**
+ * Play [start, end] of a stored blob. `loop` restarts at `start` instead of stopping (A-B loop).
+ * Returns a controller: { stop, rate(r), seek(t), loop(on, a, b) }.
+ */
+export async function playRange(name, start, end, { rate = 1, loop = false, onTime, onEnd } = {}) {
+  if (!(await load(name))) return null;
+  let a = start, b = end, looping = loop, done = false;
+  el.playbackRate = rate;
+  el.currentTime = a;
+  el.play().catch(() => {});
+  const tick = setInterval(() => {
+    onTime?.(el.currentTime);
+    if (el.currentTime >= b - 0.05) {
+      if (looping) { el.currentTime = a; return; }
+      finish();
+    }
+  }, 100);
+  const finish = () => { if (done) return; done = true; clearInterval(tick); el.pause(); onEnd?.(); };
+  return {
+    stop() { done = true; clearInterval(tick); el.pause(); },
+    rate(r) { el.playbackRate = r; },
+    seek(t) { el.currentTime = t; },
+    loop(on, na = a, nb = b) { looping = on; a = na; b = nb; },
+    toggle() { return el.paused ? el.play() : el.pause(); },
+  };
+}

@@ -6,3 +6,4 @@ DESIGN.md
 *.apkg
 backend/data
 content
+.env

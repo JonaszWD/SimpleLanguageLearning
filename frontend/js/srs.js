@@ -99,17 +99,29 @@ export function previews(card, s, now = Date.now()) {
   });
 }
 
+/**
+ * How many new cards to show today. About `grammarShare` (15%) of the daily new cards are grammar or
+ * mistake cards; if there aren't enough of them, vocabulary fills the rest (and vice versa).
+ */
+export function newAllowance(availGrammar, availOther, s, day) {
+  const total = Math.max(0, s.newPerDay - day.newDone);
+  const quota = Math.max(0, Math.round(s.newPerDay * (s.grammarShare ?? 0.15)) - (day.newGrammarDone || 0));
+  const g = Math.min(availGrammar, quota, total);
+  const o = Math.min(availOther, total - g);
+  return { grammar: g, other: o, total: g + o };
+}
+
 export function countsFor(cards, s, day, now = Date.now()) {
   const endToday = addDays(startOfDay(new Date(now)), 1);
-  let n = 0, l = 0, r = 0;
+  let ng = 0, no = 0, l = 0, r = 0;
   for (const c of cards) {
     if (c.suspended) continue;
-    if (c.kind === "new") n++;
+    if (c.kind === "new") (c.grammar ? ng++ : no++);
     else if (c.kind === "review") { if (c.due < endToday) r++; }
     else if (c.due <= now + LEARN_AHEAD) l++;
   }
   return {
-    new: Math.min(n, Math.max(0, s.newPerDay - day.newDone)),
+    new: newAllowance(ng, no, s, day).total,
     learn: l,
     review: Math.min(r, Math.max(0, s.reviewsPerDay - day.revDone)),
   };
@@ -124,9 +136,13 @@ export class Session {
     this.learning = live.filter((c) => c.kind === "learning" || c.kind === "relearn");
     this.reviews = shuffle(live.filter((c) => c.kind === "review" && c.due < endToday))
       .slice(0, Math.max(0, s.reviewsPerDay - day.revDone));
-    this.fresh = live.filter((c) => c.kind === "new")
-      .sort((a, b) => (a.pos ?? -1) - (b.pos ?? -1) || a.id - b.id)
-      .slice(0, Math.max(0, s.newPerDay - day.newDone));
+    const order = (a, b) => (a.pos ?? -1) - (b.pos ?? -1) || a.id - b.id;
+    const fresh = live.filter((c) => c.kind === "new");
+    const allow = newAllowance(fresh.filter((c) => c.grammar).length, fresh.filter((c) => !c.grammar).length, s, day);
+    this.fresh = [
+      ...fresh.filter((c) => !c.grammar).sort(order).slice(0, allow.other),
+      ...fresh.filter((c) => c.grammar).sort(order).slice(0, allow.grammar),
+    ];
   }
 
   next(now = Date.now()) {

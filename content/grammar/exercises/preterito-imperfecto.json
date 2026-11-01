@@ -1,0 +1,868 @@
+{
+ "topic": "preterito-imperfecto",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "preterito-imperfecto-64679a51a7b6",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "Tom le ____ a Mary entregarle un mensaje a John.",
+   "answer": "pidió",
+   "alternatives": [],
+   "options": [],
+   "hint": "pedir",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "Tom asked Mary to deliver a message to John.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5799429",
+    "tatoeba_en": "1030210"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "pedir",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-5e4deea9c539",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "____ de idea sobre lo de salir, y me quedé en casa.",
+   "answer": "Cambié",
+   "alternatives": [],
+   "options": [],
+   "hint": "cambiar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I changed my mind about going out and stayed home.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "346357",
+    "tatoeba_en": "255058"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "cambiar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-1f274ce015a9",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "Él ____ en África.",
+   "answer": "nació",
+   "alternatives": [],
+   "options": [],
+   "hint": "nacer",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "He was born in Africa.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "524620",
+    "tatoeba_en": "288790"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "nacer",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-aee1e19e2fd0",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "____ que sonaba bien.",
+   "answer": "Pensé",
+   "alternatives": [],
+   "options": [],
+   "hint": "pensar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I thought that sounded good.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3939511",
+    "tatoeba_en": "2543835"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "pensar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-c6f782e713d8",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "____ de acuerdo con él sobre el plan.",
+   "answer": "Estuve",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I agreed with him on the plan.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "504674",
+    "tatoeba_en": "249633"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "estar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-2a8db8e130e2",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "Le ____ el tumor.",
+   "answer": "quitaron",
+   "alternatives": [],
+   "options": [],
+   "hint": "quitar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "The tumor was removed.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5144197",
+    "tatoeba_en": "4501734"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "quitar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-ad19cfc1ec80",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "____ algunas modificaciones.",
+   "answer": "Hice",
+   "alternatives": [],
+   "options": [],
+   "hint": "hacer",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I made some modifications.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2381239",
+    "tatoeba_en": "2380421"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "hacer",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-4dbb874eed49",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "Tom ____ a Mary.",
+   "answer": "asfixió",
+   "alternatives": [],
+   "options": [],
+   "hint": "asfixiar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "Tom choked Mary.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5750903",
+    "tatoeba_en": "3171741"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "asfixiar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-966245eae45d",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "Me ____ a almorzar.",
+   "answer": "invitaron",
+   "alternatives": [],
+   "options": [],
+   "hint": "invitar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I was invited to lunch.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1698671",
+    "tatoeba_en": "259454"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "invitar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-e53cffe076a5",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en pretérito indefinido.",
+   "text": "Ella lo ____.",
+   "answer": "apuñaló",
+   "alternatives": [],
+   "options": [],
+   "hint": "apuñalar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "She stabbed him.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1325953",
+    "tatoeba_en": "887398"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "apuñalar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-1957a758c61e",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ nuevos muebles.",
+   "answer": "Encargué",
+   "alternatives": [],
+   "options": [
+    "Encargaré",
+    "Encargaba",
+    "Encargué",
+    "Encargo"
+   ],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I ordered new furniture.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1786897",
+    "tatoeba_en": "252283"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "encargar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-8a3edbc14700",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Él se ____ como un niño.",
+   "answer": "portó",
+   "alternatives": [],
+   "options": [
+    "portó",
+    "portaba",
+    "portará",
+    "porta"
+   ],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "He behaved like a child.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2098586",
+    "tatoeba_en": "289856"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "portar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-03b9b96685fd",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Me ____ el dedo con la puerta.",
+   "answer": "pillé",
+   "alternatives": [],
+   "options": [
+    "pillo",
+    "pillé",
+    "pillaba",
+    "pillaré"
+   ],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I caught my finger in the door.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1897555",
+    "tatoeba_en": "39084"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "pillar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-8dc45fed9fa8",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Todas sus canciones se ____ en éxitos.",
+   "answer": "convirtieron",
+   "alternatives": [],
+   "options": [
+    "convirtieron",
+    "convertirán",
+    "convierten",
+    "convertían"
+   ],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "All of her songs became hits.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1321984",
+    "tatoeba_en": "1053574"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "convertir",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-2649303c401b",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "El dolor ____.",
+   "answer": "desapareció",
+   "alternatives": [],
+   "options": [
+    "desaparecía",
+    "desapareció",
+    "desaparece",
+    "desaparecerá"
+   ],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "The pain has gone.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1768610",
+    "tatoeba_en": "278308"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "desaparecer",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-4c6c17b5d1a1",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¿____ algo?",
+   "answer": "Tocaste",
+   "alternatives": [],
+   "options": [
+    "Tocaste",
+    "Tocabas",
+    "Tocarás",
+    "Tocas"
+   ],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "Did you touch something?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4797715",
+    "tatoeba_en": "3286831"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tocar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-f44cbb967dc0",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Delibero sobre si debía decir algo.",
+   "answer": "Deliberé sobre si debía decir algo.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I debated whether I should say anything.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6834085",
+    "tatoeba_en": "6833415"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-813543dfa435",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Escuchaba que tus dos abuelos eran fontaneros.",
+   "answer": "Escuché que tus dos abuelos eran fontaneros.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "I heard that both of your grandfathers were plumbers.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6803788",
+    "tatoeba_en": "6803646"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-cfedd4f9afc0",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito indefinido · yo",
+   "text": "",
+   "answer": "terminé",
+   "alternatives": [],
+   "options": [],
+   "hint": "terminar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "terminar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "terminar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-008f56d7423e",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito indefinido · tú",
+   "text": "",
+   "answer": "ayudaste",
+   "alternatives": [],
+   "options": [],
+   "hint": "ayudar",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ayudar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ayudar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-6844264b9b2a",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito indefinido · nosotros",
+   "text": "",
+   "answer": "quisimos",
+   "alternatives": [],
+   "options": [],
+   "hint": "querer",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "querer"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "querer",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-d964938ba23a",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito indefinido · él / ella / usted",
+   "text": "",
+   "answer": "murió",
+   "alternatives": [],
+   "options": [],
+   "hint": "morir",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "morir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "morir",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-82868112369e",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "transformation",
+   "prompt": "Cambia el verbo al pretérito imperfecto.",
+   "text": "El niño es amable.",
+   "answer": "El niño era amable.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "The boy is kind.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "758526",
+    "tatoeba_en": "46327"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "time reference may feel odd after the change"
+   ],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-imperfecto-869a06e54961",
+   "topic": "preterito-imperfecto",
+   "level": "B1",
+   "type": "transformation",
+   "prompt": "Cambia el verbo al pretérito imperfecto.",
+   "text": "¿Qué estáis aprendiendo?",
+   "answer": "¿Qué estabais aprendiendo?",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Pretérito indefinido: acción terminada. Imperfecto: hábito, descripción, acción en curso.",
+   "translation": "What do you learn?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1240453",
+    "tatoeba_en": "16258"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "time reference may feel odd after the change"
+   ],
+   "tags": [
+    "preterito-imperfecto",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

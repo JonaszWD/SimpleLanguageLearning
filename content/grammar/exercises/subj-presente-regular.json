@@ -1,0 +1,872 @@
+{
+ "topic": "subj-presente-regular",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "subj-presente-regular-44555e334eda",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "No creo que tales ____ existan.",
+   "answer": "cosas",
+   "alternatives": [],
+   "options": [],
+   "hint": "coser",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I don't believe such things exist.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "609199",
+    "tatoeba_en": "41437"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "coser",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-ec4f8f30a6b3",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Quiero que ____.",
+   "answer": "madures",
+   "alternatives": [],
+   "options": [],
+   "hint": "madurar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to grow up.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2169501",
+    "tatoeba_en": "2011690"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "madurar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-b84b6030e434",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "¿Necesitas que te ____?",
+   "answer": "lleven",
+   "alternatives": [],
+   "options": [],
+   "hint": "llevar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "Do you need a ride?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1125101",
+    "tatoeba_en": "1096504"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "llevar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-910c6e6b529e",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Queremos que te ____ con Tom.",
+   "answer": "cases",
+   "alternatives": [],
+   "options": [],
+   "hint": "casar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "We want you to marry Tom.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2715151",
+    "tatoeba_en": "2012205"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "casar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-f97f0eb0a5b4",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "No quiero que nadie se ____.",
+   "answer": "asuste",
+   "alternatives": [],
+   "options": [],
+   "hint": "asustar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I don't want anyone to panic.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2616368",
+    "tatoeba_en": "2013512"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "asustar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-d1c3740123af",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Quiero que te ____.",
+   "answer": "comportes",
+   "alternatives": [],
+   "options": [],
+   "hint": "comportar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to behave.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2033091",
+    "tatoeba_en": "2033082"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "comportar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-f95bd7c99bfd",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "No creo que ____ cerrar la ventana.",
+   "answer": "debamos",
+   "alternatives": [],
+   "options": [],
+   "hint": "deber",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I don't think we should shut the window.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6549324",
+    "tatoeba_en": "6343868"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "deber",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-4a036f12dfc6",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "¿Quieres que te ____?",
+   "answer": "lleve",
+   "alternatives": [],
+   "options": [],
+   "hint": "llevar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "Do you want a ride?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4296665",
+    "tatoeba_en": "268377"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "llevar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-0a1fe13e077b",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Quiero que me ____.",
+   "answer": "beses",
+   "alternatives": [],
+   "options": [],
+   "hint": "besar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to kiss me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1302163",
+    "tatoeba_en": "1300148"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "besar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-876b778df760",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Quiero que me ____ en efectivo.",
+   "answer": "paguen",
+   "alternatives": [],
+   "options": [],
+   "hint": "pagar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want to be paid in cash.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2267119",
+    "tatoeba_en": "2267118"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "pagar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-14a4e64ed15b",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Espero que me ____.",
+   "answer": "ayudes",
+   "alternatives": [],
+   "options": [
+    "ayudaste",
+    "ayudes",
+    "ayudas",
+    "ayudarás"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I hope that you'll help me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1439788",
+    "tatoeba_en": "69296"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ayudar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-717fd2b8f7f9",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que ____ el coche.",
+   "answer": "laves",
+   "alternatives": [],
+   "options": [
+    "laves",
+    "lavarás",
+    "lavas",
+    "lavaste"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to wash the car.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "978703",
+    "tatoeba_en": "252771"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "lavar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-7bee715eb568",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que lo ____.",
+   "answer": "intentes",
+   "alternatives": [],
+   "options": [
+    "intentas",
+    "intentaste",
+    "intentes",
+    "intentarás"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to try it.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2102047",
+    "tatoeba_en": "2011575"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "intentar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-a5496bf1a45e",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Espero que ____ las cosas.",
+   "answer": "cambien",
+   "alternatives": [],
+   "options": [
+    "cambiaron",
+    "cambien",
+    "cambian",
+    "cambiarán"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I hope things change.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4786484",
+    "tatoeba_en": "4496481"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "cambiar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-8eac0b0e003c",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que te ____.",
+   "answer": "relajes",
+   "alternatives": [],
+   "options": [
+    "relajes",
+    "relajas",
+    "relajarás",
+    "relajaste"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to relax.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2117386",
+    "tatoeba_en": "2011505"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "relajar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-618e76018063",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que ____ más.",
+   "answer": "trabajes",
+   "alternatives": [],
+   "options": [
+    "trabajes",
+    "trabajaste",
+    "trabajas",
+    "trabajarás"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to work harder.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2265375",
+    "tatoeba_en": "17493"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "trabajar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-74ed691b1808",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Quiero que cantas una canción.",
+   "answer": "Quiero que cantes una canción.",
+   "alternatives": [
+    "Quiero que cantés una canción."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to sing a song.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "690639",
+    "tatoeba_en": "252751"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-91c887f131b7",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Quiero que cavarás un agujero.",
+   "answer": "Quiero que caves un agujero.",
+   "alternatives": [
+    "Quiero que cavés un agujero."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to dig a hole.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2033172",
+    "tatoeba_en": "2033159"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-05400e3fd34f",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Quiero que me escribirás tan pronto como llegues allí.",
+   "answer": "Quiero que me escribas tan pronto como llegues allí.",
+   "alternatives": [
+    "Quiero que me escribás tan pronto como llegues allí."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I want you to write to me as soon as you get there.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6610482",
+    "tatoeba_en": "240621"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-d6d5bb5edc4e",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "¡Espero que ganaste!",
+   "answer": "¡Espero que ganes!",
+   "alternatives": [
+    "¡Espero que ganés!"
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "I hope you win!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1423034",
+    "tatoeba_en": "1389227"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-a1f018f6148f",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · tú",
+   "text": "",
+   "answer": "sigas",
+   "alternatives": [],
+   "options": [],
+   "hint": "seguir",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "seguir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "seguir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-0b1fc9b94044",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · yo",
+   "text": "",
+   "answer": "trate",
+   "alternatives": [],
+   "options": [],
+   "hint": "tratar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "tratar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "tratar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-bd7c135e65e9",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · vosotros",
+   "text": "",
+   "answer": "estéis",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "estar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "estar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-regular-9b4cb0bd3f29",
+   "topic": "subj-presente-regular",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · vosotros",
+   "text": "",
+   "answer": "necesitéis",
+   "alternatives": [],
+   "options": [],
+   "hint": "necesitar",
+   "explanation": "Presente de subjuntivo regular: raíz de la forma yo + vocal contraria (-ar → -e, -er/-ir → -a).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "necesitar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "necesitar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-regular",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

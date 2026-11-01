@@ -35,6 +35,7 @@ jobs:
           python3 backend/app/build.py frontend site   # copies the app + generates sw.js
           cp -r content/packs site/packs
           if [ -d content/articles ]; then cp -r content/articles site/articles; fi
+          if [ -d content/grammar ]; then cp -r content/grammar site/grammar; fi
           touch site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

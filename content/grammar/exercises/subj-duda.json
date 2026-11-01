@@ -1,0 +1,326 @@
+{
+ "topic": "subj-duda",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "subj-duda-08c4cbe91d40",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Es posible que ____ de hacer eso.",
+   "answer": "trate",
+   "alternatives": [],
+   "options": [],
+   "hint": "tratar",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "I might try to do that.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4410032",
+    "tatoeba_en": "3147808"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tratar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-duda-3332b69618b4",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "No creo que te ____ muy difícil obtener el permiso de conducir.",
+   "answer": "resulte",
+   "alternatives": [],
+   "options": [],
+   "hint": "resultar",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "I think you'll have very little difficulty in getting a driver's license.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1240742",
+    "tatoeba_en": "16302"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "resultar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-duda-0a7fa33c6526",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "No creo que ____ tan caro limpiar el coche.",
+   "answer": "cueste",
+   "alternatives": [],
+   "options": [],
+   "hint": "costar",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "I don't think it will cost much to clean up the car.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6597234",
+    "tatoeba_en": "6610388"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "costar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-duda-b67293d746c1",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Es imposible que ____.",
+   "answer": "funcione",
+   "alternatives": [],
+   "options": [],
+   "hint": "funcionar",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "It can't possibly work.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1829411",
+    "tatoeba_en": "1768926"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "funcionar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-duda-2afd25eb999b",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Es posible que ____ tu ayuda.",
+   "answer": "necesite",
+   "alternatives": [],
+   "options": [],
+   "hint": "necesitar",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "I might need your help.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4410031",
+    "tatoeba_en": "2387224"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "necesitar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-duda-def0ee109213",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · él / ella / usted",
+   "text": "",
+   "answer": "pida",
+   "alternatives": [],
+   "options": [],
+   "hint": "pedir",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "pedir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "pedir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-duda-1ffcb5757558",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · yo",
+   "text": "",
+   "answer": "sea",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ser"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ser",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-duda-e53162d4b7a3",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · vosotros",
+   "text": "",
+   "answer": "llaméis",
+   "alternatives": [],
+   "options": [],
+   "hint": "llamar",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "llamar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "llamar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-duda-0a3880126dbe",
+   "topic": "subj-duda",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · yo",
+   "text": "",
+   "answer": "diga",
+   "alternatives": [],
+   "options": [],
+   "hint": "decir",
+   "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "decir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "decir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-duda",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

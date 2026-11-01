@@ -1,0 +1,20 @@
+import { isRight, norm } from "../js/views/grammar.js";
+import { newAllowance } from "../js/srs.js";
+import { exerciseFields } from "../js/grammar.js";
+const ok=(c,m)=>{ if(!c){console.log("FAIL",m);process.exitCode=1} else console.log("ok  ",m)};
+const ex={answer:"hables",alternatives:["hables "]};
+ok(isRight({answer:"hables",alternatives:[]},"  Hables "),"case and spaces ignored");
+ok(!isRight({answer:"hable",alternatives:[]},"hablé"),"accents matter");
+ok(isRight({answer:"Espero que lo consigamos.",alternatives:["Espero que lo consigamos"]},"espero que lo consigamos"),"sentence: punctuation/case ignored");
+ok(isRight({answer:"intentases",alternatives:["intentaras"]},"intentaras"),"alternative accepted");
+ok(!isRight({answer:"es",alternatives:[]},"está"),"wrong answer rejected");
+// allocation: 12 new cards/day, 15% grammar => 2 grammar + 10 vocabulary
+const s={newPerDay:12,grammarShare:0.15};
+let a=newAllowance(14,6000,s,{newDone:0,newGrammarDone:0}); ok(a.grammar===2&&a.other===10&&a.total===12,`12/day => ${JSON.stringify(a)}`);
+a=newAllowance(0,6000,s,{newDone:0}); ok(a.grammar===0&&a.other===12,"no grammar cards => vocabulary fills the day");
+a=newAllowance(14,3,s,{newDone:0}); ok(a.grammar===2&&a.other===3,"little vocabulary left: grammar still capped at 15%");
+a=newAllowance(14,6000,s,{newDone:5,newGrammarDone:2}); ok(a.grammar===0&&a.other===7,"quota used up => only vocabulary");
+a=newAllowance(14,6000,{newPerDay:10,grammarShare:0.15},{newDone:0}); ok(a.grammar===2,"10/day => 2 grammar (round 1.5)");
+a=newAllowance(14,6000,{newPerDay:15,grammarShare:0.15},{newDone:0}); ok(a.grammar===2&&a.other===13,"15/day => 2 grammar");
+const f=exerciseFields({type:"cloze",text:"Quiero que ____ conmigo.",answer:"hables",hint:"hablar",alternatives:[],explanation:"x",level:"B1",source:"tatoeba",source_ids:{tatoeba_es:"7"},id:"t-1"},"Title");
+ok(f[0].includes("{{c1::hables::hablar}}")&&f.length===7,"cloze card text + 7 fields");

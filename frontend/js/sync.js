@@ -3,6 +3,8 @@
 import * as db from "./db.js";
 import { apiUrl, articlesUrl } from "./config.js";
 import { availablePacks, installPack, installedPacks } from "./packs.js";
+import { syncGrammar } from "./grammar.js";
+import { syncPodcasts, flushRatings } from "./podcast.js";
 
 const listeners = new Set();
 let status = null; // { phase, done?, total? } while syncing
@@ -71,7 +73,7 @@ export async function syncAll({ force = false } = {}) {
   running = true;
   try {
     // Articles first: small and quick. The deck audio can take a while.
-    for (const step of [syncArticles, syncDecks]) {
+    for (const step of [syncGrammar, syncArticles, syncDecks, () => flushRatings().then(() => syncPodcasts(set))]) {
       try { await step(); } catch (e) { console.warn("sync step failed", e); }
     }
     lastRun = Date.now();

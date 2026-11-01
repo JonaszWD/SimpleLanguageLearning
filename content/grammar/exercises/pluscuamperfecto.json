@@ -1,0 +1,362 @@
+{
+ "topic": "pluscuamperfecto",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "pluscuamperfecto-350bbd16dfd0",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pluscuamperfecto del verbo.",
+   "text": "No lo ____.",
+   "answer": "había notado",
+   "alternatives": [],
+   "options": [],
+   "hint": "notar",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "I hadn't really noticed.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3198322",
+    "tatoeba_en": "2331917"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "notar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-b8a42eb10dae",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pluscuamperfecto del verbo.",
+   "text": "Tom se preguntaba si Mary estaba contenta con cómo ____ John la situación.",
+   "answer": "había manejado",
+   "alternatives": [],
+   "options": [],
+   "hint": "manejar",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "Tom wondered whether Mary was happy with how John had handled the situation.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5803345",
+    "tatoeba_en": "2170733"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "manejar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-4057d4224a3f",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pluscuamperfecto del verbo.",
+   "text": "Me sentí mejor tras tomarme el medicamento que me ____ el médico.",
+   "answer": "había recetado",
+   "alternatives": [],
+   "options": [],
+   "hint": "recetar",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "I felt better after taking the medicine the doctor had prescribed.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6797186",
+    "tatoeba_en": "6797157"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "recetar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-bcc0abd02840",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pluscuamperfecto del verbo.",
+   "text": "El fuego se ____ ya cuando llegaron los bomberos.",
+   "answer": "había extinguido",
+   "alternatives": [],
+   "options": [],
+   "hint": "extinguir",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "The fire had already gone out by the time the firemen arrived.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6797187",
+    "tatoeba_en": "6797153"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "extinguir",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-aa21c2f27705",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pluscuamperfecto del verbo.",
+   "text": "Era obvio que el conductor no ____ lo suficientemente cuidadoso.",
+   "answer": "había sido",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "It was obvious that the driver had not been careful enough.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1564502",
+    "tatoeba_en": "26607"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-2d5da3d67593",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pluscuamperfecto del verbo.",
+   "text": "¿No lo ____ Tom?",
+   "answer": "había predicho",
+   "alternatives": [],
+   "options": [],
+   "hint": "predecir",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "Didn't Tom predict that?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5748510",
+    "tatoeba_en": "5748146"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "predecir",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-06755234415f",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pluscuamperfecto · tú",
+   "text": "",
+   "answer": "habías unido",
+   "alternatives": [],
+   "options": [],
+   "hint": "unir",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "unir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "unir",
+    "mood": "indicative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-bf41a6ea5e69",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pluscuamperfecto · yo",
+   "text": "",
+   "answer": "había ido",
+   "alternatives": [],
+   "options": [],
+   "hint": "ir",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ir",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-d4a04d2411ac",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pluscuamperfecto · nosotros",
+   "text": "",
+   "answer": "habíamos debido",
+   "alternatives": [],
+   "options": [],
+   "hint": "deber",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "deber"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "deber",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "p",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pluscuamperfecto-56ea9d4d35ee",
+   "topic": "pluscuamperfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pluscuamperfecto · ellos / ellas / ustedes",
+   "text": "",
+   "answer": "habían dicho",
+   "alternatives": [],
+   "options": [],
+   "hint": "decir",
+   "explanation": "Pluscuamperfecto: había + participio, acción anterior a otro momento del pasado.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "decir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "decir",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "p",
+    "compound": true,
+    "aux_tense": "imperfect"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "pluscuamperfecto",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,516 @@
+{
+ "topic": "conectores-causa-consecuencia",
+ "level": "B2",
+ "exercises": [
+  {
+   "id": "conectores-causa-consecuencia-67cd6f6c9643",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "¿Puedo devolver esto ____ me lo reembolsen?",
+   "answer": "para que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "May I return this for a refund?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5674469",
+    "tatoeba_en": "5671900"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-4fb9d83f18a3",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "El nieto hace zalamerías constantes a su abuela ____ le compre chucherías.",
+   "answer": "para que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "El nieto se muestra muy cariñoso con su abuela para que le compre golosinas.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5630426",
+    "tatoeba_en": "7482422"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-5b83f4d6267c",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "No quería resfriarme, ____ no salí.",
+   "answer": "así que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "I didn't want to catch a cold, so I didn't go out.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "624777",
+    "tatoeba_en": "473599"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-0fd76e1bd3e4",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "Las plantas tienen que haberse muerto ____ nadie las regó.",
+   "answer": "porque",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "The plants must've died because no one watered them.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6682035",
+    "tatoeba_en": "6681209"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-c3e496f8d057",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "Tom lo ha organizado ____ Mary se encuentre con John el miércoles.",
+   "answer": "para que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "Tom has arranged for Mary to meet John on Wednesday.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5799474",
+    "tatoeba_en": "1030197"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-55ced22e4c43",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "No me preocupé demasiado ____.",
+   "answer": "por eso",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "I didn't worry about it too much.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7145042",
+    "tatoeba_en": "7144309"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-e14bd747d6b4",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "Estoy aquí ____ quiero.",
+   "answer": "porque",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "I'm here because I want to be.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2156017",
+    "tatoeba_en": "1890998"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-ca107079d1a9",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "Yo me ofendo ____.",
+   "answer": "por eso",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "I resent that.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4618675",
+    "tatoeba_en": "2247390"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-52bcedde8789",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "Ella le presionó ____ dejase su trabajo.",
+   "answer": "para que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "She pressured him to quit his job.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1017809",
+    "tatoeba_en": "887337"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-1679777a75b7",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "Este resumen es demasiado escueto; hay que desarrollarlo más ____ sea comprensible.",
+   "answer": "para que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "This summary is too succinct; it needs further elaboration to make it understandable.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5629578",
+    "tatoeba_en": "6634957"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-cc185123bbff",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Tuve que ir allí andando ____ mi coche se estropeó.",
+   "answer": "porque",
+   "alternatives": [],
+   "options": [
+    "puesto que",
+    "porque",
+    "así que",
+    "ya que"
+   ],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "I had to walk there because my car broke down.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2667276",
+    "tatoeba_en": "2585764"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-d9fe688195eb",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Yo caí ____.",
+   "answer": "por eso",
+   "alternatives": [],
+   "options": [
+    "porque",
+    "por eso",
+    "ya que",
+    "puesto que"
+   ],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "I fell for it.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4592732",
+    "tatoeba_en": "2326201"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-e052a5d874d5",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "No pudieron cogerle ____ corría demasiado rápido.",
+   "answer": "porque",
+   "alternatives": [],
+   "options": [
+    "así que",
+    "ya que",
+    "porque",
+    "puesto que"
+   ],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "They couldn't catch up with him because he ran so fast.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1497707",
+    "tatoeba_en": "1497705"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-bde9206c3a00",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Tom convenció a Mary ____ invitase a John a la fiesta.",
+   "answer": "para que",
+   "alternatives": [],
+   "options": [
+    "porque",
+    "ya que",
+    "para que",
+    "puesto que"
+   ],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "Tom talked Mary into inviting John to the party.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5799460",
+    "tatoeba_en": "5012750"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-e4c7c2bd290c",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Estas preguntas son demasiado difíciles ____ las conteste yo.",
+   "answer": "para que",
+   "alternatives": [],
+   "options": [
+    "ya que",
+    "para que",
+    "porque",
+    "puesto que"
+   ],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "These questions are too difficult for me to answer.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6710251",
+    "tatoeba_en": "6708237"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-causa-consecuencia-939276e79cbf",
+   "topic": "conectores-causa-consecuencia",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Pensé que sería una buena oportunidad ____ mejoraras tu francés.",
+   "answer": "para que",
+   "alternatives": [],
+   "options": [
+    "porque",
+    "para que",
+    "puesto que",
+    "ya que"
+   ],
+   "hint": "",
+   "explanation": "Causa: porque, ya que, puesto que. Consecuencia: así que, por eso, por lo tanto. Finalidad: para que + subjuntivo.",
+   "translation": "I thought it would be an opportunity for you to improve your French.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2129580",
+    "tatoeba_en": "1961376"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-causa-consecuencia",
+    "B2",
+    "grammar"
+   ]
+  }
+ ]
+}

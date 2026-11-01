@@ -1,0 +1,158 @@
+{
+ "topic": "se-impersonal-pasiva-refleja",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "se-impersonal-pasiva-refleja-e90e53dd1b50",
+   "topic": "se-impersonal-pasiva-refleja",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente del verbo (se + 3.ª persona).",
+   "text": "Se ____ mascotas.",
+   "answer": "permiten",
+   "alternatives": [],
+   "options": [],
+   "hint": "permitir",
+   "explanation": "Se + verbo en 3.ª persona; en la pasiva refleja el verbo concuerda con el sujeto (Se venden pisos).",
+   "translation": "Pets are allowed.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4530167",
+    "tatoeba_en": "4530160"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "permitir",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "check that 'se' is passive/impersonal and not reflexive"
+   ],
+   "tags": [
+    "se-impersonal-pasiva-refleja",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "se-impersonal-pasiva-refleja-c174ee85b277",
+   "topic": "se-impersonal-pasiva-refleja",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente del verbo (se + 3.ª persona).",
+   "text": "Las bayas se ____ congelar.",
+   "answer": "pueden",
+   "alternatives": [],
+   "options": [],
+   "hint": "poder",
+   "explanation": "Se + verbo en 3.ª persona; en la pasiva refleja el verbo concuerda con el sujeto (Se venden pisos).",
+   "translation": "Berries can be frozen.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5880762",
+    "tatoeba_en": "5878896"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poder",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "check that 'se' is passive/impersonal and not reflexive"
+   ],
+   "tags": [
+    "se-impersonal-pasiva-refleja",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "se-impersonal-pasiva-refleja-cba9f485b4ee",
+   "topic": "se-impersonal-pasiva-refleja",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente del verbo (se + 3.ª persona).",
+   "text": "Se ____ que el amor es ciego.",
+   "answer": "dice",
+   "alternatives": [],
+   "options": [],
+   "hint": "decir",
+   "explanation": "Se + verbo en 3.ª persona; en la pasiva refleja el verbo concuerda con el sujeto (Se venden pisos).",
+   "translation": "They say love is blind.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2769",
+    "tatoeba_en": "1578"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "decir",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "check that 'se' is passive/impersonal and not reflexive"
+   ],
+   "tags": [
+    "se-impersonal-pasiva-refleja",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "se-impersonal-pasiva-refleja-8d8047c4c80e",
+   "topic": "se-impersonal-pasiva-refleja",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente del verbo (se + 3.ª persona).",
+   "text": "Se ____ urgentemente nuevas ideas.",
+   "answer": "necesitan",
+   "alternatives": [],
+   "options": [],
+   "hint": "necesitar",
+   "explanation": "Se + verbo en 3.ª persona; en la pasiva refleja el verbo concuerda con el sujeto (Se venden pisos).",
+   "translation": "There is an urgent need for new ideas.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "977299",
+    "tatoeba_en": "903702"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "necesitar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "check that 'se' is passive/impersonal and not reflexive"
+   ],
+   "tags": [
+    "se-impersonal-pasiva-refleja",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

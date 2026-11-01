@@ -1,0 +1,872 @@
+{
+ "topic": "subj-imperfecto-usos",
+ "level": "B2",
+ "exercises": [
+  {
+   "id": "subj-imperfecto-usos-fc58436fc571",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "El médico me dijo que ____ el tabaco.",
+   "answer": "dejara",
+   "alternatives": [],
+   "options": [],
+   "hint": "dejar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "My doctor advised me to give up smoking.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "330031",
+    "tatoeba_en": "28002"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "dejar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-b13f0cdc370f",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Quisiera que él ____ aquí.",
+   "answer": "estuviera",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I wish he were here.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "483028",
+    "tatoeba_en": "282991"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "estar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-5c8defc8e140",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Ellos querían que ____ drogas para ellos, pero me negué.",
+   "answer": "vendiera",
+   "alternatives": [],
+   "options": [],
+   "hint": "vender",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "They wanted me to sell drugs for them, but I refused.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4462106",
+    "tatoeba_en": "2034590"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "vender",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-2285afb51d1e",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Quisiera que me ____.",
+   "answer": "ayudaras",
+   "alternatives": [],
+   "options": [],
+   "hint": "ayudar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I'd like you to help me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1439400",
+    "tatoeba_en": "953783"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ayudar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-b34c5e3f25b5",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Me siento como si ____ soñando.",
+   "answer": "estuviera",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I feel as if I were dreaming.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "958079",
+    "tatoeba_en": "255684"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "estar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-bc76af776cd5",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Quería que yo ____.",
+   "answer": "viniese",
+   "alternatives": [],
+   "options": [],
+   "hint": "venir",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "She wanted me to come.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "813585",
+    "tatoeba_en": "314270"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "venir",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-811e16969bfb",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Me gustaría que le ____ un vistazo.",
+   "answer": "echaras",
+   "alternatives": [],
+   "options": [],
+   "hint": "echar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I'd like you to take a look at this.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5052509",
+    "tatoeba_en": "2952701"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "echar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-fab139c763c7",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Él hizo como si no ____.",
+   "answer": "escuchara",
+   "alternatives": [],
+   "options": [],
+   "hint": "escuchar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "He pretended not to be listening.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1729725",
+    "tatoeba_en": "303507"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "escuchar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-90c37313a096",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Tom quería que Mary le ____ a John un regalo de cumpleaños.",
+   "answer": "comprase",
+   "alternatives": [],
+   "options": [],
+   "hint": "comprar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "Tom wanted Mary to buy John a birthday present.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5799453",
+    "tatoeba_en": "3736703"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "comprar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-74898115890f",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Hice como si no lo ____.",
+   "answer": "entendiera",
+   "alternatives": [],
+   "options": [],
+   "hint": "entender",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I pretended that I didn't understand.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5036791",
+    "tatoeba_en": "5030917"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "entender",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-e7db1bfa8422",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quisiera que ____ esto al francés.",
+   "answer": "tradujeras",
+   "alternatives": [],
+   "options": [
+    "tradujeras",
+    "tradujiste",
+    "traducías",
+    "traducirías"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I'd like you to translate this into French.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3706054",
+    "tatoeba_en": "2451235"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "traducir",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-d1df890a6f1a",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Hablas como si lo ____ todo.",
+   "answer": "supieras",
+   "alternatives": [],
+   "options": [
+    "supieras",
+    "sabías",
+    "sepas",
+    "sabrías"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "You talk as if you knew everything.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1328341",
+    "tatoeba_en": "32332"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "saber",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-f6e9c8f3f0b6",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Esperaba que ____.",
+   "answer": "preguntaras",
+   "alternatives": [],
+   "options": [
+    "preguntaste",
+    "preguntaras",
+    "preguntarías",
+    "preguntes"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I was hoping you'd ask.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2828810",
+    "tatoeba_en": "2546789"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "preguntar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-06c59481d0a4",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Ojalá ____ un auto.",
+   "answer": "tuviéramos",
+   "alternatives": [],
+   "options": [
+    "tuviéramos",
+    "tuvimos",
+    "tendríamos",
+    "teníamos"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I wish we had a car.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3563922",
+    "tatoeba_en": "2975865"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-be93523095b5",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Les pedí que me ____ el coche.",
+   "answer": "arreglaran",
+   "alternatives": [],
+   "options": [
+    "arreglen",
+    "arreglaban",
+    "arreglaran",
+    "arreglaron"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I asked them to fix my car.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1905779",
+    "tatoeba_en": "953362"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "arreglar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-a2addee457b7",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Esperaba que te ____ voluntario.",
+   "answer": "ofrecieras",
+   "alternatives": [],
+   "options": [
+    "ofrecías",
+    "ofrecieras",
+    "ofrezcas",
+    "ofrecerías"
+   ],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I was hoping you'd volunteer.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2532449",
+    "tatoeba_en": "2531350"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ofrecer",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-7ad215d33ea5",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Me gustaría que me hablarías de ti.",
+   "answer": "Me gustaría que me hablases de ti.",
+   "alternatives": [
+    "Me gustaría que me hablaras de ti."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I'd like you to tell me about yourself.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7480851",
+    "tatoeba_en": "2026435"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-3c1f51cfb3d1",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "No esperaba que vengas hoy.",
+   "answer": "No esperaba que vinieses hoy.",
+   "alternatives": [
+    "No esperaba que vinieras hoy."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I didn't expect you to come today.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7460182",
+    "tatoeba_en": "2744381"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-896116e06421",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "De ser posible, me gustaría que participabas en la próxima reunión.",
+   "answer": "De ser posible, me gustaría que participaras en la próxima reunión.",
+   "alternatives": [
+    "De ser posible, me gustaría que participases en la próxima reunión."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "If it's at all possible, I'd like you to take part in the next meeting.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1742622",
+    "tatoeba_en": "36038"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-8f238111af40",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "No esperaba que te presentes aquí.",
+   "answer": "No esperaba que te presentaras aquí.",
+   "alternatives": [
+    "No esperaba que te presentases aquí."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "I didn't expect you to turn up here.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1640860",
+    "tatoeba_en": "18037"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-69134e056f00",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · nosotros",
+   "text": "",
+   "answer": "miráramos",
+   "alternatives": [],
+   "options": [],
+   "hint": "mirar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "mirar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "mirar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-90bc1268b044",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · yo",
+   "text": "",
+   "answer": "encantara",
+   "alternatives": [],
+   "options": [],
+   "hint": "encantar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "encantar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "encantar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-3753928012fe",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · ellos / ellas / ustedes",
+   "text": "",
+   "answer": "acabaran",
+   "alternatives": [],
+   "options": [],
+   "hint": "acabar",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "acabar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "acabar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-imperfecto-usos-4c1a0bf50544",
+   "topic": "subj-imperfecto-usos",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · tú",
+   "text": "",
+   "answer": "fueras",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Imperfecto de subjuntivo tras un verbo principal en pasado o condicional, ojalá y como si.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ser"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ser",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-imperfecto-usos",
+    "B2",
+    "grammar"
+   ]
+  }
+ ]
+}

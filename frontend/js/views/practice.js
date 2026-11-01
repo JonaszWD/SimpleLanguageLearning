@@ -16,10 +16,15 @@ const keep = (ctx) => (ctx.query.task ? `&task=${ctx.query.task}` : "");
 
 export async function practice() {
   const items = await db.getAll("library");
+  const podcastRow = h("a", { class: "list-row", href: "#/podcast" },
+    h("span", { class: "plate" }, icon("headphones")),
+    h("span", { class: "grow" }, h("span", { class: "title-sm", style: "display:block" }, "Podcasts"),
+      h("span", { class: "caption muted", style: "display:block" }, "Today's episodes, offline")), icon("chevron"));
   const n = (kinds) => items.filter((i) => kinds.includes(i.kind)).length;
   return h("div", { class: "page" },
     h("h1", { class: "display-lg" }, "Practice"),
     h("div", { class: "feature-card", style: "padding-top:8px;padding-bottom:8px" },
+      podcastRow,
       Object.entries(MODES).map(([k, m]) => h("a", { class: "list-row", href: `#/practice/${k}` },
         h("span", { class: "plate" }, icon(k === "read" ? "book" : k === "shadow" ? "mic" : "headphones")),
         h("span", { class: "grow" },
@@ -37,16 +42,59 @@ export async function library(ctx, mode) {
     ? `#/practice/clips?item=${encodeURIComponent(i.id)}${keep(ctx)}`
     : `#/practice/${target}?item=${encodeURIComponent(i.id)}&mode=${mode}${keep(ctx)}`;
   // One pack only: skip the list and go straight in.
-  if (items.length === 1 && items[0].kind === "clips") return clipShadow({ ...ctx, query: { ...ctx.query, item: items[0].id } });
+  const queued = mode === "shadow" ? await db.count("shadowq") : 0;
+  if (items.length === 1 && items[0].kind === "clips" && !queued) return clipShadow({ ...ctx, query: { ...ctx.query, item: items[0].id } });
+  if (mode === "read") return readingList(ctx, m, timer, items, href);
   return h("div", {}, topNav(m.title, "/practice"),
     h("div", { class: "page has-top" },
       h("p", {}, m.blurb),
       timer && h("div", { class: "feature-card" }, timer.el),
+      queued ? h("a", { class: "btn btn-outline btn-block", href: "#/practice/shadow-queue" }, `From podcasts (${queued})`) : null,
       mode === "read" && h("a", { class: "btn btn-primary btn-block", href: `#/practice/article-add${ctx.query.task ? `?task=${ctx.query.task}` : ""}` }, "Add article"),
       items.length
         ? h("div", { class: "feature-card", style: "padding-top:8px;padding-bottom:8px" }, items.map((i) =>
             h("a", { class: "list-row", href: href(i) }, h("span", { class: "grow" }, h("span", { class: "title-sm", style: "display:block" }, i.title), i.source && h("span", { class: "caption muted", style: "display:block" }, i.source)), icon("chevron"))))
         : empty("No material yet", mode === "read" ? "Add an article from El Mundo or El País." : "Learning material hasn't been added. It will show up here.")));
+}
+
+// Articles split into "To read" and "Read": opening an article moves it to Read (see reader()),
+// and Unread moves it back.
+function readingList(ctx, m, timer, items, href) {
+  const unread = () => items.filter((i) => !i.readAt).sort((a, b) => (b.added || 0) - (a.added || 0));
+  const read = () => items.filter((i) => i.readAt).sort((a, b) => b.readAt - a.readAt);
+  const lists = h("div", { class: "stack", style: "gap:24px" });
+
+  const info = (i) => h("span", { class: "grow" },
+    h("span", { class: "title-sm", style: "display:block" }, i.title),
+    i.source && h("span", { class: "caption muted", style: "display:block" }, i.source));
+
+  const draw = () => {
+    const todo = unread(), done = read();
+    const section = (label, rows) => h("section", { class: "stack" },
+      h("span", { class: "caption-uppercase muted" }, `${label} · ${rows.length}`),
+      rows.length ? h("div", { class: "feature-card", style: "padding-top:8px;padding-bottom:8px" }, rows) : null);
+    lists.replaceChildren(...[
+      items.length ? null : empty("No material yet", "Add an article from El Mundo or El País."),
+      items.length ? section("To read", todo.map((i) =>
+        h("a", { class: "list-row", href: href(i) }, info(i), icon("chevron")))) : null,
+      done.length ? section("Read", done.map((i) =>
+        h("div", { class: "list-row" },
+          h("a", { class: "row grow", style: "text-decoration:none;color:inherit;min-height:44px", href: href(i) }, info(i)),
+          h("button", { class: "btn btn-text", "aria-label": `Mark "${i.title}" as unread`, onClick: async () => {
+            delete i.readAt;
+            await db.put("library", i);
+            draw();
+          } }, "Unread")))) : null,
+    ].filter(Boolean));
+  };
+  draw();
+
+  return h("div", {}, topNav(m.title, "/practice"),
+    h("div", { class: "page has-top" },
+      h("p", {}, m.blurb),
+      timer && h("div", { class: "feature-card" }, timer.el),
+      h("a", { class: "btn btn-primary btn-block", href: `#/practice/article-add${ctx.query.task ? `?task=${ctx.query.task}` : ""}` }, "Add article"),
+      lists));
 }
 
 // Group cues into clips of roughly 10–20 s for shadowing.

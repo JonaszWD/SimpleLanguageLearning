@@ -1,0 +1,66 @@
+{
+ "topic": "conectores-contraste",
+ "level": "B2",
+ "exercises": [
+  {
+   "id": "conectores-contraste-c2daf1fe9d01",
+   "topic": "conectores-contraste",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "____ parezca mentira, no sentí ningún dolor en absoluto.",
+   "answer": "Aunque",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Contraste y concesión: sin embargo, no obstante, aunque, a pesar de, mientras que, en cambio.",
+   "translation": "Strangely enough, I didn't feel any pain at all.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1593528",
+    "tatoeba_en": "1009159"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-contraste",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "conectores-contraste-1ff303516142",
+   "topic": "conectores-contraste",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el conector.",
+   "text": "No lo haría ni ____ pudiese.",
+   "answer": "aunque",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Contraste y concesión: sin embargo, no obstante, aunque, a pesar de, mientras que, en cambio.",
+   "translation": "I wouldn't do it even if I could.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4182301",
+    "tatoeba_en": "2541033"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "several connectors may fit; check that the blank has one clear answer"
+   ],
+   "tags": [
+    "conectores-contraste",
+    "B2",
+    "grammar"
+   ]
+  }
+ ]
+}

@@ -12,3 +12,7 @@ export const ARTICLES_BASE = "articles";
 export const apiUrl = (path = "") => `${API_BASE}${path}`;
 export const articlesUrl = (path = "") => `${ARTICLES_BASE}${path}`;
 export const packsUrl = (path = "") => `${PACKS_BASE || "packs"}${path}`;
+
+// GRAMMAR_BASE: syllabus + exercises (content/grammar), published next to the app.
+export const GRAMMAR_BASE = "grammar";
+export const grammarUrl = (path = "") => `${GRAMMAR_BASE}${path}`;

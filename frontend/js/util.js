@@ -70,10 +70,20 @@ export function uid() {
 }
 
 let toastTimer;
-export function toast(msg) {
+export function toast(msg, action) {
   document.querySelector(".toast")?.remove();
-  const t = h("div", { class: "toast", role: "status" }, msg);
+  const t = h("div", { class: "toast", role: "status" }, h("span", {}, msg),
+    action && h("button", { type: "button", onClick: () => { t.remove(); action.run(); } }, action.label));
   document.body.append(t);
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => t.remove(), 2200);
+  toastTimer = setTimeout(() => t.remove(), action ? 5000 : 2200);
 }
+
+// In-app navigation depth, kept in history.state so it survives back/forward and reloads.
+let navDepth = -1;
+export function trackNav() {
+  let d = history.state?.d;
+  if (d == null) { d = navDepth + 1; history.replaceState({ d }, ""); }
+  navDepth = d;
+}
+export const canGoBack = () => navDepth > 0;

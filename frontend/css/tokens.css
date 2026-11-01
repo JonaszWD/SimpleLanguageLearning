@@ -1,10 +1,5 @@
-/* Tokens mirror DESIGN.md front matter 1:1. Never inline hex elsewhere. */
-@font-face {
-  font-family: "Display";
-  src: url("../fonts/cormorant-garamond-300.woff2") format("woff2");
-  font-weight: 300;
-  font-display: swap;
-}
+/* Tokens mirror DESIGN.md front matter. Never inline hex elsewhere.
+   Roobert PRO is licensed -> Inter (self-hosted) stands in. */
 @font-face {
   font-family: "Inter";
   src: url("../fonts/inter-var.woff2") format("woff2");
@@ -13,40 +8,47 @@
 }
 
 :root {
-  --primary: #292524;
-  --primary-active: #0c0a09;
-  --ink: #0c0a09;
-  --body: #4e4e4e;
-  --body-strong: #292524;
-  --muted: #777169;
-  --muted-soft: #a8a29e;
-  --hairline: #e7e5e4;
-  --hairline-soft: #f0efed;
-  --hairline-strong: #d6d3d1;
-  --canvas: #f5f5f5;
-  --canvas-soft: #fafafa;
-  --surface-card: #ffffff;
-  --surface-strong: #f0efed;
-  --surface-dark: #0c0a09;
-  --on-primary: #ffffff;
-  --gradient-mint: #a7e5d3;
-  --gradient-peach: #f4c5a8;
-  --gradient-lavender: #c8b8e0;
-  --gradient-sky: #a8c8e8;
-  --gradient-rose: #e8b8c4;
-  --semantic-error: #dc2626;
-  --semantic-success: #16a34a;
+  color-scheme: light dark;
 
-  /* Waldenburg is licensed -> self-hosted substitute (see DESIGN.md "Note on Font Substitutes") */
-  --font-display: "Waldenburg", "Display", "Times New Roman", serif;
-  --font-body: "Inter", sans-serif;
+  --primary: #1c1c1e;
+  --primary-active: #2c2c34;
+  --ink: #1c1c1e;
+  --body: #555a6a;
+  --body-strong: #1c1c1e;
+  --muted: #6b6f7e;
+  --muted-soft: #8e91a0;
+  --hairline: #e0e2e8;
+  --hairline-soft: #eef0f3;
+  --hairline-strong: #c7cad5;
+  --control-border: #8e91a0; /* 3:1 on canvas, for check/radio outlines */
+  --canvas: #ffffff;
+  --canvas-soft: #fafbfc;
+  --surface-card: #ffffff;
+  --surface-strong: #eef0f3;
+  --on-primary: #ffffff;
+  --focus: #4262ff;
+
+  /* weekday tints (flat, from DESIGN.md pastel feature cards) */
+  --tint-mint: #c3faf5;
+  --tint-peach: #ffe6cd;
+  --tint-lavender: #f5f3ff;
+  --tint-sky: #fff4c4;
+  --tint-rose: #fde0f0;
+  --tint-coral: #ffc6c6;
+  --tint-blue: #dfe5ff;
+
+  --semantic-error: #dc2626;
+  --semantic-success: #187574;
+
+  --font-display: "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
 
   --r-xs: 4px;
   --r-sm: 6px;
   --r-md: 8px;
   --r-lg: 12px;
   --r-xl: 16px;
-  --r-xxl: 24px;
+  --r-xxl: 20px;
   --r-pill: 9999px;
 
   --s-xxs: 4px;
@@ -58,7 +60,42 @@
   --s-xl: 32px;
   --s-xxl: 48px;
 
-  --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.04);
+  --shadow-soft: 0 4px 16px rgba(5, 0, 56, 0.08);
   --tab-h: 64px;
   --top-h: 64px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #ffffff;
+    --primary-active: #e0e2e8;
+    --ink: #f5f5f7;
+    --body: #c4c7d2;
+    --body-strong: #f5f5f7;
+    --muted: #a5a8b5;
+    --muted-soft: #8e91a0;
+    --hairline: #2c2c34;
+    --hairline-soft: #222228;
+    --hairline-strong: #44464f;
+    --control-border: #8e91a0;
+    --canvas: #121214;
+    --canvas-soft: #17171a;
+    --surface-card: #1c1c1e;
+    --surface-strong: #2c2c34;
+    --on-primary: #1c1c1e;
+    --focus: #8fa0ff;
+
+    --tint-mint: #0f3b38;
+    --tint-peach: #3d2a14;
+    --tint-lavender: #25214a;
+    --tint-sky: #3b3312;
+    --tint-rose: #3d2132;
+    --tint-coral: #4a2323;
+    --tint-blue: #1f2757;
+
+    --semantic-error: #ff8a8a;
+    --semantic-success: #3ddc97;
+
+    --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.4);
+  }
 }

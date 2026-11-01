@@ -1,10 +1,20 @@
 services:
   app:
-    build: .
+    build:
+      context: .
+      args:
+        WITH_WHISPER: ${WITH_WHISPER:-0}
+    env_file:
+      - path: .env              # ELEVENLABS_API_KEY (transcripts) and ANTHROPIC_API_KEY; never committed
+        required: false
     ports:
       - "8000:8000"
     environment:
       PACKS_DIR: /srv/content/packs
+      GRAMMAR_DIR: /srv/content/grammar
+      # Hosting the app elsewhere (GitHub Pages)? List its origin: CORS_ORIGINS: https://<user>.github.io
+      PODCAST_AUTOMATION: "1"       # poll feeds, prepare tomorrow's episodes each evening, clean the cache
+      WHISPER_MODEL: ${WHISPER_MODEL:-small}
     volumes:
       # Live frontend: edit files in ./frontend and phones update themselves, no image rebuild.
       - ./frontend:/srv/frontend:ro

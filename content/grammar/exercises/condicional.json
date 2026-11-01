@@ -1,0 +1,868 @@
+{
+ "topic": "condicional",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "condicional-86a2ac15dc4a",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "Eso ____ mortal.",
+   "answer": "sería",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "That would be suicidal.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5779875",
+    "tatoeba_en": "2891972"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-ec50a1030587",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "____ recibirlo gratis.",
+   "answer": "Podrías",
+   "alternatives": [],
+   "options": [],
+   "hint": "poder",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "You may get it free of charge.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2881349",
+    "tatoeba_en": "322839"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poder",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-785bf5513327",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "Sabía que este momento ____.",
+   "answer": "llegaría",
+   "alternatives": [],
+   "options": [],
+   "hint": "llegar",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "I knew this moment would come.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1143528",
+    "tatoeba_en": "1122911"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "llegar",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-e7dfe82fe17d",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "Me ____ navegar por todo el mundo.",
+   "answer": "gustaría",
+   "alternatives": [],
+   "options": [],
+   "hint": "gustar",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "I'd like to sail around the world.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1332440",
+    "tatoeba_en": "273400"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "gustar",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-dea6f76f3537",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "Yo no lo ____.",
+   "answer": "pensaría",
+   "alternatives": [],
+   "options": [],
+   "hint": "pensar",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "I wouldn't think of it.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2860810",
+    "tatoeba_en": "2546745"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "pensar",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-e1acd49cd944",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "No pensaba que nos ____.",
+   "answer": "ayudaría",
+   "alternatives": [],
+   "options": [],
+   "hint": "ayudar",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "I did not think that he would help us.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1364661",
+    "tatoeba_en": "252325"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ayudar",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-9b88410e079b",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "¿Te ____ cargo de mis plantas mientras estoy fuera?",
+   "answer": "harías",
+   "alternatives": [],
+   "options": [],
+   "hint": "hacer",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "Would you care for my plants while I'm away?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1604525",
+    "tatoeba_en": "252059"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "hacer",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-e520c9f2ae20",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "¿Cómo ____ olvidarlo?",
+   "answer": "podría",
+   "alternatives": [],
+   "options": [],
+   "hint": "poder",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "How could I forget?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3302172",
+    "tatoeba_en": "3301164"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poder",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-6a2eb2b0e4f0",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "Me ____ ir a Egipto algún día.",
+   "answer": "gustaría",
+   "alternatives": [],
+   "options": [],
+   "hint": "gustar",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "I wish to visit Egypt someday.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "330140",
+    "tatoeba_en": "253089"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "gustar",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-9c94d69163a9",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en condicional.",
+   "text": "¿____ ayudarnos después de la escuela?",
+   "answer": "Podrías",
+   "alternatives": [],
+   "options": [],
+   "hint": "poder",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "Could you help us after school?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4932865",
+    "tatoeba_en": "320993"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poder",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-1ae8a77d9478",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Tú ____ resultar lastimado.",
+   "answer": "podrías",
+   "alternatives": [],
+   "options": [
+    "podías",
+    "pudieras",
+    "podrías",
+    "podrás"
+   ],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "You might get injured.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5997534",
+    "tatoeba_en": "5776572"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poder",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-d6535a4384df",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¿Por qué me ____?",
+   "answer": "lastimarías",
+   "alternatives": [],
+   "options": [
+    "lastimabas",
+    "lastimarás",
+    "lastimarías",
+    "lastimaras"
+   ],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "Why would you hurt me?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3769311",
+    "tatoeba_en": "3415369"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "lastimar",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-bb0d12fb27c0",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Sin aire ____.",
+   "answer": "moriríamos",
+   "alternatives": [],
+   "options": [
+    "moriremos",
+    "muriéramos",
+    "moriríamos",
+    "moríamos"
+   ],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "Without air we would die.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1644492",
+    "tatoeba_en": "1590992"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "morir",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-3b56e33d0a22",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Creo que ____ que cambiar tus hábitos alimenticios.",
+   "answer": "tendrías",
+   "alternatives": [],
+   "options": [
+    "tenías",
+    "tuvieras",
+    "tendrías",
+    "tendrás"
+   ],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "I think you should change your eating habits.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "969800",
+    "tatoeba_en": "953655"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-64ef2254ab94",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¿Me ____ un mapa?",
+   "answer": "trazarías",
+   "alternatives": [],
+   "options": [
+    "trazarás",
+    "trazabas",
+    "trazarías",
+    "trazaras"
+   ],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "Would you draw me a map?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1295190",
+    "tatoeba_en": "277238"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "trazar",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-6133db4df9ca",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ informar a la policía inmediatamente.",
+   "answer": "Deberías",
+   "alternatives": [],
+   "options": [
+    "Deberás",
+    "Debieras",
+    "Deberías",
+    "Debías"
+   ],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "You should notify the police at once.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "554143",
+    "tatoeba_en": "52088"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "deber",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-87775214d626",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "¿Me soltabas el brazo?",
+   "answer": "¿Me soltarías el brazo?",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "Would you please let go of my arm?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1154062",
+    "tatoeba_en": "326607"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-2d0f15a1e2d3",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "¿Podías describirles?",
+   "answer": "¿Podrías describirles?",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "Can you describe them?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3564900",
+    "tatoeba_en": "3327769"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-ff1da0cfa0a2",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: condicional · vosotros",
+   "text": "",
+   "answer": "uniríais",
+   "alternatives": [],
+   "options": [],
+   "hint": "unir",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "unir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "unir",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-887668a48a86",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: condicional · ellos / ellas / ustedes",
+   "text": "",
+   "answer": "sabrían",
+   "alternatives": [],
+   "options": [],
+   "hint": "saber",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "saber"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "saber",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-01ec52e94450",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: condicional · nosotros",
+   "text": "",
+   "answer": "estaríamos",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "estar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "estar",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-493f139cd38d",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: condicional · yo",
+   "text": "",
+   "answer": "moriría",
+   "alternatives": [],
+   "options": [],
+   "hint": "morir",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "morir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "morir",
+    "mood": "indicative",
+    "tense": "conditional",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-b713c0a4899e",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "transformation",
+   "prompt": "Cambia el verbo al condicional.",
+   "text": "Me encantan las mariposas.",
+   "answer": "Me encantarían las mariposas.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "I love butterflies.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3187537",
+    "tatoeba_en": "3186583"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "time reference may feel odd after the change"
+   ],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "condicional-9b806c5ce06c",
+   "topic": "condicional",
+   "level": "B1",
+   "type": "transformation",
+   "prompt": "Cambia el verbo al condicional.",
+   "text": "Sigo intentando localizar a Tom.",
+   "answer": "Seguiría intentando localizar a Tom.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Condicional: infinitivo + -ía, -ías, -ía, -íamos, -íais, -ían.",
+   "translation": "I'm still trying to a hold of Tom.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5695318",
+    "tatoeba_en": "2540470"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "time reference may feel odd after the change"
+   ],
+   "tags": [
+    "condicional",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

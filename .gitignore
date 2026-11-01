@@ -5,3 +5,28 @@ __pycache__/
 backend/data/
 # source deck (over GitHub's 100 MB file limit); content/packs is what gets committed
 *.apkg
+.env
+
+# AI agent tooling: skills, agents, hooks and local config (any tool)
+.claude/
+.agents/
+.cursor/
+.codex/
+.gemini/
+.windsurf/
+.aider*
+.continue/
+.cline/
+.roo/
+.copilot/
+.impeccable/
+.github/skills/
+.github/agents/
+.github/hooks/
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md

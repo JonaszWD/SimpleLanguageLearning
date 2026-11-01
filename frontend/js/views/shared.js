@@ -1,9 +1,11 @@
-import { h, icon } from "../util.js";
+import { h, icon, canGoBack } from "../util.js";
 import { taskTimer } from "../timer.js";
 
 export function topNav(title, back = "/today") {
   return h("header", { class: "top-nav" },
-    h("a", { class: "icon-btn", href: "#" + back, "aria-label": "Back" }, icon("back")),
+    h("a", { class: "icon-btn", href: "#" + back, "aria-label": "Back",
+      // Return to wherever the user came from (a tab, Today, a list); the href is the fallback for deep links and reloads.
+      onClick: (e) => { if (canGoBack()) { e.preventDefault(); history.back(); } } }, icon("back")),
     h("span", { class: "title" }, title));
 }
 

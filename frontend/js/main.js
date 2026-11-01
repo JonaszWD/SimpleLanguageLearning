@@ -1,4 +1,4 @@
-import { h, icon } from "./util.js";
+import { h, icon, trackNav } from "./util.js";
 import * as db from "./db.js";
 import { initUpdates, isStale } from "./update.js";
 import { initSync, subscribe } from "./sync.js";
@@ -9,6 +9,10 @@ import { add } from "./views/add.js";
 import { practice, library, audioPlayer, clipShadow } from "./views/practice.js";
 import { addArticle, reader } from "./views/articles.js";
 import { taskPage } from "./views/task.js";
+import { grammar, addMistake } from "./views/grammar.js";
+import { podcastHub, listen, intensive, shadowQueue } from "./views/podcast.js";
+import { talk } from "./views/talk.js";
+import { setListenMap } from "./plan.js";
 import { stats, settings, importDeck } from "./views/more.js";
 
 const ROUTES = [
@@ -27,6 +31,13 @@ const ROUTES = [
   ["/practice/article", reader],
   ["/practice/article-add", addArticle],
   ["/task", taskPage],
+  ["/podcast", podcastHub],
+  ["/podcast/listen", listen],
+  ["/podcast/intensive", intensive],
+  ["/practice/shadow-queue", shadowQueue],
+  ["/talk", talk],
+  ["/grammar", grammar],
+  ["/grammar/mistake", addMistake],
   ["/stats", stats],
   ["/settings", settings],
   ["/import", importDeck],
@@ -57,6 +68,7 @@ function parseHash() {
 async function render() {
   if (isStale()) { location.reload(); return; } // a newer build is active: pick it up on navigation
   const id = ++renderId;
+  trackNav();
   leaveFns.forEach((f) => f());
   leaveFns = [];
   const { path, query } = parseHash();
@@ -83,13 +95,12 @@ export function go(path) {
 const TABS = [
   { path: "/today", label: "Today", icon: "today", match: (p) => p === "/today" || p === "/task" },
   { path: "/cards", label: "Cards", icon: "cards", match: (p) => p.startsWith("/cards") || p === "/import" },
-  { path: "/add", label: "Add card", icon: "plus", add: true, match: (p) => p === "/add" },
   { path: "/practice", label: "Practice", icon: "practice", match: (p) => p.startsWith("/practice") },
 ];
 
 const sheet = h("dialog", { class: "sheet", "aria-label": "More" },
   h("nav", {},
-    ...[["/stats", "Stats", "stats"], ["/import", "Import Anki deck", "upload"], ["/settings", "Settings", "gear"]].map(
+    ...[["/stats", "Stats", "stats"], ["/grammar/mistake", "Add a mistake", "note"], ["/import", "Import Anki deck", "upload"], ["/settings", "Settings", "gear"]].map(
       ([p, l, i]) => h("a", { class: "list-row", href: "#" + p, onClick: () => sheet.close() }, h("span", { class: "plate" }, icon(i)), h("span", { class: "grow" }, l), icon("chevron")),
     ),
   ),
@@ -98,11 +109,7 @@ const sheet = h("dialog", { class: "sheet", "aria-label": "More" },
 sheet.addEventListener("click", (e) => { if (e.target === sheet) sheet.close(); });
 
 const bar = h("nav", { class: "bottom-tab-bar", "aria-label": "Main" },
-  ...TABS.map((t) =>
-    t.add
-      ? h("a", { class: "tab-add", href: "#" + t.path, "aria-label": t.label, "data-tab": t.path }, icon("plus"))
-      : h("a", { class: "tab", href: "#" + t.path, "data-tab": t.path }, icon(t.icon), t.label),
-  ),
+  ...TABS.map((t) => h("a", { class: "tab", href: "#" + t.path, "data-tab": t.path }, icon(t.icon), t.label)),
   h("button", { class: "tab", id: "more-tab", onClick: () => sheet.showModal() }, icon("more"), "More"),
 );
 document.body.append(bar, sheet);
@@ -123,6 +130,7 @@ addEventListener("hashchange", render);
 (async () => {
   await db.seed();
   setMixing((await db.getSettings()).mixAudio);
+  setListenMap((await db.getSettings()).listenMap);
   navigator.storage?.persist?.();
   initUpdates().catch(console.error);
   initSync();

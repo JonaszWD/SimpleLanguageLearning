@@ -1,0 +1,218 @@
+{
+ "topic": "subj-perfecto",
+ "level": "B2",
+ "exercises": [
+  {
+   "id": "subj-perfecto-ff063cf3c464",
+   "topic": "subj-perfecto",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto de subjuntivo del verbo.",
+   "text": "Puede que ____ de manera exagerada.",
+   "answer": "haya reaccionado",
+   "alternatives": [],
+   "options": [],
+   "hint": "reaccionar",
+   "explanation": "Pretérito perfecto de subjuntivo: haya + participio.",
+   "translation": "I may have overreacted.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4409608",
+    "tatoeba_en": "2387099"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "reaccionar",
+    "mood": "subjunctive",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-perfecto",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-perfecto-6e3eb1bb3bb9",
+   "topic": "subj-perfecto",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto de subjuntivo del verbo.",
+   "text": "Le agradezco que ____ expresamente desde tan lejos.",
+   "answer": "haya venido",
+   "alternatives": [],
+   "options": [],
+   "hint": "venir",
+   "explanation": "Pretérito perfecto de subjuntivo: haya + participio.",
+   "translation": "Thank you very much for coming all the way to see me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "339034",
+    "tatoeba_en": "25859"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "venir",
+    "mood": "subjunctive",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-perfecto",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-perfecto-a614d33bd456",
+   "topic": "subj-perfecto",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito perfecto de subjuntivo · él / ella / usted",
+   "text": "",
+   "answer": "haya hablado",
+   "alternatives": [],
+   "options": [],
+   "hint": "hablar",
+   "explanation": "Pretérito perfecto de subjuntivo: haya + participio.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "hablar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "hablar",
+    "mood": "subjunctive",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-perfecto",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-perfecto-ce801780ff3d",
+   "topic": "subj-perfecto",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito perfecto de subjuntivo · él / ella / usted",
+   "text": "",
+   "answer": "haya dicho",
+   "alternatives": [],
+   "options": [],
+   "hint": "decir",
+   "explanation": "Pretérito perfecto de subjuntivo: haya + participio.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "decir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "decir",
+    "mood": "subjunctive",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-perfecto",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-perfecto-68506ee967c2",
+   "topic": "subj-perfecto",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito perfecto de subjuntivo · yo",
+   "text": "",
+   "answer": "haya ido",
+   "alternatives": [],
+   "options": [],
+   "hint": "ir",
+   "explanation": "Pretérito perfecto de subjuntivo: haya + participio.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ir",
+    "mood": "subjunctive",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-perfecto",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-perfecto-0e011c321624",
+   "topic": "subj-perfecto",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito perfecto de subjuntivo · yo",
+   "text": "",
+   "answer": "haya unido",
+   "alternatives": [],
+   "options": [],
+   "hint": "unir",
+   "explanation": "Pretérito perfecto de subjuntivo: haya + participio.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "unir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "unir",
+    "mood": "subjunctive",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-perfecto",
+    "B2",
+    "grammar"
+   ]
+  }
+ ]
+}

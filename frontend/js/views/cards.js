@@ -3,6 +3,7 @@ import * as db from "../db.js";
 import { Session, countsFor, previews } from "../srs.js";
 import { renderCard, plainText } from "../render.js";
 import * as media from "../media.js";
+import { logAttempt, logMistake } from "../grammar.js";
 import { topNav, timerFor, empty } from "./shared.js";
 
 const fill = (el, ...kids) => el.replaceChildren(...kids.filter(Boolean));
@@ -123,6 +124,8 @@ export async function study(ctx) {
     const { before, after } = session.apply(card, rating);
     const countKind = before.kind === "new" ? "newDone" : before.kind === "review" ? "revDone" : null;
     if (countKind) day[countKind]++;
+    if (before.kind === "new" && card.grammar) day.newGrammarDone = (day.newGrammarDone || 0) + 1;
+    if (card.grammar) await trackGrammar(card, rating);
     last = { before, after, countKind };
     await Promise.all([
       db.put("cards", after),
@@ -132,10 +135,21 @@ export async function study(ctx) {
     await show();
   }
 
+  // Grammar cards feed the accuracy stats: "Again" counts as a miss.
+  async function trackGrammar(card, rating) {
+    const note = await getNote(card.nid);
+    const topic = note.tags.find((t) => !["grammar", "mistake", "B1", "B2", "C1", "cloze", "multiple-choice", "conjugation", "transformation", "error-correction"].includes(t));
+    if (!topic) return;
+    const correct = rating > 1;
+    await logAttempt({ exId: note.guid, topic, type: "card", correct, via: "anki" });
+    if (!correct) await logMistake({ ex: note.guid, topic, type: "card", given: "(Again)", correct: "", via: "anki", makeCard: false });
+  }
+
   async function undo() {
     if (!last) return;
     const day = await db.getDay(dateKey());
     if (last.countKind) day[last.countKind] = Math.max(0, day[last.countKind] - 1);
+    if (last.before.kind === "new" && last.before.grammar) day.newGrammarDone = Math.max(0, (day.newGrammarDone || 0) - 1);
     await Promise.all([db.put("cards", last.before), db.saveDay(day)]);
     last = null;
     cards = (await db.getAll("cards")).filter(deck ? inDeck(ds, deck) : () => true);

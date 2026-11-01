@@ -1,0 +1,670 @@
+{
+ "topic": "si-reales",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "si-reales-b98be771a55c",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "¿Le importa si ____ la puerta?",
+   "answer": "abro",
+   "alternatives": [],
+   "options": [],
+   "hint": "abrir",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Would you mind my opening the door?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "330661",
+    "tatoeba_en": "39004"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "abrir",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-33e4578b277e",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "Puedo prestarte algo de dinero si ____.",
+   "answer": "quieres",
+   "alternatives": [],
+   "options": [],
+   "hint": "querer",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "I can lend you some money if you like.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1693766",
+    "tatoeba_en": "1096488"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "querer",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-8912d8dabc79",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "Atrápame si ____.",
+   "answer": "puedes",
+   "alternatives": [],
+   "options": [],
+   "hint": "poder",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Catch me if you can.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "570269",
+    "tatoeba_en": "560163"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poder",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-19459c1dc2e9",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "¿No le molesta si ____ la radio?",
+   "answer": "enciendo",
+   "alternatives": [],
+   "options": [],
+   "hint": "encender",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Will it bother you if I turn on the radio?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "338866",
+    "tatoeba_en": "29760"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "encender",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-881938888c3a",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "No sé si ____ tiempo.",
+   "answer": "tengo",
+   "alternatives": [],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "I don't know if I have the time.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2497",
+    "tatoeba_en": "1292"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-71b9f6bb74e2",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "Preguntemos si ____ verdad.",
+   "answer": "es",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Let's ask if it's true.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1717529",
+    "tatoeba_en": "43085"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-dc509a98493b",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "Corrígeme si me ____.",
+   "answer": "equivoco",
+   "alternatives": [],
+   "options": [],
+   "hint": "equivocar",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Correct me if I am wrong.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "981507",
+    "tatoeba_en": "30908"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "equivocar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-f0954f73836c",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "Pulsa el botón verde. Si lo ____, se encenderá la luz.",
+   "answer": "haces",
+   "alternatives": [],
+   "options": [],
+   "hint": "hacer",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Press the green button. If you do so, the light will go on.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5854218",
+    "tatoeba_en": "1424465"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "hacer",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-7e3f7575638f",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "¿Sabes si ____ novia?",
+   "answer": "tiene",
+   "alternatives": [],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Do you know if he has a girlfriend?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2191989",
+    "tatoeba_en": "68134"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-19fbbeafc607",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de indicativo.",
+   "text": "No dudes en pedírmelo si ____ cualquier cosa.",
+   "answer": "necesitas",
+   "alternatives": [],
+   "options": [],
+   "hint": "necesitar",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Don't hesitate to ask if you want anything.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5854161",
+    "tatoeba_en": "324943"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "necesitar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-9eb79a89e39f",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Puedo hacer eso si me ____.",
+   "answer": "dejas",
+   "alternatives": [],
+   "options": [
+    "dejabas",
+    "dejarás",
+    "dejas",
+    "dejes"
+   ],
+   "hint": "",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "I can do that if you let me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2112265",
+    "tatoeba_en": "1641600"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "dejar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-2c331948b5d5",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Si no ____, vivirás más.",
+   "answer": "fumas",
+   "alternatives": [],
+   "options": [
+    "fumabas",
+    "fumes",
+    "fumarás",
+    "fumas"
+   ],
+   "hint": "",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "You will live longer if you don't smoke.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2250792",
+    "tatoeba_en": "40617"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "fumar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-bba627e9fc88",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Será mejor si ____.",
+   "answer": "entras",
+   "alternatives": [],
+   "options": [
+    "entras",
+    "entres",
+    "entrabas",
+    "entrarás"
+   ],
+   "hint": "",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "You'd better come in.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3562648",
+    "tatoeba_en": "3331052"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "entrar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-2dcf8b489447",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Avísame si no ____ a llegar a tiempo.",
+   "answer": "vas",
+   "alternatives": [],
+   "options": [
+    "ibas",
+    "vas",
+    "vayas",
+    "irás"
+   ],
+   "hint": "",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "Just let me know if you won't be here on time.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5854179",
+    "tatoeba_en": "1860679"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ir",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-96ccf1f78e59",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente · nosotros",
+   "text": "",
+   "answer": "intentamos",
+   "alternatives": [],
+   "options": [],
+   "hint": "intentar",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "intentar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "intentar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-8c7a8a9eee9b",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente · nosotros",
+   "text": "",
+   "answer": "estamos",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "estar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "estar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-ccecc7035542",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente · yo",
+   "text": "",
+   "answer": "trato",
+   "alternatives": [],
+   "options": [],
+   "hint": "tratar",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "tratar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "tratar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-reales-81ecf8b9fcb7",
+   "topic": "si-reales",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente · yo",
+   "text": "",
+   "answer": "tengo",
+   "alternatives": [],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Si + presente de indicativo (condición real); nunca futuro ni subjuntivo tras si.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "tener"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "tener",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-reales",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

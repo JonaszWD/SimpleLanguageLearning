@@ -1,0 +1,531 @@
+{
+ "topic": "subj-deseos",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "subj-deseos-0f75f1c8023a",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Espero que ____ las cosas.",
+   "answer": "cambien",
+   "alternatives": [],
+   "options": [],
+   "hint": "cambiar",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "I hope things change.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4786484",
+    "tatoeba_en": "4496481"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "cambiar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-ba0c99f89ca7",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Espero que ____ el examen fácilmente.",
+   "answer": "apruebe",
+   "alternatives": [],
+   "options": [],
+   "hint": "aprobar",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "I expect her to pass the examination easily.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1602535",
+    "tatoeba_en": "317333"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "aprobar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-0f9fd86b4a0f",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "¿Me permite que le ____?",
+   "answer": "interrumpa",
+   "alternatives": [],
+   "options": [],
+   "hint": "interrumpir",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "May I interrupt you?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1594053",
+    "tatoeba_en": "40085"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "interrumpir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-9d39cd454ef4",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "¿Cómo quieres que te ____ los huevos?",
+   "answer": "prepare",
+   "alternatives": [],
+   "options": [],
+   "hint": "preparar",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "¿Cómo te gustan preparados los huevos?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1518409",
+    "tatoeba_en": "1264787"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "preparar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-14b216497019",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que me ____.",
+   "answer": "beses",
+   "alternatives": [],
+   "options": [
+    "beses",
+    "besas",
+    "besaste",
+    "besarás"
+   ],
+   "hint": "",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "I want you to kiss me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1302163",
+    "tatoeba_en": "1300148"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "besar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-32a057f4b9f9",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que me ____ tan pronto como llegues allí.",
+   "answer": "escribas",
+   "alternatives": [],
+   "options": [
+    "escribas",
+    "escribiste",
+    "escribes",
+    "escribirás"
+   ],
+   "hint": "",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "I want you to write to me as soon as you get there.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6610482",
+    "tatoeba_en": "240621"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "escribir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-5e50f59d4fe2",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Es mejor que ____.",
+   "answer": "vayas",
+   "alternatives": [],
+   "options": [
+    "irás",
+    "vas",
+    "vayas",
+    "fuiste"
+   ],
+   "hint": "",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "You had better go.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "994740",
+    "tatoeba_en": "16154"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-2ce590518692",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Necesito que me aconsejarán.",
+   "answer": "Necesito que me aconsejen.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "I require advice.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5057355",
+    "tatoeba_en": "2247389"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-2f5d3e7ef2d1",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Quiero que cavas un agujero.",
+   "answer": "Quiero que caves un agujero.",
+   "alternatives": [
+    "Quiero que cavés un agujero."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "I want you to dig a hole.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2033172",
+    "tatoeba_en": "2033159"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-d7978cb58751",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Espero que te diviertes.",
+   "answer": "Espero que te diviertas.",
+   "alternatives": [
+    "Espero que te divirtás."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "I hope you have fun.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1600137",
+    "tatoeba_en": "1600138"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-3a8547acd984",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Quiero que lavas el coche.",
+   "answer": "Quiero que laves el coche.",
+   "alternatives": [
+    "Quiero que lavés el coche."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "I want you to wash the car.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "978703",
+    "tatoeba_en": "252771"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-6dea094899c9",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · yo",
+   "text": "",
+   "answer": "vea",
+   "alternatives": [],
+   "options": [],
+   "hint": "ver",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ver"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ver",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-c4da0ecb8e64",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · ellos / ellas / ustedes",
+   "text": "",
+   "answer": "terminen",
+   "alternatives": [],
+   "options": [],
+   "hint": "terminar",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "terminar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "terminar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-7bab6f3e7180",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · ellos / ellas / ustedes",
+   "text": "",
+   "answer": "comiencen",
+   "alternatives": [],
+   "options": [],
+   "hint": "comenzar",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "comenzar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "comenzar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-deseos-256fddb6e11d",
+   "topic": "subj-deseos",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · él / ella / usted",
+   "text": "",
+   "answer": "muera",
+   "alternatives": [],
+   "options": [],
+   "hint": "morir",
+   "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "morir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "morir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-deseos",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

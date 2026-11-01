@@ -1,0 +1,223 @@
+{
+ "version": "c75f97ad77",
+ "topics": {
+  "ser-estar": {
+   "count": 22,
+   "file": "exercises/ser-estar.json",
+   "version": "47e15ce56a"
+  },
+  "por-para": {
+   "count": 16,
+   "file": "exercises/por-para.json",
+   "version": "fe44e8021f"
+  },
+  "preterito-imperfecto": {
+   "count": 24,
+   "file": "exercises/preterito-imperfecto.json",
+   "version": "b9f0970f8d"
+  },
+  "preterito-perfecto": {
+   "count": 22,
+   "file": "exercises/preterito-perfecto.json",
+   "version": "cf34b42b50"
+  },
+  "pluscuamperfecto": {
+   "count": 10,
+   "file": "exercises/pluscuamperfecto.json",
+   "version": "0364aaa588"
+  },
+  "futuro": {
+   "count": 23,
+   "file": "exercises/futuro.json",
+   "version": "e71376515d"
+  },
+  "condicional": {
+   "count": 24,
+   "file": "exercises/condicional.json",
+   "version": "41cac94e74"
+  },
+  "pronombres-od-oi": {
+   "count": 7,
+   "file": "exercises/pronombres-od-oi.json",
+   "version": "21784c66ab"
+  },
+  "subj-presente-regular": {
+   "count": 24,
+   "file": "exercises/subj-presente-regular.json",
+   "version": "64f8a5c79a"
+  },
+  "subj-presente-irregular": {
+   "count": 21,
+   "file": "exercises/subj-presente-irregular.json",
+   "version": "266cb2bc58"
+  },
+  "subj-deseos": {
+   "count": 15,
+   "file": "exercises/subj-deseos.json",
+   "version": "c41e2ec2be"
+  },
+  "subj-emociones": {
+   "count": 9,
+   "file": "exercises/subj-emociones.json",
+   "version": "f61ce392f2"
+  },
+  "subj-duda": {
+   "count": 9,
+   "file": "exercises/subj-duda.json",
+   "version": "1dd57a85ca"
+  },
+  "imperativo-afirmativo": {
+   "count": 22,
+   "file": "exercises/imperativo-afirmativo.json",
+   "version": "b8ec1724e0"
+  },
+  "imperativo-negativo-pronombres": {
+   "count": 24,
+   "file": "exercises/imperativo-negativo-pronombres.json",
+   "version": "b989f83c13"
+  },
+  "oraciones-relativo": {
+   "count": 17,
+   "file": "exercises/oraciones-relativo.json",
+   "version": "985102cd50"
+  },
+  "subj-imperfecto-formacion": {
+   "count": 22,
+   "file": "exercises/subj-imperfecto-formacion.json",
+   "version": "523ead3450"
+  },
+  "subj-imperfecto-usos": {
+   "count": 24,
+   "file": "exercises/subj-imperfecto-usos.json",
+   "version": "30c24d7d1c"
+  },
+  "si-reales": {
+   "count": 18,
+   "file": "exercises/si-reales.json",
+   "version": "43418ca55c"
+  },
+  "si-irreales": {
+   "count": 11,
+   "file": "exercises/si-irreales.json",
+   "version": "ab9688b347"
+  },
+  "se-impersonal-pasiva-refleja": {
+   "count": 4,
+   "file": "exercises/se-impersonal-pasiva-refleja.json",
+   "version": "d879599994"
+  },
+  "voz-pasiva": {
+   "count": 16,
+   "file": "exercises/voz-pasiva.json",
+   "version": "652a0b1d91"
+  },
+  "conectores-contraste": {
+   "count": 2,
+   "file": "exercises/conectores-contraste.json",
+   "version": "b12873a959"
+  },
+  "conectores-causa-consecuencia": {
+   "count": 16,
+   "file": "exercises/conectores-causa-consecuencia.json",
+   "version": "02c1aaacfb"
+  },
+  "subj-perfecto": {
+   "count": 6,
+   "file": "exercises/subj-perfecto.json",
+   "version": "5b7d570642"
+  },
+  "estilo-indirecto-presente": {
+   "count": 0,
+   "file": "exercises/estilo-indirecto-presente.json",
+   "version": "97d170e155"
+  },
+  "estilo-indirecto-pasado": {
+   "count": 25,
+   "file": "exercises/estilo-indirecto-pasado.json",
+   "version": "54e069fb03"
+  },
+  "repaso-indicativo": {
+   "count": 0,
+   "file": null,
+   "reviews": [
+    "ser-estar",
+    "por-para",
+    "preterito-imperfecto",
+    "preterito-perfecto",
+    "pluscuamperfecto",
+    "futuro",
+    "condicional",
+    "pronombres-od-oi"
+   ]
+  },
+  "repaso-subjuntivo": {
+   "count": 0,
+   "file": null,
+   "reviews": [
+    "subj-presente-regular",
+    "subj-presente-irregular",
+    "subj-deseos",
+    "subj-emociones",
+    "subj-duda",
+    "subj-imperfecto-formacion",
+    "subj-imperfecto-usos",
+    "subj-perfecto"
+   ]
+  },
+  "repaso-conectores-se": {
+   "count": 0,
+   "file": null,
+   "reviews": [
+    "oraciones-relativo",
+    "imperativo-afirmativo",
+    "imperativo-negativo-pronombres",
+    "si-reales",
+    "si-irreales",
+    "se-impersonal-pasiva-refleja",
+    "voz-pasiva",
+    "conectores-contraste",
+    "conectores-causa-consecuencia"
+   ]
+  },
+  "simulacro-b1": {
+   "count": 0,
+   "file": null,
+   "reviews": [
+    "ser-estar",
+    "por-para",
+    "preterito-imperfecto",
+    "preterito-perfecto",
+    "pluscuamperfecto",
+    "futuro",
+    "condicional",
+    "pronombres-od-oi",
+    "subj-presente-regular",
+    "subj-presente-irregular",
+    "subj-deseos",
+    "subj-emociones",
+    "subj-duda",
+    "imperativo-afirmativo",
+    "imperativo-negativo-pronombres",
+    "oraciones-relativo",
+    "si-reales",
+    "se-impersonal-pasiva-refleja"
+   ]
+  },
+  "simulacro-b2": {
+   "count": 0,
+   "file": null,
+   "reviews": [
+    "subj-imperfecto-formacion",
+    "subj-imperfecto-usos",
+    "si-irreales",
+    "voz-pasiva",
+    "conectores-contraste",
+    "conectores-causa-consecuencia",
+    "subj-perfecto",
+    "estilo-indirecto-presente",
+    "estilo-indirecto-pasado",
+    "repaso-indicativo"
+   ]
+  }
+ }
+}

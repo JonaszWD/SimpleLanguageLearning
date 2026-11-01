@@ -114,6 +114,7 @@ export async function reader(ctx) {
   const timer = await timerFor(ctx);
   const item = await db.get("library", ctx.query.item);
   if (!item) return h("div", { class: "page" }, empty("Not found", "This article may have been deleted."));
+  if (!item.readAt) { item.readAt = Date.now(); await db.put("library", item); } // opened = read
   const paras = item.text.split(/\n\s*\n/);
   const gloss = item.glossary || {};
   let active = null;

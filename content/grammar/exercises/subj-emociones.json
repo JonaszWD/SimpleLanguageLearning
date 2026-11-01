@@ -1,0 +1,327 @@
+{
+ "topic": "subj-emociones",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "subj-emociones-7465ba7c1c02",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "No me gusta que me ____ como a un niño.",
+   "answer": "traten",
+   "alternatives": [],
+   "options": [],
+   "hint": "tratar",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "I don't like being treated like a child.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "758536",
+    "tatoeba_en": "257959"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tratar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-emociones-60d0800870f8",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Me alegro de que te ____.",
+   "answer": "guste",
+   "alternatives": [],
+   "options": [],
+   "hint": "gustar",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "I'm glad you liked it.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "343813",
+    "tatoeba_en": "17999"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "gustar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-emociones-825ad455eaec",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Es una pena que no ____ venir.",
+   "answer": "puedas",
+   "alternatives": [],
+   "options": [],
+   "hint": "poder",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "It's a pity that you can't come.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "330149",
+    "tatoeba_en": "17704"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poder",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-emociones-5da983ada1ce",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "A nadie le gusta que se ____ de él.",
+   "answer": "rían",
+   "alternatives": [],
+   "options": [],
+   "hint": "reír",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "Nobody likes being laughed at.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1043519",
+    "tatoeba_en": "40395"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "reír",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-emociones-86088ba14d6b",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Me alegro de que ____ todos aquí.",
+   "answer": "estéis",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "I'm glad you're all here.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5931703",
+    "tatoeba_en": "5927354"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "estar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-emociones-52d8ce46b93c",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "A Tom no le gusta que le ____.",
+   "answer": "molesten",
+   "alternatives": [],
+   "options": [],
+   "hint": "molestar",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "Tom doesn't like to be disturbed.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1619814",
+    "tatoeba_en": "1026014"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "molestar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-emociones-ca4b9d4accbe",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · nosotros",
+   "text": "",
+   "answer": "echemos",
+   "alternatives": [],
+   "options": [],
+   "hint": "echar",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "echar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "echar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-emociones-35fdbfb7f498",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · yo",
+   "text": "",
+   "answer": "quiera",
+   "alternatives": [],
+   "options": [],
+   "hint": "querer",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "querer"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "querer",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-emociones-6b51aedbb9df",
+   "topic": "subj-emociones",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · yo",
+   "text": "",
+   "answer": "parezca",
+   "alternatives": [],
+   "options": [],
+   "hint": "parecer",
+   "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "parecer"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "parecer",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-emociones",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

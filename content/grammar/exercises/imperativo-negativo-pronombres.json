@@ -1,0 +1,866 @@
+{
+ "topic": "imperativo-negativo-pronombres",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "imperativo-negativo-pronombres-3b4c8902677f",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No ____ su dinero.",
+   "answer": "malgaste",
+   "alternatives": [],
+   "options": [],
+   "hint": "malgastar",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't waste your money.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "683378",
+    "tatoeba_en": "322808"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "malgastar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-6ef73404daea",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No lo ____ encima de mi escritorio.",
+   "answer": "pongas",
+   "alternatives": [],
+   "options": [],
+   "hint": "poner",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't put it on my desk.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1335557",
+    "tatoeba_en": "25531"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poner",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-dafb698cfe77",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No se ____ por mi perro.",
+   "answer": "preocupen",
+   "alternatives": [],
+   "options": [],
+   "hint": "preocupar",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't worry about my dog.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1266248",
+    "tatoeba_en": "250762"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "preocupar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-92b2744cb489",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No ____, por favor.",
+   "answer": "llores",
+   "alternatives": [],
+   "options": [],
+   "hint": "llorar",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Please don't cry.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4952602",
+    "tatoeba_en": "1521"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "llorar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-9dde6d5f4b32",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No ____ usted la cuestión.",
+   "answer": "complique",
+   "alternatives": [],
+   "options": [],
+   "hint": "complicar",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't complicate the matter.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2265834",
+    "tatoeba_en": "2265833"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "complicar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-2fa81fbd1098",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No ____ conclusiones precipitadas.",
+   "answer": "saques",
+   "alternatives": [],
+   "options": [],
+   "hint": "sacar",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Do not draw hasty conclusions.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "990008",
+    "tatoeba_en": "1344895"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "sacar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-be85ccc03e51",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No te ____.",
+   "answer": "desanimes",
+   "alternatives": [],
+   "options": [],
+   "hint": "desanimar",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't lose heart.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1286286",
+    "tatoeba_en": "63697"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "desanimar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-c37a0d42d109",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No ____ tarde a clase otra vez.",
+   "answer": "llegues",
+   "alternatives": [],
+   "options": [],
+   "hint": "llegar",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't be late for school again.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "511412",
+    "tatoeba_en": "72801"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "llegar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-39ada93eb3fc",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No os ____.",
+   "answer": "peleéis",
+   "alternatives": [],
+   "options": [],
+   "hint": "pelear",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't fight.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2117472",
+    "tatoeba_en": "2111915"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "pelear",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-e8f3678d847b",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el imperativo negativo.",
+   "text": "No ____ nada.",
+   "answer": "admitas",
+   "alternatives": [],
+   "options": [],
+   "hint": "admitir",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't admit anything.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1937675",
+    "tatoeba_en": "1852510"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "admitir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-147613ad02eb",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No ____ dinero.",
+   "answer": "pidas",
+   "alternatives": [],
+   "options": [
+    "pidas",
+    "pides",
+    "pedirás"
+   ],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't ask for money.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "532550",
+    "tatoeba_en": "18567"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "pedir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-f9219c175514",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No te ____ de su ayuda.",
+   "answer": "fíes",
+   "alternatives": [],
+   "options": [
+    "fiarás",
+    "fías",
+    "fíes"
+   ],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't rely on his help.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1265222",
+    "tatoeba_en": "285583"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "fiar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-b6c3d59da12d",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No me ____ como si fuera un niño.",
+   "answer": "trates",
+   "alternatives": [],
+   "options": [
+    "tratas",
+    "tratarás",
+    "trates"
+   ],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't treat me like a child.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1403336",
+    "tatoeba_en": "262418"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tratar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-c7ae8ba48b12",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No ____ opiniones y hechos como la misma cosa.",
+   "answer": "tomes",
+   "alternatives": [],
+   "options": [
+    "tomas",
+    "tomes",
+    "tomarás"
+   ],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't view opinions and facts as the same thing.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1327500",
+    "tatoeba_en": "1327494"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tomar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-a2b821a34ab1",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No ____ mi paciencia.",
+   "answer": "pruebes",
+   "alternatives": [],
+   "options": [
+    "pruebes",
+    "pruebas",
+    "probarás"
+   ],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't try my patience.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1496979",
+    "tatoeba_en": "1495855"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "probar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-449c96c1f586",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No ____ en él.",
+   "answer": "confíes",
+   "alternatives": [],
+   "options": [
+    "confiarás",
+    "confíes",
+    "confías"
+   ],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "No te fíes de él.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "502299",
+    "tatoeba_en": "977388"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "confiar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-0e384d393d21",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "No haces tanto ruido, por favor.",
+   "answer": "No hagas tanto ruido, por favor.",
+   "alternatives": [
+    "No hagás tanto ruido, por favor."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't be so noisy, please.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "582892",
+    "tatoeba_en": "38875"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-4e46f7a67a3f",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "No te acercas al fuego.",
+   "answer": "No te acerques al fuego.",
+   "alternatives": [
+    "No te acerqués al fuego."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Keep away from the fire.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "596011",
+    "tatoeba_en": "23887"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-3ea5927a0a24",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "No dirás mentiras. Sé honesto.",
+   "answer": "No digas mentiras. Sé honesto.",
+   "alternatives": [
+    "No digás mentiras. Sé honesto."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't tell a lie. Be honest.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1330650",
+    "tatoeba_en": "65619"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-83dbc5654d36",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "No te esconderás debajo de la cama.",
+   "answer": "No te escondas debajo de la cama.",
+   "alternatives": [
+    "No te escondás debajo de la cama."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "Don't hide under the bed.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "550505",
+    "tatoeba_en": "354576"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-7a9bd1c95023",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · él / ella / usted",
+   "text": "",
+   "answer": "gane",
+   "alternatives": [],
+   "options": [],
+   "hint": "ganar",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ganar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ganar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-a2e188aa52fb",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · tú",
+   "text": "",
+   "answer": "sepas",
+   "alternatives": [],
+   "options": [],
+   "hint": "saber",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "saber"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "saber",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-7064aeed8862",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · vosotros",
+   "text": "",
+   "answer": "seáis",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ser"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ser",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-negativo-pronombres-097b245c239a",
+   "topic": "imperativo-negativo-pronombres",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · yo",
+   "text": "",
+   "answer": "conozca",
+   "alternatives": [],
+   "options": [],
+   "hint": "conocer",
+   "explanation": "Imperativo negativo: no + presente de subjuntivo; los pronombres van delante del verbo.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "conocer"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "conocer",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-negativo-pronombres",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,748 @@
+{
+ "topic": "ser-estar",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "ser-estar-dcf2bc5d722e",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "¿Éste ____ tu DVD?",
+   "answer": "es",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "Is this your DVD?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "540022",
+    "tatoeba_en": "392216"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-e2cb0d645234",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "¿Cuál ____ la norma?",
+   "answer": "es",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "What's the rule?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5834095",
+    "tatoeba_en": "2234124"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-0c5afca88fa6",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "¿Quién ____ ese hombre?",
+   "answer": "es",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "Who is that man?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "562144",
+    "tatoeba_en": "67951"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-ad7f81606226",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "No me telefonees cuando ____ en la oficina.",
+   "answer": "estoy",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "Don't phone me when I'm at the office.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6564535",
+    "tatoeba_en": "6560967"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-d96b39016d13",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "____ del tamaño correcto.",
+   "answer": "Es",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "It's just the right size.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1686869",
+    "tatoeba_en": "1658059"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-cbc5774df2fe",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "¡____ absolutamente seguro!",
+   "answer": "Estoy",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "I'm absolutely sure!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1430143",
+    "tatoeba_en": "272622"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-f4ca5e868c5c",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "No ____ perfectos.",
+   "answer": "somos",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "We're not perfect.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2423936",
+    "tatoeba_en": "2240633"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-b83ae8dae638",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "Nosotros ahora lo ____ alcanzando.",
+   "answer": "estamos",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "We're just catching up.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5463841",
+    "tatoeba_en": "3310964"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-26b4883c45c9",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "¿____ libre el martes?",
+   "answer": "Estás",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "Are you free on Tuesday?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "637022",
+    "tatoeba_en": "23779"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-5fb2784f28dd",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con la forma correcta de ser o estar.",
+   "text": "____ un clásico.",
+   "answer": "Es",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "It's a classic.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2114433",
+    "tatoeba_en": "2077741"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-357d597d0cae",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Has aumentado de peso, ¿no ____ verdad?",
+   "answer": "es",
+   "alternatives": [],
+   "options": [
+    "está",
+    "era",
+    "es"
+   ],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "You've gained weight, haven't you?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1137463",
+    "tatoeba_en": "1137293"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "the other verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-6957347b669c",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¡____ carísimo!",
+   "answer": "Es",
+   "alternatives": [],
+   "options": [
+    "Está",
+    "Es",
+    "Era"
+   ],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "That's terribly expensive!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1185594",
+    "tatoeba_en": "5228891"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "the other verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-54c3fd5a0143",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ caluroso y húmedo.",
+   "answer": "Estuvo",
+   "alternatives": [],
+   "options": [
+    "Fue",
+    "Estuvo",
+    "Está"
+   ],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "It's been hot and humid.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1654681",
+    "tatoeba_en": "51948"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "estar",
+    "mood": "indicative",
+    "tense": "preterite",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "the other verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-67d086a4bd71",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ actuando como un idiota.",
+   "answer": "Estás",
+   "alternatives": [],
+   "options": [
+    "Eres",
+    "Estás",
+    "Estabas"
+   ],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "You're acting like an idiot.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3008481",
+    "tatoeba_en": "2543265"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "estar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "the other verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-72e6cd422679",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "No ____ tan bueno como se ve.",
+   "answer": "es",
+   "alternatives": [],
+   "options": [
+    "era",
+    "es",
+    "está"
+   ],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "It is not as good as it looks.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1353029",
+    "tatoeba_en": "42474"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "the other verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-81001e04723c",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¡Ése ____ mi chico!",
+   "answer": "es",
+   "alternatives": [],
+   "options": [
+    "está",
+    "era",
+    "es"
+   ],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "That a boy!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1020765",
+    "tatoeba_en": "51144"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [
+    "the other verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-58e45eb4a042",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Estás un cotilla.",
+   "answer": "Eres un cotilla.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "You're such a gossip.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2947023",
+    "tatoeba_en": "2887705"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "the swapped verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-5c8c8805b0b1",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Está muy pequeño.",
+   "answer": "Es muy pequeño.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "It's too small.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1869273",
+    "tatoeba_en": "267535"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "the swapped verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-ad9ae03c7d62",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "¿Cuál está tu culebrón favorito?",
+   "answer": "¿Cuál es tu culebrón favorito?",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "What's your favorite soap opera?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2511593",
+    "tatoeba_en": "906882"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "the swapped verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-7c4df58be287",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Creo que no está abogado.",
+   "answer": "Creo que no es abogado.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "I don't believe he is a lawyer.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1193841",
+    "tatoeba_en": "303587"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "the swapped verb may also fit with a change of meaning"
+   ],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-0c6ad10d6d29",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente · nosotros",
+   "text": "",
+   "answer": "somos",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ser"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "ser-estar-23e009edd46e",
+   "topic": "ser-estar",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente · ellos / ellas / ustedes",
+   "text": "",
+   "answer": "están",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Ser: identidad, origen, profesión, material. Estar: estado, ubicación, resultado.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "estar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "estar",
+    "mood": "indicative",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "ser-estar",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

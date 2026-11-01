@@ -1,0 +1,780 @@
+{
+ "topic": "subj-presente-irregular",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "subj-presente-irregular-456b880a293e",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Espero que esto lo ____.",
+   "answer": "valga",
+   "alternatives": [],
+   "options": [],
+   "hint": "valer",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I hope this is worth it.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3210413",
+    "tatoeba_en": "2360896"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "valer",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-9b4375df2207",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Quiero que ____ que podemos parar de preocuparnos.",
+   "answer": "sepas",
+   "alternatives": [],
+   "options": [],
+   "hint": "saber",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I want you to know we can stop worrying.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2667255",
+    "tatoeba_en": "2590919"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "saber",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-7f109eb8bf74",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Espero que te ____.",
+   "answer": "sirva",
+   "alternatives": [],
+   "options": [],
+   "hint": "servir",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I hope it helps.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5170223",
+    "tatoeba_en": "5170489"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "servir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-d74f08c86a15",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "¿Qué quieres que te ____ Santa Claus para Navidad?",
+   "answer": "traiga",
+   "alternatives": [],
+   "options": [],
+   "hint": "traer",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "What do you want Santa to bring you for Christmas?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5706057",
+    "tatoeba_en": "5705373"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "traer",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-910fe57907a0",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Quiero que todos ____ lo que pasó.",
+   "answer": "sepan",
+   "alternatives": [],
+   "options": [],
+   "hint": "saber",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I want everyone to know what happened.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7317569",
+    "tatoeba_en": "5194191"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "saber",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-e1c59728532c",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Quiero que me ____ mi empleo.",
+   "answer": "devuelvan",
+   "alternatives": [],
+   "options": [],
+   "hint": "devolver",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I want my job back.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4392166",
+    "tatoeba_en": "2011403"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "devolver",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-1a021f1d8115",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "¿Quieres que te ____?",
+   "answer": "ruegue",
+   "alternatives": [],
+   "options": [],
+   "hint": "rogar",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "Do you want me to beg?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4541678",
+    "tatoeba_en": "3334036"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "rogar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-a146b8e70253",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Espero que te ____.",
+   "answer": "diviertas",
+   "alternatives": [],
+   "options": [],
+   "hint": "divertir",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I hope you have fun.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1600137",
+    "tatoeba_en": "1600138"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "divertir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-ea2d5763c740",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Espero que ____.",
+   "answer": "entiendas",
+   "alternatives": [],
+   "options": [],
+   "hint": "entender",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I hope you understand.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1928955",
+    "tatoeba_en": "767454"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "entender",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-d88cdeb72855",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el presente de subjuntivo.",
+   "text": "Espero que lo ____.",
+   "answer": "consigamos",
+   "alternatives": [],
+   "options": [],
+   "hint": "conseguir",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I hope we achieve that.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5645591",
+    "tatoeba_en": "5636515"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "conseguir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-b79b7029c325",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Espero que te ____ divirtiendo.",
+   "answer": "estés",
+   "alternatives": [],
+   "options": [
+    "estés",
+    "estuviste",
+    "estás",
+    "estarás"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I hope you're having fun.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "545225",
+    "tatoeba_en": "21284"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "estar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-952a824dc697",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Sólo quiero que me ____.",
+   "answer": "quieran",
+   "alternatives": [],
+   "options": [
+    "quieran",
+    "querrán",
+    "quieren",
+    "quisieron"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I just want to be loved.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4761234",
+    "tatoeba_en": "2282047"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "querer",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-0601332fdc99",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que ____ a pasártelo bien.",
+   "answer": "vayas",
+   "alternatives": [],
+   "options": [
+    "fuiste",
+    "irás",
+    "vayas",
+    "vas"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I want you to go have fun.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6823735",
+    "tatoeba_en": "6823646"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-3ebe1713c3a7",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que ____.",
+   "answer": "salgas",
+   "alternatives": [],
+   "options": [
+    "saliste",
+    "sales",
+    "saldrás",
+    "salgas"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I want you to go outside.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2033171",
+    "tatoeba_en": "2033160"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "salir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-fae9aee83e2e",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que ____ esta carta al francés.",
+   "answer": "traduzcas",
+   "alternatives": [],
+   "options": [
+    "traduzcas",
+    "traducirás",
+    "tradujiste",
+    "traduces"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I'd like you to translate this letter into French.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2484637",
+    "tatoeba_en": "2451151"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "traducir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-e6194ebe990b",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Quiero que me ____ la verdad.",
+   "answer": "digas",
+   "alternatives": [],
+   "options": [
+    "dijiste",
+    "digas",
+    "dirás",
+    "dices"
+   ],
+   "hint": "",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I want you to tell me the truth.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "532556",
+    "tatoeba_en": "2429"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "decir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-def936f15fab",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Espero que no están hablando de mí.",
+   "answer": "Espero que no estén hablando de mí.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "I hope they're not talking about me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6823831",
+    "tatoeba_en": "6823772"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-a326fe155630",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · él / ella / usted",
+   "text": "",
+   "answer": "coma",
+   "alternatives": [],
+   "options": [],
+   "hint": "comer",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "comer"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "comer",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-c992f0dd9df1",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · tú",
+   "text": "",
+   "answer": "vengas",
+   "alternatives": [],
+   "options": [],
+   "hint": "venir",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "venir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "venir",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-641ac76c4d74",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · vosotros",
+   "text": "",
+   "answer": "acabéis",
+   "alternatives": [],
+   "options": [],
+   "hint": "acabar",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "acabar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "acabar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "subj-presente-irregular-23f2ce24c73e",
+   "topic": "subj-presente-irregular",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: presente de subjuntivo · tú",
+   "text": "",
+   "answer": "mires",
+   "alternatives": [],
+   "options": [],
+   "hint": "mirar",
+   "explanation": "Presente de subjuntivo irregular: verbos con yo irregular (tener → tenga) y ser, estar, ir, saber, haber, dar.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "mirar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "mirar",
+    "mood": "subjunctive",
+    "tense": "present",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "subj-presente-irregular",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

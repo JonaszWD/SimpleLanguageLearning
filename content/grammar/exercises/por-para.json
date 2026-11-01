@@ -1,0 +1,504 @@
+{
+ "topic": "por-para",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "por-para-1e90276c5ee3",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "____ favor, no te rías de mí.",
+   "answer": "Por",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Please don't laugh at me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "431902",
+    "tatoeba_en": "250325"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-cb1640bf3a15",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "____ favor cálmate.",
+   "answer": "Por",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Please relax.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1328242",
+    "tatoeba_en": "29664"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-ef3a5c5a8eb5",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "____ favor, endóseme este cheque.",
+   "answer": "Por",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Please endorse this check.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5663816",
+    "tatoeba_en": "4878183"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-22d043e6bb93",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "¿____ qué lo usarás?",
+   "answer": "Para",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "What will you use it for?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "572461",
+    "tatoeba_en": "433514"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-480a121e85cf",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "Le condecoraron ____ el valor que demostró en la batalla.",
+   "answer": "por",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Se ganó una condecoración por su valor demostrado en la batalla.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7482429",
+    "tatoeba_en": "5630473"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-ef392278de72",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "¿____ qué soñamos?",
+   "answer": "Por",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Why do we dream?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1277028",
+    "tatoeba_en": "1276142"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-fd07b6dd681d",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "Nos arrodillamos ____ rezar.",
+   "answer": "para",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "We knelt down to pray.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "840879",
+    "tatoeba_en": "304885"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-44cbd03a06f0",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "La levadura se usa ____ hacer pan.",
+   "answer": "para",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Yeast is used in making bread.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7559650",
+    "tatoeba_en": "3205377"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-d8d32b927ffa",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "¿Podrías repetirlo, ____ favor?",
+   "answer": "por",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Could you repeat that, please?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "753070",
+    "tatoeba_en": "31476"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-54fcb3402e1c",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con por o para.",
+   "text": "No pudimos concluir el trabajo ____ falta de tiempo.",
+   "answer": "por",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "We couldn't finish the job for lack of time.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5632536",
+    "tatoeba_en": "5651262"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-cd1a14690e2c",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Necesito medicamentos ____ el dolor.",
+   "answer": "para",
+   "alternatives": [],
+   "options": [
+    "por",
+    "para"
+   ],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "I need pain medication.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4410126",
+    "tatoeba_en": "436867"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-c166a71102b6",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Encontramos todos los árboles inclinados ____ la fuerza del viento.",
+   "answer": "por",
+   "alternatives": [],
+   "options": [
+    "para",
+    "por"
+   ],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "We found all the trees leaning by the wind strength.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5629146",
+    "tatoeba_en": "6634956"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-d6a07f38610f",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Tom le dijo a Mary que no se culpara ____ lo que había pasado.",
+   "answer": "por",
+   "alternatives": [],
+   "options": [
+    "por",
+    "para"
+   ],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Tom told Mary not to blame herself for what had happened.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5704757",
+    "tatoeba_en": "4037054"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-ccd601df743c",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Pruébate este nuevo traje ____ ver si te sienta bien.",
+   "answer": "para",
+   "alternatives": [],
+   "options": [
+    "para",
+    "por"
+   ],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Try on this new suit to see if it fits well.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5854165",
+    "tatoeba_en": "34762"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-4c7c3b559b93",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "____ favor, copia esto.",
+   "answer": "Por",
+   "alternatives": [],
+   "options": [
+    "Por",
+    "Para"
+   ],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Please copy this.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4506123",
+    "tatoeba_en": "54993"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "por-para-ae244018fde0",
+   "topic": "por-para",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "¿____ qué no cierras la ventana?",
+   "answer": "Por",
+   "alternatives": [],
+   "options": [
+    "Para",
+    "Por"
+   ],
+   "hint": "",
+   "explanation": "Por: causa, medio, duración, lugar de paso. Para: finalidad, destinatario, plazo, destino.",
+   "translation": "Why don't you shut the window?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6549317",
+    "tatoeba_en": "6259962"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous"
+   ],
+   "tags": [
+    "por-para",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

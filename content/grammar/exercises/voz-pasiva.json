@@ -1,0 +1,516 @@
+{
+ "topic": "voz-pasiva",
+ "level": "B2",
+ "exercises": [
+  {
+   "id": "voz-pasiva-e7f6cb9ff4e4",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "¿Por qué te gustaría ser ____?",
+   "answer": "recordado",
+   "alternatives": [],
+   "options": [],
+   "hint": "recordar",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "What do you want to be remembered for?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6865312",
+    "tatoeba_en": "6865010"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-cc29ce88566a",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "Esos zapatos fueron ____ en Italia.",
+   "answer": "fabricados",
+   "alternatives": [],
+   "options": [],
+   "hint": "fabricar",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "Those shoes were made in Italy.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1240683",
+    "tatoeba_en": "1241204"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-14d72f773758",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "El chico fue ____.",
+   "answer": "regañado",
+   "alternatives": [],
+   "options": [],
+   "hint": "regañar",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "The boy got scolded.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5819733",
+    "tatoeba_en": "46398"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-b4f3c7eb6bb1",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "La gente es ____.",
+   "answer": "complicada",
+   "alternatives": [],
+   "options": [],
+   "hint": "complicar",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "People are complicated.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2594621",
+    "tatoeba_en": "2249758"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-0db815e64ab8",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "El dinero fue ____ entre tres.",
+   "answer": "dividido",
+   "alternatives": [],
+   "options": [],
+   "hint": "dividir",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "The money was divided among the three.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1068597",
+    "tatoeba_en": "48642"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-1c18aff471a2",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "Las fiestas son ____.",
+   "answer": "divertidas",
+   "alternatives": [],
+   "options": [],
+   "hint": "divertir",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "Parties are fun.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5056541",
+    "tatoeba_en": "1841590"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-221d78c2c3be",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "Nadie fue ____.",
+   "answer": "torturado",
+   "alternatives": [],
+   "options": [],
+   "hint": "torturar",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "Nobody was tortured.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5668290",
+    "tatoeba_en": "5353384"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-a614c2414342",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "Esta camisa necesita ser ____.",
+   "answer": "planchada",
+   "alternatives": [],
+   "options": [],
+   "hint": "planchar",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "This shirt needs to be ironed.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1129926",
+    "tatoeba_en": "1129494"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-824ed847c45c",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "Esta granja parece haber sido ____.",
+   "answer": "abandonada",
+   "alternatives": [],
+   "options": [],
+   "hint": "abandonar",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "This farm seems to have been abandoned.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7015215",
+    "tatoeba_en": "3097076"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-7ad4e0555551",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el participio del verbo (concuerda con el sujeto).",
+   "text": "La reunión de hoy ha sido ____.",
+   "answer": "cancelada",
+   "alternatives": [],
+   "options": [],
+   "hint": "cancelar",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "Today's meeting has been canceled.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "587340",
+    "tatoeba_en": "243061"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "agreement and passive reading checked only by the participle table"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-73384b960a10",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige el participio con la concordancia correcta.",
+   "text": "¿Dónde fueron ____ estas fotos?",
+   "answer": "tomadas",
+   "alternatives": [],
+   "options": [
+    "tomados",
+    "tomada",
+    "tomado",
+    "tomadas"
+   ],
+   "hint": "",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "Where were these pictures taken at?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3156575",
+    "tatoeba_en": "3009164"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "participle agreement"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-e115bba430fb",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige el participio con la concordancia correcta.",
+   "text": "Él es ____.",
+   "answer": "odiado",
+   "alternatives": [],
+   "options": [
+    "odiada",
+    "odiado",
+    "odiadas",
+    "odiados"
+   ],
+   "hint": "",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "He is hated.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1686990",
+    "tatoeba_en": "1258674"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "participle agreement"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-a87a2eb9f1ca",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige el participio con la concordancia correcta.",
+   "text": "Cuando lleguemos al hotel, nuestras maletas ya habrán sido ____.",
+   "answer": "entregadas",
+   "alternatives": [],
+   "options": [
+    "entregada",
+    "entregadas",
+    "entregado",
+    "entregados"
+   ],
+   "hint": "",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "When we arrive at the hotel, our suitcases will already be delivered.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7135945",
+    "tatoeba_en": "7162916"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "participle agreement"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-5657e6aca79a",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige el participio con la concordancia correcta.",
+   "text": "No me gusta ser ____.",
+   "answer": "interrumpido",
+   "alternatives": [],
+   "options": [
+    "interrumpida",
+    "interrumpido",
+    "interrumpidas",
+    "interrumpidos"
+   ],
+   "hint": "",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "I don't appreciate being interrupted.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2850355",
+    "tatoeba_en": "2315187"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "participle agreement"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-a2c904366a91",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige el participio con la concordancia correcta.",
+   "text": "Miles de peces muertos fueron ____ flotando en el lago.",
+   "answer": "encontrados",
+   "alternatives": [],
+   "options": [
+    "encontrados",
+    "encontrado",
+    "encontrada",
+    "encontradas"
+   ],
+   "hint": "",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "Thousands of dead fish have been found floating in the lake.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "972872",
+    "tatoeba_en": "972862"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "participle agreement"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "voz-pasiva-dfb0118d5740",
+   "topic": "voz-pasiva",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige el participio con la concordancia correcta.",
+   "text": "Mi plan fue ____.",
+   "answer": "rechazado",
+   "alternatives": [],
+   "options": [
+    "rechazado",
+    "rechazados",
+    "rechazada",
+    "rechazadas"
+   ],
+   "hint": "",
+   "explanation": "Ser + participio concordando con el sujeto: La casa fue construida.",
+   "translation": "My plan was rejected.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1431007",
+    "tatoeba_en": "250749"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "participle agreement"
+   ],
+   "tags": [
+    "voz-pasiva",
+    "B2",
+    "grammar"
+   ]
+  }
+ ]
+}

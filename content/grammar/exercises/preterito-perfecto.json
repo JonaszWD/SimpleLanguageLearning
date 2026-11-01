@@ -1,0 +1,808 @@
+{
+ "topic": "preterito-perfecto",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "preterito-perfecto-0bdd9ad357ab",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "El avión todavía no ____.",
+   "answer": "ha despegado",
+   "alternatives": [],
+   "options": [],
+   "hint": "despegar",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "The plane still hasn't taken off.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2268446",
+    "tatoeba_en": "2268445"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "despegar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-2ffb13abd4b5",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "____ a mi alrededor.",
+   "answer": "He mirado",
+   "alternatives": [],
+   "options": [],
+   "hint": "mirar",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "I looked around me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1388697",
+    "tatoeba_en": "321857"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "mirar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-7b5559015a53",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "Algunos de ellos se ____ la vida.",
+   "answer": "han quitado",
+   "alternatives": [],
+   "options": [],
+   "hint": "quitar",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "Some of them have committed suicide.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "979600",
+    "tatoeba_en": "979925"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "quitar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "p",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-fec6646557cf",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "Tom ____ esta semana.",
+   "answer": "ha dimitido",
+   "alternatives": [],
+   "options": [],
+   "hint": "dimitir",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "Tom resigned this week.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1686572",
+    "tatoeba_en": "1669497"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "dimitir",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-d4d3f899222d",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "Me ____ para un trabajo.",
+   "answer": "han contratado",
+   "alternatives": [],
+   "options": [],
+   "hint": "contratar",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "I'm hired to do a job.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5749377",
+    "tatoeba_en": "5748990"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "contratar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "p",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-84562b60ac8e",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "El queso se ____.",
+   "answer": "ha enmohecido",
+   "alternatives": [],
+   "options": [],
+   "hint": "enmohecer",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "The cheese is moldy.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6586310",
+    "tatoeba_en": "6583904"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "enmohecer",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-16d6cf4c0ad8",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "____ advertido.",
+   "answer": "Has sido",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "You've been warned.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1666508",
+    "tatoeba_en": "1654148"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-3610fa9cc0a1",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "¿Cómo ____ a hablar francés tan bien?",
+   "answer": "has aprendido",
+   "alternatives": [],
+   "options": [],
+   "hint": "aprender",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "How did you learn to speak French so well?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2295385",
+    "tatoeba_en": "1834184"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "aprender",
+    "mood": "indicative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-251e7d3e5c54",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "La reunión de hoy ____ cancelada.",
+   "answer": "ha sido",
+   "alternatives": [],
+   "options": [],
+   "hint": "ser",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "Today's meeting has been canceled.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "587340",
+    "tatoeba_en": "243061"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-91f1dd3e8308",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pretérito perfecto del verbo.",
+   "text": "Ya ____.",
+   "answer": "ha oscurecido",
+   "alternatives": [],
+   "options": [],
+   "hint": "oscurecer",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "It is already dark.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "723236",
+    "tatoeba_en": "31530"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "oscurecer",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-664af9779f2f",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Has hecho lo que ____.",
+   "answer": "has podido",
+   "alternatives": [],
+   "options": [
+    "habrás podido",
+    "habrías podido",
+    "has podido",
+    "pudiste"
+   ],
+   "hint": "",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "You've done all you can.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3418477",
+    "tatoeba_en": "3348830"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poder",
+    "mood": "indicative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-e1ddbf528428",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Tom ____ nombrado presidente.",
+   "answer": "ha sido",
+   "alternatives": [],
+   "options": [
+    "había sido",
+    "ha sido",
+    "habría sido",
+    "habrá sido"
+   ],
+   "hint": "",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "Tom has been appointed chairman.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5714082",
+    "tatoeba_en": "5701200"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-073dbae1a8d4",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Yo no ____.",
+   "answer": "he conducido",
+   "alternatives": [],
+   "options": [
+    "he conducido",
+    "había conducido",
+    "conducía",
+    "habría conducido"
+   ],
+   "hint": "",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "I didn't drive.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3270351",
+    "tatoeba_en": "2245688"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "conducir",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-93efd06bf460",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¿Me ____ con claridad?",
+   "answer": "he explicado",
+   "alternatives": [],
+   "options": [
+    "habré explicado",
+    "habría explicado",
+    "he explicado",
+    "expliqué"
+   ],
+   "hint": "",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "Have I made myself clear?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2216658",
+    "tatoeba_en": "2118682"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "explicar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-411e62dbbad1",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Le ____ todo.",
+   "answer": "ha perdonado",
+   "alternatives": [],
+   "options": [
+    "perdonaba",
+    "perdonó",
+    "habría perdonado",
+    "ha perdonado"
+   ],
+   "hint": "",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "She has forgiven him for everything.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "892110",
+    "tatoeba_en": "887178"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "perdonar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-7516b4819e48",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Tom ____ acusado de soborno.",
+   "answer": "ha sido",
+   "alternatives": [],
+   "options": [
+    "era",
+    "ha sido",
+    "fue",
+    "había sido"
+   ],
+   "hint": "",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "Tom has been accused of bribery.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5706499",
+    "tatoeba_en": "5701927"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-8d946a752025",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Apenas habremos comenzado.",
+   "answer": "Apenas hemos comenzado.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "We've barely begun.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2710984",
+    "tatoeba_en": "2241650"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-f2cfc5491fb4",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Habíamos intentado convencerle.",
+   "answer": "Hemos intentado convencerle.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "We tried to persuade him.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "952058",
+    "tatoeba_en": "272518"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-ab391f88df80",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito perfecto · él / ella / usted",
+   "text": "",
+   "answer": "ha tenido",
+   "alternatives": [],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "tener"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "tener",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-60a0e250b97d",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito perfecto · ellos / ellas / ustedes",
+   "text": "",
+   "answer": "han intentado",
+   "alternatives": [],
+   "options": [],
+   "hint": "intentar",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "intentar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "intentar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 3,
+    "number": "p",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-4801c5a25d56",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito perfecto · yo",
+   "text": "",
+   "answer": "he salido",
+   "alternatives": [],
+   "options": [],
+   "hint": "salir",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "salir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "salir",
+    "mood": "indicative",
+    "tense": null,
+    "person": 1,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "preterito-perfecto-324ea83eb545",
+   "topic": "preterito-perfecto",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: pretérito perfecto · tú",
+   "text": "",
+   "answer": "has llevado",
+   "alternatives": [],
+   "options": [],
+   "hint": "llevar",
+   "explanation": "Pretérito perfecto: haber en presente + participio.",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "llevar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "llevar",
+    "mood": "indicative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": true,
+    "aux_tense": "present"
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "preterito-perfecto",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

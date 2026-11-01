@@ -1,0 +1,404 @@
+{
+ "topic": "si-irreales",
+ "level": "B2",
+ "exercises": [
+  {
+   "id": "si-irreales-473f68ccd330",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Si ____ sólo una semana más de vida, ¿a qué la dedicarías?",
+   "answer": "tuvieras",
+   "alternatives": [],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "If you only had one more week to live, what would you spend your time doing?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "952018",
+    "tatoeba_en": "909544"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-d3c007184267",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Si me ____, no me esperes.",
+   "answer": "retrasara",
+   "alternatives": [],
+   "options": [],
+   "hint": "retrasar",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "In case I am late, you don't have to wait for me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "329977",
+    "tatoeba_en": "30800"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "retrasar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-626dfbb50643",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Suena como si ____ el grifo.",
+   "answer": "goteara",
+   "alternatives": [],
+   "options": [],
+   "hint": "gotear",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "It sounds like the faucet is dripping.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6569828",
+    "tatoeba_en": "6569156"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "gotear",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-dfa539eaf345",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "¿Y si ____ un discurso y nadie viniera?",
+   "answer": "dieras",
+   "alternatives": [],
+   "options": [],
+   "hint": "dar",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "What if you gave a speech and nobody came?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "181007",
+    "tatoeba_en": "1700"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "dar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-2c8dc49dc544",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "¡¿Qué haría yo si ____?!",
+   "answer": "murieras",
+   "alternatives": [],
+   "options": [],
+   "hint": "morir",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "What would I do if you died?!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "602862",
+    "tatoeba_en": "602852"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "morir",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-8cdb34b6a10d",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "Hablas como si lo ____ todo.",
+   "answer": "supieras",
+   "alternatives": [],
+   "options": [],
+   "hint": "saber",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "You talk as if you knew everything.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1328341",
+    "tatoeba_en": "32332"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "saber",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-31dd8d7f9970",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "cloze",
+   "prompt": "Completa con el imperfecto de subjuntivo.",
+   "text": "¡¿Qué harías si yo ____?!",
+   "answer": "muriera",
+   "alternatives": [],
+   "options": [],
+   "hint": "morir",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "What would you do if I died?!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "602860",
+    "tatoeba_en": "602851"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "morir",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": null,
+    "number": null,
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-faec7534c916",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Creo que, si lo ____, lo podrías hacer.",
+   "answer": "intentases",
+   "alternatives": [],
+   "options": [
+    "intentases",
+    "intentarías",
+    "intentabas",
+    "intentas"
+   ],
+   "hint": "",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "I think you could do that if you tried.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6877685",
+    "tatoeba_en": "6877419"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "intentar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-c0d566240f47",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · nosotros",
+   "text": "",
+   "answer": "quedáramos",
+   "alternatives": [],
+   "options": [],
+   "hint": "quedar",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "quedar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "quedar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-21451b6e7461",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · vosotros",
+   "text": "",
+   "answer": "estuvierais",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "estar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "estar",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  },
+  {
+   "id": "si-irreales-35f85d9eed60",
+   "topic": "si-irreales",
+   "level": "B2",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperfecto de subjuntivo · yo",
+   "text": "",
+   "answer": "muriera",
+   "alternatives": [],
+   "options": [],
+   "hint": "morir",
+   "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "morir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "morir",
+    "mood": "subjunctive",
+    "tense": "imperfect",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "si-irreales",
+    "B2",
+    "grammar"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,832 @@
+{
+ "topic": "futuro",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "futuro-cb919cc0282f",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "En una semana ____ de nuevo las clases.",
+   "answer": "comenzarán",
+   "alternatives": [],
+   "options": [],
+   "hint": "comenzar",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "In one week, the classes will start over.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6816462",
+    "tatoeba_en": "6817122"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "comenzar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-d2348b282cf7",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "____ eso después.",
+   "answer": "Decidiré",
+   "alternatives": [],
+   "options": [],
+   "hint": "decidir",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "I'll decide that later.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2828817",
+    "tatoeba_en": "2546707"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "decidir",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-f8a669adeb7a",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "Ellos se ____.",
+   "answer": "acordarán",
+   "alternatives": [],
+   "options": [],
+   "hint": "acordar",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "They'll remember.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4183437",
+    "tatoeba_en": "2111346"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "acordar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-44299208c6cb",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "____ lo que pides.",
+   "answer": "Haré",
+   "alternatives": [],
+   "options": [],
+   "hint": "hacer",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "I'll do what you ask.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1648117",
+    "tatoeba_en": "989908"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "hacer",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-d4f2d28efd31",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "Si no fumas, ____ más.",
+   "answer": "vivirás",
+   "alternatives": [],
+   "options": [],
+   "hint": "vivir",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "You will live longer if you don't smoke.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2250792",
+    "tatoeba_en": "40617"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "vivir",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-a22f7e412c57",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "Ven aquí y te lo ____.",
+   "answer": "enseñaré",
+   "alternatives": [],
+   "options": [],
+   "hint": "enseñar",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "Come here, and I'll show you.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2398810",
+    "tatoeba_en": "61511"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "enseñar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-04acdc5b8f49",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "La venta de billetes ____ el lunes.",
+   "answer": "comenzará",
+   "alternatives": [],
+   "options": [],
+   "hint": "comenzar",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "Ticket sales will begin Monday.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5970825",
+    "tatoeba_en": "4665024"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "comenzar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-7be9100c0ec3",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "¿Cuándo ____?",
+   "answer": "volverás",
+   "alternatives": [],
+   "options": [],
+   "hint": "volver",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "When will you be back?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "872275",
+    "tatoeba_en": "24604"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "volver",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-043f251c2c6d",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en futuro.",
+   "text": "¿Qué ____ si fallo?",
+   "answer": "ocurrirá",
+   "alternatives": [],
+   "options": [],
+   "hint": "ocurrir",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "What if I fail?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "330090",
+    "tatoeba_en": "264958"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ocurrir",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-a522f79b2169",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ una sonata para ti.",
+   "answer": "Tocaré",
+   "alternatives": [],
+   "options": [
+    "Tocaba",
+    "Tocaré",
+    "Toco",
+    "Tocaría"
+   ],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "I'll play a sonata for you.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2830971",
+    "tatoeba_en": "50751"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tocar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-3122e09c9446",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Eso no ____.",
+   "answer": "pasará",
+   "alternatives": [],
+   "options": [
+    "pasará",
+    "pasaba",
+    "pasa",
+    "pasaría"
+   ],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "That won't happen.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1023561",
+    "tatoeba_en": "1302"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "pasar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-439f08f5e847",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ llegando tarde.",
+   "answer": "Seguirán",
+   "alternatives": [],
+   "options": [
+    "Seguirían",
+    "Seguirán",
+    "Seguían",
+    "Siguen"
+   ],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "They'll go on arriving late.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5716541",
+    "tatoeba_en": "5827362"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "seguir",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-0a8f4742f21c",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ tu profesor.",
+   "answer": "Seré",
+   "alternatives": [],
+   "options": [
+    "Era",
+    "Seré",
+    "Sería",
+    "Soy"
+   ],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "I'll be your teacher.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1116755",
+    "tatoeba_en": "465469"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "ser",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-6de517995a02",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¿Cuánto tiempo ____ que esperar?",
+   "answer": "tendremos",
+   "alternatives": [],
+   "options": [
+    "tenemos",
+    "tendríamos",
+    "teníamos",
+    "tendremos"
+   ],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "How long will we have to wait?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1013412",
+    "tatoeba_en": "36864"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-cfb9b6e9ac2e",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "Dame tu pasaporte, Tom. Lo ____ en la caja fuerte.",
+   "answer": "guardaré",
+   "alternatives": [],
+   "options": [
+    "guardaría",
+    "guardaré",
+    "guardo",
+    "guardaba"
+   ],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "Give me your passport, Tom. I'll keep it in my safe.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5854198",
+    "tatoeba_en": "37436"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "guardar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 1,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-9f62b7deb0a0",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "¿Qué almorzarías hoy?",
+   "answer": "¿Qué almorzarás hoy?",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "What will you have for lunch today?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1706212",
+    "tatoeba_en": "882552"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-61c50355bb27",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "¡No hablabas en serio!",
+   "answer": "¡No hablarás en serio!",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "You can't be serious!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1495126",
+    "tatoeba_en": "1176151"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-312eef2529f2",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: futuro · ellos / ellas / ustedes",
+   "text": "",
+   "answer": "estarán",
+   "alternatives": [],
+   "options": [],
+   "hint": "estar",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "estar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "estar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 3,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-70100c7560a8",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: futuro · vosotros",
+   "text": "",
+   "answer": "compraréis",
+   "alternatives": [],
+   "options": [],
+   "hint": "comprar",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "comprar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "comprar",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-d0dc19c7cd2f",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: futuro · nosotros",
+   "text": "",
+   "answer": "podremos",
+   "alternatives": [],
+   "options": [],
+   "hint": "poder",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "poder"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "poder",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 1,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-3ce24ffbb96e",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: futuro · él / ella / usted",
+   "text": "",
+   "answer": "perderá",
+   "alternatives": [],
+   "options": [],
+   "hint": "perder",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "perder"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "perder",
+    "mood": "indicative",
+    "tense": "future",
+    "person": 3,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-52d586629857",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "transformation",
+   "prompt": "Cambia el verbo al futuro.",
+   "text": "Esto es un bajón.",
+   "answer": "Esto será un bajón.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "Qué pena.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5124546",
+    "tatoeba_en": "537408"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "time reference may feel odd after the change"
+   ],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "futuro-aff43de77992",
+   "topic": "futuro",
+   "level": "B1",
+   "type": "transformation",
+   "prompt": "Cambia el verbo al futuro.",
+   "text": "Soy muy alérgico a los cacahuetes.",
+   "answer": "Seré muy alérgico a los cacahuetes.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+   "translation": "I'm very allergic to peanuts.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6886448",
+    "tatoeba_en": "2542878"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "time reference may feel odd after the change"
+   ],
+   "tags": [
+    "futuro",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

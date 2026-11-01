@@ -5,6 +5,9 @@ import { mergeDeck, installPack, installedPacks, availablePacks } from "../packs
 import { topNav } from "./shared.js";
 import { checkNow, runningVersion } from "../update.js";
 import { syncAll } from "../sync.js";
+import { stats as grammarStats } from "../grammar.js";
+import { weekSummary } from "../podcast.js";
+import { setListenMap } from "../plan.js";
 import { apiUrl } from "../config.js";
 import { setMixing } from "../media.js";
 
@@ -13,6 +16,49 @@ const isDone = async (d) => {
   const tasks = allTasks(d);
   return !!day && tasks.every((t) => day.tasks[t.id]?.done);
 };
+
+async function listeningSection() {
+  let w;
+  try { w = await weekSummary(); } catch { return null; }
+  const total = w.weeks.at(-1).minutes;
+  const max = Math.max(60, ...w.weeks.map((x) => x.minutes));
+  return h("div", { class: "feature-card stack" },
+    h("span", { class: "caption-uppercase muted" }, "Listening this week"),
+    h("div", { class: "title-md" }, `${total} min · ${w.phrases} phrase${w.phrases === 1 ? "" : "s"} saved`),
+    w.follow != null ? h("p", { class: "body-sm" }, `Followed on average ${w.follow.toFixed(1)} / 5 (${w.followN} intensive session${w.followN === 1 ? "" : "s"})`) : h("p", { class: "caption muted" }, "No intensive sessions rated yet."),
+    Object.keys(w.byLevel).length ? h("p", { class: "body-sm" }, "By level: " + Object.entries(w.byLevel).sort().map(([l, m]) => `${l} ${Math.round(m)} min`).join(" · ")) : null,
+    h("div", { class: "trend", style: "grid-template-columns:repeat(5,1fr)" }, w.weeks.map((x) => h("div", { class: "col" },
+      h("span", { class: "caption" }, x.minutes),
+      h("div", { class: "bar" }, h("i", { style: `height:${Math.round((x.minutes / max) * 100)}%` })),
+      h("span", { class: "caption muted" }, new Date(x.from).toLocaleDateString(undefined, { day: "numeric", month: "numeric" }))))));
+}
+
+async function grammarSection() {
+  let g;
+  try { g = await grammarStats(); } catch { return null; }
+  if (!g.rows.length) return h("div", { class: "feature-card stack" }, h("span", { class: "caption-uppercase muted" }, "Grammar"), h("p", { class: "muted" }, "No grammar data yet. It appears after the first sync."));
+  const pct = (a) => (a == null ? "–" : `${Math.round(a * 100)}%`);
+  const total = g.rows.reduce((n, r) => n + r.attempts, 0);
+  return h("div", { class: "stack", style: "gap:16px" },
+    g.flagged.length ? h("div", { class: "feature-card stack" },
+      h("span", { class: "title-sm" }, "Needs extra practice"),
+      h("p", { class: "body-sm" }, "Under 70% after two weeks. These are mixed into your grammar sessions. Consider repeating them."),
+      g.flagged.map((r) => h("a", { class: "list-row", href: `#/grammar?focus=${r.id}`, style: "min-height:48px" },
+        h("span", { class: "grow" }, h("span", { class: "title-sm", style: "display:block" }, r.title), h("span", { class: "caption muted" }, `${pct(r.acc)} · ${r.attempts} answers`)),
+        h("span", { class: "btn btn-outline" }, "Practise")))) : null,
+    h("div", { class: "feature-card stack" },
+      h("span", { class: "caption-uppercase muted" }, "Grammar trend · accuracy by week"),
+      h("div", { class: "trend" }, g.trend.map((w) => h("div", { class: "col" },
+        h("span", { class: "caption" }, pct(w.acc)),
+        h("div", { class: "bar" }, h("i", { style: `height:${w.acc == null ? 0 : Math.round(w.acc * 100)}%` })),
+        h("span", { class: "caption muted" }, `${w.from ? new Date(w.from).toLocaleDateString(undefined, { day: "numeric", month: "numeric" }) : ""}`))))),
+    h("div", { class: "feature-card stack" },
+      h("span", { class: "caption-uppercase muted" }, `Grammar by topic · ${total} answers`),
+      g.weakest.length ? h("p", { class: "body-sm" }, "Weakest: " + g.weakest.map((r) => `${r.title} (${pct(r.acc)})`).join(", ")) : null,
+      g.rows.map((r) => h("div", { class: "acc-row" },
+        h("div", { class: "row between" }, h("span", { class: "body-sm" }, `${r.week}. ${r.title}`), h("span", { class: "caption" }, r.attempts ? `${pct(r.acc)} · ${r.attempts}` : "–")),
+        h("div", { class: "progress" }, h("i", { style: `width:${r.acc == null ? 0 : Math.round(r.acc * 100)}%` }))))));
+}
 
 export async function stats() {
   const now = new Date();
@@ -37,7 +83,9 @@ export async function stats() {
         h("span", { class: "caption muted" }, letters[d.getDay()]))))),
     h("div", { class: "feature-card stack" },
       h("span", { class: "caption-uppercase muted" }, "Cards today"),
-      h("div", { class: "title-md" }, `${today.newDone} new · ${today.revDone} reviewed`)));
+      h("div", { class: "title-md" }, `${today.newDone} new · ${today.revDone} reviewed`)),
+    await listeningSection(),
+    await grammarSection());
 }
 
 export async function settings(ctx) {
@@ -52,7 +100,7 @@ export async function settings(ctx) {
     i.addEventListener("change", () => (s[k] = i.value.split(/\s+/).map(Number).filter((n) => n > 0)));
     return h("div", { class: "field" }, h("label", {}, label + " (minutes)"), i);
   };
-  const save = async () => { await db.saveSettings(s); toast("Saved"); };
+  const save = async () => { await db.saveSettings(s); setListenMap(s.listenMap); toast("Saved"); };
 
   const exportBackup = async () => {
     const out = {};
@@ -76,6 +124,20 @@ export async function settings(ctx) {
   const mix = h("select", { class: "select-pill", "aria-label": "Play over other audio" },
     h("option", { value: "on", selected: s.mixAudio }, "On"), h("option", { value: "off", selected: !s.mixAudio }, "Off"));
   mix.addEventListener("change", () => { s.mixAudio = mix.value === "on"; setMixing(s.mixAudio); });
+  const dev = h("select", { class: "select-pill", "aria-label": "Developer mode" },
+    h("option", { value: "off", selected: !s.devMode }, "Off"), h("option", { value: "on", selected: s.devMode }, "On"));
+  dev.addEventListener("change", () => (s.devMode = dev.value === "on"));
+  const gStart = h("input", { class: "text-input", type: "date", value: s.grammarStart || "" });
+  gStart.addEventListener("change", () => (s.grammarStart = gStart.value || s.grammarStart));
+  const share = h("input", { class: "text-input", type: "number", min: 0, max: 50, step: 5, value: Math.round((s.grammarShare ?? 0.15) * 100), inputmode: "numeric" });
+  share.addEventListener("change", () => (s.grammarShare = Math.min(0.5, Math.max(0, Number(share.value) / 100))));
+  const DAYS = [[1, "Mon"], [2, "Tue"], [3, "Wed"], [4, "Thu"], [5, "Fri"]];
+  const listenRows = DAYS.map(([d, label]) => {
+    const sel = h("select", { class: "select-pill", "aria-label": `Listening on ${label}`, style: "width:auto" },
+      [["extensive", "Extensive"], ["intensive", "Intensive"], ["none", "None"]].map(([v, l]) => h("option", { value: v, selected: (s.listenMap[d] || "none") === v }, l)));
+    sel.addEventListener("change", () => { s.listenMap = { ...s.listenMap, [d]: sel.value }; });
+    return h("div", { class: "row between" }, h("span", {}, label), sel);
+  });
   const syncNow = async () => { toast("Syncing…"); await syncAll({ force: true }); toast("Content is up to date"); };
 
   const ver = h("p", { class: "caption muted" }, "Version …");
@@ -94,6 +156,15 @@ export async function settings(ctx) {
       num("graduatingIvl", "Graduating interval (days)"), num("easyIvl", "Easy interval (days)"),
       num("intervalModifier", "Interval modifier", 0.05),
       h("div", { class: "field" }, h("label", {}, "Auto-download deck and articles"), auto),
+      h("div", { class: "field" }, h("label", {}, "Listening by weekday"), h("div", { class: "stack", style: "gap:8px" }, listenRows),
+        h("p", { class: "caption muted" }, "Extensive: 30 min, no text. Intensive: guided 5–10 min segment. Save to apply.")),
+      num("podcastKeepDays", "Keep listened episodes on this phone (days)"),
+      h("div", { class: "field" }, h("label", {}, "Grammar syllabus start (week 1)"), gStart),
+      h("div", { class: "field" }, h("label", {}, "Grammar share of new cards (%)"), share),
+      num("mistakeCardsPerDay", "Mistake cards per day (max)"),
+      h("div", { class: "field" },
+        h("label", {}, "Developer mode"), dev,
+        h("p", { class: "caption muted" }, "Tap any day in the Today calendar to preview how that day looks. Previews are read-only. Save to apply.")),
       h("div", { class: "field" },
         h("label", {}, "Keep other audio playing"), mix,
         h("p", { class: "caption muted" }, "On: your music keeps playing while a card or clip plays. The iPhone silent switch then mutes the app too. Off: the app pauses other audio but ignores the switch.")),

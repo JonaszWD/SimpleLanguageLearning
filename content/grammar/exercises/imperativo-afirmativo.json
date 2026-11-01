@@ -1,0 +1,808 @@
+{
+ "topic": "imperativo-afirmativo",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "imperativo-afirmativo-f73f44a7ae9d",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "____ cuanto queráis.",
+   "answer": "Gritad",
+   "alternatives": [],
+   "options": [],
+   "hint": "gritar",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Scream as much as you want.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5947486",
+    "tatoeba_en": "7152104"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "gritar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-b2bdb7324222",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "____ aquí mientras voy a por vuestros abrigos.",
+   "answer": "Esperad",
+   "alternatives": [],
+   "options": [],
+   "hint": "esperar",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Wait here while I go get your coats.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6569884",
+    "tatoeba_en": "6569084"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "esperar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-b664a384af25",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "____ tu nombre en el encabezado.",
+   "answer": "Pon",
+   "alternatives": [],
+   "options": [],
+   "hint": "poner",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Enter your name in the header.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6779674",
+    "tatoeba_en": "7558153"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poner",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-2248d8ef3eef",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "____ la voz.",
+   "answer": "Bajad",
+   "alternatives": [],
+   "options": [],
+   "hint": "bajar",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Quiet down, please.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4557868",
+    "tatoeba_en": "272053"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "bajar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-166420cd0c49",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "____ unas buenas vacaciones.",
+   "answer": "Ten",
+   "alternatives": [],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Have a nice vacation.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1191436",
+    "tatoeba_en": "21299"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-b3d03dc54e50",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "____ y observad.",
+   "answer": "Venid",
+   "alternatives": [],
+   "options": [],
+   "hint": "venir",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Come and look.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6683687",
+    "tatoeba_en": "2245191"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "venir",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-6323f0b9b4ad",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "____ aquí, por favor.",
+   "answer": "Esperad",
+   "alternatives": [],
+   "options": [],
+   "hint": "esperar",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Please wait here.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "541885",
+    "tatoeba_en": "61875"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "esperar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-f09bbc2e2eb0",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "¡____ cuidado con los dedos!",
+   "answer": "Ten",
+   "alternatives": [],
+   "options": [],
+   "hint": "tener",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Watch your fingers!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4557856",
+    "tatoeba_en": "265962"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-f8d6e34f2930",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "¡____!",
+   "answer": "Escuchad",
+   "alternatives": [],
+   "options": [],
+   "hint": "escuchar",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Listen!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1317687",
+    "tatoeba_en": "1319588"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "escuchar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-48e8e44f0682",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el verbo en imperativo.",
+   "text": "____ a vuestro padre de mi parte.",
+   "answer": "Saludad",
+   "alternatives": [],
+   "options": [],
+   "hint": "saludar",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Say hello to your father for me.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "449909",
+    "tatoeba_en": "64088"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "saludar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-e59083e6f448",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ un buen fin de semana.",
+   "answer": "Ten",
+   "alternatives": [],
+   "options": [
+    "Tendrás",
+    "Ten",
+    "Tienes"
+   ],
+   "hint": "",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Have a nice weekend.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1185749",
+    "tatoeba_en": "21294"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "tener",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-44df11f81069",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ a sus disparos.",
+   "answer": "Responded",
+   "alternatives": [],
+   "options": [
+    "Responded",
+    "Responderéis",
+    "Respondéis"
+   ],
+   "hint": "",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Return fire.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4557450",
+    "tatoeba_en": "2111566"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "responder",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-ab9d180b2fea",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ el mazo de cartas sobre la mesa de roble.",
+   "answer": "Pon",
+   "alternatives": [],
+   "options": [
+    "Pon",
+    "Pones",
+    "Pondrás"
+   ],
+   "hint": "",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Place the deck of cards on the oaken table.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "180546",
+    "tatoeba_en": "1536"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "poner",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-c2a8efd2df39",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "____ de reñiros.",
+   "answer": "Dejad",
+   "alternatives": [],
+   "options": [
+    "Dejáis",
+    "Dejad",
+    "Dejaréis"
+   ],
+   "hint": "",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Stop squabbling.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4557332",
+    "tatoeba_en": "2111492"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "dejar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-0d6dfefc7a41",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¡____!",
+   "answer": "Parad",
+   "alternatives": [],
+   "options": [
+    "Pararéis",
+    "Paráis",
+    "Parad"
+   ],
+   "hint": "",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Stop!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4347076",
+    "tatoeba_en": "448320"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "parar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-d5ae998d4efd",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la forma correcta.",
+   "text": "¡____!",
+   "answer": "Disparad",
+   "alternatives": [],
+   "options": [
+    "Dispararéis",
+    "Disparad",
+    "Disparáis"
+   ],
+   "hint": "",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Open fire!",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3112460",
+    "tatoeba_en": "1108002"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": {
+    "lemma": "disparar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "p",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-9e27984a871d",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Bebéis un poco de té.",
+   "answer": "Bebed un poco de té.",
+   "alternatives": [
+    "Bebáis un poco de té."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Tomad un poco de té.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1238880",
+    "tatoeba_en": "1239031"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-cc93d78ea7c0",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "Cogeréis todas las galletas que queráis.",
+   "answer": "Coged todas las galletas que queráis.",
+   "alternatives": [
+    "Cojáis todas las galletas que queráis."
+   ],
+   "options": [],
+   "hint": "",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "Take as many cookies as you want.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1359660",
+    "tatoeba_en": "33461"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-152cbb8499f7",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperativo · tú",
+   "text": "",
+   "answer": "parece",
+   "alternatives": [],
+   "options": [],
+   "hint": "parecer",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "parecer"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "parecer",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-5b7179c943df",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperativo · tú",
+   "text": "",
+   "answer": "vuelve",
+   "alternatives": [
+    "vuélvete"
+   ],
+   "options": [],
+   "hint": "volver",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "volver"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "volver",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-9110d0eb8d00",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperativo · tú",
+   "text": "",
+   "answer": "ayuda",
+   "alternatives": [],
+   "options": [],
+   "hint": "ayudar",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "ayudar"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "ayudar",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "imperativo-afirmativo-6914da27ea82",
+   "topic": "imperativo-afirmativo",
+   "level": "B1",
+   "type": "conjugation",
+   "prompt": "Conjuga el verbo: imperativo · tú",
+   "text": "",
+   "answer": "muere",
+   "alternatives": [],
+   "options": [],
+   "hint": "morir",
+   "explanation": "Imperativo afirmativo de tú: forma de tercera persona del presente; ocho irregulares (di, haz, ve, ten, pon, sal, sé, ven).",
+   "translation": "",
+   "source": "wiktionary",
+   "source_ids": {
+    "wiktionary": "morir"
+   },
+   "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+   "verify": {
+    "lemma": "morir",
+    "mood": "imperative",
+    "tense": null,
+    "person": 2,
+    "number": "s",
+    "compound": false,
+    "aux_tense": null
+   },
+   "confidence": "high",
+   "notes": [],
+   "tags": [
+    "imperativo-afirmativo",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

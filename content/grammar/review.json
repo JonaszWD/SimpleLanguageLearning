@@ -1,0 +1,2841 @@
+{
+ "ser-estar": {
+  "accepted": 22,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 4,
+   "conjugation": 2
+  },
+  "review": 20,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "ser-estar-dcf2bc5d722e",
+    "type": "cloze",
+    "text": "¿Éste ____ tu DVD?",
+    "answer": "es",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-e2cb0d645234",
+    "type": "cloze",
+    "text": "¿Cuál ____ la norma?",
+    "answer": "es",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-0c5afca88fa6",
+    "type": "cloze",
+    "text": "¿Quién ____ ese hombre?",
+    "answer": "es",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-ad7f81606226",
+    "type": "cloze",
+    "text": "No me telefonees cuando ____ en la oficina.",
+    "answer": "estoy",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-d96b39016d13",
+    "type": "cloze",
+    "text": "____ del tamaño correcto.",
+    "answer": "Es",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-cbc5774df2fe",
+    "type": "cloze",
+    "text": "¡____ absolutamente seguro!",
+    "answer": "Estoy",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-f4ca5e868c5c",
+    "type": "cloze",
+    "text": "No ____ perfectos.",
+    "answer": "somos",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-b83ae8dae638",
+    "type": "cloze",
+    "text": "Nosotros ahora lo ____ alcanzando.",
+    "answer": "estamos",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-26b4883c45c9",
+    "type": "cloze",
+    "text": "¿____ libre el martes?",
+    "answer": "Estás",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-5fb2784f28dd",
+    "type": "cloze",
+    "text": "____ un clásico.",
+    "answer": "Es",
+    "reasons": [
+     "ser/estar can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-357d597d0cae",
+    "type": "multiple_choice",
+    "text": "Has aumentado de peso, ¿no ____ verdad?",
+    "answer": "es",
+    "reasons": [
+     "the other verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-6957347b669c",
+    "type": "multiple_choice",
+    "text": "¡____ carísimo!",
+    "answer": "Es",
+    "reasons": [
+     "the other verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-54c3fd5a0143",
+    "type": "multiple_choice",
+    "text": "____ caluroso y húmedo.",
+    "answer": "Estuvo",
+    "reasons": [
+     "the other verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-67d086a4bd71",
+    "type": "multiple_choice",
+    "text": "____ actuando como un idiota.",
+    "answer": "Estás",
+    "reasons": [
+     "the other verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-72e6cd422679",
+    "type": "multiple_choice",
+    "text": "No ____ tan bueno como se ve.",
+    "answer": "es",
+    "reasons": [
+     "the other verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-81001e04723c",
+    "type": "multiple_choice",
+    "text": "¡Ése ____ mi chico!",
+    "answer": "es",
+    "reasons": [
+     "the other verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-58e45eb4a042",
+    "type": "error_correction",
+    "text": "Estás un cotilla.",
+    "answer": "Eres un cotilla.",
+    "reasons": [
+     "the swapped verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-5c8c8805b0b1",
+    "type": "error_correction",
+    "text": "Está muy pequeño.",
+    "answer": "Es muy pequeño.",
+    "reasons": [
+     "the swapped verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-ad9ae03c7d62",
+    "type": "error_correction",
+    "text": "¿Cuál está tu culebrón favorito?",
+    "answer": "¿Cuál es tu culebrón favorito?",
+    "reasons": [
+     "the swapped verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "ser-estar-7c4df58be287",
+    "type": "error_correction",
+    "text": "Creo que no está abogado.",
+    "answer": "Creo que no es abogado.",
+    "reasons": [
+     "the swapped verb may also fit with a change of meaning",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "por-para": {
+  "accepted": 16,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6
+  },
+  "review": 16,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "por-para-1e90276c5ee3",
+    "type": "cloze",
+    "text": "____ favor, no te rías de mí.",
+    "answer": "Por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-cb1640bf3a15",
+    "type": "cloze",
+    "text": "____ favor cálmate.",
+    "answer": "Por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-ef3a5c5a8eb5",
+    "type": "cloze",
+    "text": "____ favor, endóseme este cheque.",
+    "answer": "Por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-22d043e6bb93",
+    "type": "cloze",
+    "text": "¿____ qué lo usarás?",
+    "answer": "Para",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-480a121e85cf",
+    "type": "cloze",
+    "text": "Le condecoraron ____ el valor que demostró en la batalla.",
+    "answer": "por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-ef392278de72",
+    "type": "cloze",
+    "text": "¿____ qué soñamos?",
+    "answer": "Por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-fd07b6dd681d",
+    "type": "cloze",
+    "text": "Nos arrodillamos ____ rezar.",
+    "answer": "para",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-44cbd03a06f0",
+    "type": "cloze",
+    "text": "La levadura se usa ____ hacer pan.",
+    "answer": "para",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-d8d32b927ffa",
+    "type": "cloze",
+    "text": "¿Podrías repetirlo, ____ favor?",
+    "answer": "por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-54fcb3402e1c",
+    "type": "cloze",
+    "text": "No pudimos concluir el trabajo ____ falta de tiempo.",
+    "answer": "por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-cd1a14690e2c",
+    "type": "multiple_choice",
+    "text": "Necesito medicamentos ____ el dolor.",
+    "answer": "para",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-c166a71102b6",
+    "type": "multiple_choice",
+    "text": "Encontramos todos los árboles inclinados ____ la fuerza del viento.",
+    "answer": "por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-d6a07f38610f",
+    "type": "multiple_choice",
+    "text": "Tom le dijo a Mary que no se culpara ____ lo que había pasado.",
+    "answer": "por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-ccd601df743c",
+    "type": "multiple_choice",
+    "text": "Pruébate este nuevo traje ____ ver si te sienta bien.",
+    "answer": "para",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-4c7c3b559b93",
+    "type": "multiple_choice",
+    "text": "____ favor, copia esto.",
+    "answer": "Por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "por-para-ae244018fde0",
+    "type": "multiple_choice",
+    "text": "¿____ qué no cierras la ventana?",
+    "answer": "Por",
+    "reasons": [
+     "por/para can both fit some sentences with a change of meaning; check the blank is unambiguous",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "preterito-imperfecto": {
+  "accepted": 24,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 2,
+   "conjugation": 4,
+   "transformation": 2
+  },
+  "review": 10,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "preterito-imperfecto-1957a758c61e",
+    "type": "multiple_choice",
+    "text": "____ nuevos muebles.",
+    "answer": "Encargué",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-8a3edbc14700",
+    "type": "multiple_choice",
+    "text": "Él se ____ como un niño.",
+    "answer": "portó",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-03b9b96685fd",
+    "type": "multiple_choice",
+    "text": "Me ____ el dedo con la puerta.",
+    "answer": "pillé",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-8dc45fed9fa8",
+    "type": "multiple_choice",
+    "text": "Todas sus canciones se ____ en éxitos.",
+    "answer": "convirtieron",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-2649303c401b",
+    "type": "multiple_choice",
+    "text": "El dolor ____.",
+    "answer": "desapareció",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-4c6c17b5d1a1",
+    "type": "multiple_choice",
+    "text": "¿____ algo?",
+    "answer": "Tocaste",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-f44cbb967dc0",
+    "type": "error_correction",
+    "text": "Delibero sobre si debía decir algo.",
+    "answer": "Deliberé sobre si debía decir algo.",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-813543dfa435",
+    "type": "error_correction",
+    "text": "Escuchaba que tus dos abuelos eran fontaneros.",
+    "answer": "Escuché que tus dos abuelos eran fontaneros.",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-82868112369e",
+    "type": "transformation",
+    "text": "El niño es amable.",
+    "answer": "El niño era amable.",
+    "reasons": [
+     "time reference may feel odd after the change",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-imperfecto-869a06e54961",
+    "type": "transformation",
+    "text": "¿Qué estáis aprendiendo?",
+    "answer": "¿Qué estabais aprendiendo?",
+    "reasons": [
+     "time reference may feel odd after the change",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "preterito-perfecto": {
+  "accepted": 22,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 2,
+   "conjugation": 4
+  },
+  "review": 8,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "preterito-perfecto-664af9779f2f",
+    "type": "multiple_choice",
+    "text": "Has hecho lo que ____.",
+    "answer": "has podido",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-perfecto-e1ddbf528428",
+    "type": "multiple_choice",
+    "text": "Tom ____ nombrado presidente.",
+    "answer": "ha sido",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-perfecto-073dbae1a8d4",
+    "type": "multiple_choice",
+    "text": "Yo no ____.",
+    "answer": "he conducido",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-perfecto-93efd06bf460",
+    "type": "multiple_choice",
+    "text": "¿Me ____ con claridad?",
+    "answer": "he explicado",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-perfecto-411e62dbbad1",
+    "type": "multiple_choice",
+    "text": "Le ____ todo.",
+    "answer": "ha perdonado",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-perfecto-7516b4819e48",
+    "type": "multiple_choice",
+    "text": "Tom ____ acusado de soborno.",
+    "answer": "ha sido",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-perfecto-8d946a752025",
+    "type": "error_correction",
+    "text": "Apenas habremos comenzado.",
+    "answer": "Apenas hemos comenzado.",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "preterito-perfecto-f2cfc5491fb4",
+    "type": "error_correction",
+    "text": "Habíamos intentado convencerle.",
+    "answer": "Hemos intentado convencerle.",
+    "reasons": [
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "pluscuamperfecto": {
+  "accepted": 10,
+  "by_type": {
+   "cloze": 6,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": []
+ },
+ "futuro": {
+  "accepted": 23,
+  "by_type": {
+   "cloze": 9,
+   "multiple_choice": 6,
+   "error_correction": 2,
+   "conjugation": 4,
+   "transformation": 2
+  },
+  "review": 10,
+  "rejected": 1,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [
+   {
+    "item": {
+     "topic": "futuro",
+     "level": "B1",
+     "tags": [
+      "futuro",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "2008677",
+      "tatoeba_en": "1977711"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "My dad will kill me.",
+     "type": "cloze",
+     "prompt": "Completa con el verbo en futuro.",
+     "text": "¡Mi papá me ____!",
+     "answer": "matará",
+     "hint": "matar",
+     "explanation": "Futuro simple: infinitivo + -é, -ás, -á, -emos, -éis, -án (raíces irregulares).",
+     "verify": {
+      "lemma": "matar",
+      "mood": "indicative",
+      "tense": "future",
+      "person": 3,
+      "number": "s",
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "blocked content"
+    ]
+   }
+  ],
+  "review_items": [
+   {
+    "id": "futuro-a522f79b2169",
+    "type": "multiple_choice",
+    "text": "____ una sonata para ti.",
+    "answer": "Tocaré",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-3122e09c9446",
+    "type": "multiple_choice",
+    "text": "Eso no ____.",
+    "answer": "pasará",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-439f08f5e847",
+    "type": "multiple_choice",
+    "text": "____ llegando tarde.",
+    "answer": "Seguirán",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-0a8f4742f21c",
+    "type": "multiple_choice",
+    "text": "____ tu profesor.",
+    "answer": "Seré",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-6de517995a02",
+    "type": "multiple_choice",
+    "text": "¿Cuánto tiempo ____ que esperar?",
+    "answer": "tendremos",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-cfb9b6e9ac2e",
+    "type": "multiple_choice",
+    "text": "Dame tu pasaporte, Tom. Lo ____ en la caja fuerte.",
+    "answer": "guardaré",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-9f62b7deb0a0",
+    "type": "error_correction",
+    "text": "¿Qué almorzarías hoy?",
+    "answer": "¿Qué almorzarás hoy?",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-61c50355bb27",
+    "type": "error_correction",
+    "text": "¡No hablabas en serio!",
+    "answer": "¡No hablarás en serio!",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-52d586629857",
+    "type": "transformation",
+    "text": "Esto es un bajón.",
+    "answer": "Esto será un bajón.",
+    "reasons": [
+     "time reference may feel odd after the change",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "futuro-aff43de77992",
+    "type": "transformation",
+    "text": "Soy muy alérgico a los cacahuetes.",
+    "answer": "Seré muy alérgico a los cacahuetes.",
+    "reasons": [
+     "time reference may feel odd after the change",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "condicional": {
+  "accepted": 24,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 2,
+   "conjugation": 4,
+   "transformation": 2
+  },
+  "review": 10,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "condicional-1ae8a77d9478",
+    "type": "multiple_choice",
+    "text": "Tú ____ resultar lastimado.",
+    "answer": "podrías",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-d6535a4384df",
+    "type": "multiple_choice",
+    "text": "¿Por qué me ____?",
+    "answer": "lastimarías",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-bb0d12fb27c0",
+    "type": "multiple_choice",
+    "text": "Sin aire ____.",
+    "answer": "moriríamos",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-3b56e33d0a22",
+    "type": "multiple_choice",
+    "text": "Creo que ____ que cambiar tus hábitos alimenticios.",
+    "answer": "tendrías",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-64ef2254ab94",
+    "type": "multiple_choice",
+    "text": "¿Me ____ un mapa?",
+    "answer": "trazarías",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-6133db4df9ca",
+    "type": "multiple_choice",
+    "text": "____ informar a la policía inmediatamente.",
+    "answer": "Deberías",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-87775214d626",
+    "type": "error_correction",
+    "text": "¿Me soltabas el brazo?",
+    "answer": "¿Me soltarías el brazo?",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-2d0f15a1e2d3",
+    "type": "error_correction",
+    "text": "¿Podías describirles?",
+    "answer": "¿Podrías describirles?",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-b713c0a4899e",
+    "type": "transformation",
+    "text": "Me encantan las mariposas.",
+    "answer": "Me encantarían las mariposas.",
+    "reasons": [
+     "time reference may feel odd after the change",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "condicional-9b806c5ce06c",
+    "type": "transformation",
+    "text": "Sigo intentando localizar a Tom.",
+    "answer": "Seguiría intentando localizar a Tom.",
+    "reasons": [
+     "time reference may feel odd after the change",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "pronombres-od-oi": {
+  "accepted": 7,
+  "by_type": {
+   "cloze": 7
+  },
+  "review": 7,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "pronombres-od-oi-cfcc4f45024e",
+    "type": "cloze",
+    "text": "Ambos, Tom y Mary, ____ lo agradecieron a John.",
+    "answer": "se",
+    "reasons": [
+     "le/les/se choice depends on number of the recipient: verify against the translation",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "pronombres-od-oi-7e4a38c22aea",
+    "type": "cloze",
+    "text": "Permítame que ____ lo aclare.",
+    "answer": "se",
+    "reasons": [
+     "le/les/se choice depends on number of the recipient: verify against the translation",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "pronombres-od-oi-def89bb4157c",
+    "type": "cloze",
+    "text": "El doctor ____ lo dio a ella.",
+    "answer": "se",
+    "reasons": [
+     "le/les/se choice depends on number of the recipient: verify against the translation",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "pronombres-od-oi-1abd59a5ac69",
+    "type": "cloze",
+    "text": "Tom no ____ lo creerá nunca.",
+    "answer": "se",
+    "reasons": [
+     "le/les/se choice depends on number of the recipient: verify against the translation",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "pronombres-od-oi-d3b1e317d598",
+    "type": "cloze",
+    "text": "Ellos ____ lo llevaron por la fuerza.",
+    "answer": "se",
+    "reasons": [
+     "le/les/se choice depends on number of the recipient: verify against the translation",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "pronombres-od-oi-12a73305e254",
+    "type": "cloze",
+    "text": "Tom sabe que Mary no ____ lo contará a John.",
+    "answer": "se",
+    "reasons": [
+     "le/les/se choice depends on number of the recipient: verify against the translation",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "pronombres-od-oi-e87dc388a1a2",
+    "type": "cloze",
+    "text": "¿A quién ____ lo diste?",
+    "answer": "se",
+    "reasons": [
+     "le/les/se choice depends on number of the recipient: verify against the translation",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "subj-presente-regular": {
+  "accepted": 24,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 4,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": []
+ },
+ "subj-presente-irregular": {
+  "accepted": 21,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 1,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": []
+ },
+ "subj-deseos": {
+  "accepted": 15,
+  "by_type": {
+   "cloze": 4,
+   "multiple_choice": 3,
+   "error_correction": 4,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 9,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "2169501",
+      "tatoeba_en": "2011690"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I want you to grow up.",
+     "type": "cloze",
+     "prompt": "Completa con el presente de subjuntivo.",
+     "text": "Quiero que ____.",
+     "answer": "madures",
+     "hint": "madurar",
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "madurar",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 2,
+      "number": "s",
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "5645591",
+      "tatoeba_en": "5636515"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I hope we achieve that.",
+     "type": "cloze",
+     "prompt": "Completa con el presente de subjuntivo.",
+     "text": "Espero que lo ____.",
+     "answer": "consigamos",
+     "hint": "conseguir",
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "conseguir",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 1,
+      "number": "p",
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "2616368",
+      "tatoeba_en": "2013512"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I don't want anyone to panic.",
+     "type": "cloze",
+     "prompt": "Completa con el presente de subjuntivo.",
+     "text": "No quiero que nadie se ____.",
+     "answer": "asuste",
+     "hint": "asustar",
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "asustar",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": null,
+      "number": null,
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "1928955",
+      "tatoeba_en": "767454"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I hope you understand.",
+     "type": "cloze",
+     "prompt": "Completa con el presente de subjuntivo.",
+     "text": "Espero que ____.",
+     "answer": "entiendas",
+     "hint": "entender",
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "entender",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 2,
+      "number": "s",
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "4392166",
+      "tatoeba_en": "2011403"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I want my job back.",
+     "type": "cloze",
+     "prompt": "Completa con el presente de subjuntivo.",
+     "text": "Quiero que me ____ mi empleo.",
+     "answer": "devuelvan",
+     "hint": "devolver",
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "devolver",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 3,
+      "number": "p",
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "3210413",
+      "tatoeba_en": "2360896"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I hope this is worth it.",
+     "type": "cloze",
+     "prompt": "Completa con el presente de subjuntivo.",
+     "text": "Espero que esto lo ____.",
+     "answer": "valga",
+     "hint": "valer",
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "valer",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": null,
+      "number": null,
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "532556",
+      "tatoeba_en": "2429"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I want you to tell me the truth.",
+     "type": "multiple_choice",
+     "prompt": "Elige la forma correcta.",
+     "text": "Quiero que me ____ la verdad.",
+     "answer": "digas",
+     "options": [
+      "dices",
+      "dirás",
+      "digas",
+      "dijiste"
+     ],
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "decir",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 2,
+      "number": "s",
+      "compound": false,
+      "aux_tense": null
+     },
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "1439788",
+      "tatoeba_en": "69296"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I hope that you'll help me.",
+     "type": "multiple_choice",
+     "prompt": "Elige la forma correcta.",
+     "text": "Espero que me ____.",
+     "answer": "ayudes",
+     "options": [
+      "ayudes",
+      "ayudaste",
+      "ayudarás",
+      "ayudas"
+     ],
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "ayudar",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 2,
+      "number": "s",
+      "compound": false,
+      "aux_tense": null
+     },
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-deseos",
+     "level": "B1",
+     "tags": [
+      "subj-deseos",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "4761234",
+      "tatoeba_en": "2282047"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I just want to be loved.",
+     "type": "multiple_choice",
+     "prompt": "Elige la forma correcta.",
+     "text": "Sólo quiero que me ____.",
+     "answer": "quieran",
+     "options": [
+      "quisieron",
+      "quieran",
+      "quieren",
+      "querrán"
+     ],
+     "explanation": "Verbos de deseo, petición o consejo + que + subjuntivo cuando los sujetos son distintos.",
+     "verify": {
+      "lemma": "querer",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 3,
+      "number": "p",
+      "compound": false,
+      "aux_tense": null
+     },
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   }
+  ],
+  "review_items": []
+ },
+ "subj-emociones": {
+  "accepted": 9,
+  "by_type": {
+   "cloze": 6,
+   "conjugation": 3
+  },
+  "review": 0,
+  "rejected": 1,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [
+   {
+    "item": {
+     "topic": "subj-emociones",
+     "level": "B1",
+     "tags": [
+      "subj-emociones",
+      "B1",
+      "grammar"
+     ],
+     "type": "conjugation",
+     "prompt": "Conjuga el verbo: presente de subjuntivo · vosotros",
+     "answer": "necesitéis",
+     "alternatives": [],
+     "hint": "necesitar",
+     "explanation": "Emoción o valoración + que + subjuntivo (me alegro de que, es una pena que...).",
+     "source": "wiktionary",
+     "source_ids": {
+      "wiktionary": "necesitar"
+     },
+     "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+     "verify": {
+      "lemma": "necesitar",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 2,
+      "number": "p",
+      "compound": false,
+      "aux_tense": null
+     }
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   }
+  ],
+  "review_items": []
+ },
+ "subj-duda": {
+  "accepted": 9,
+  "by_type": {
+   "cloze": 5,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 2,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [
+   {
+    "item": {
+     "topic": "subj-duda",
+     "level": "B1",
+     "tags": [
+      "subj-duda",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "609199",
+      "tatoeba_en": "41437"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I don't believe such things exist.",
+     "type": "cloze",
+     "prompt": "Completa con el presente de subjuntivo.",
+     "text": "No creo que tales ____ existan.",
+     "answer": "cosas",
+     "hint": "coser",
+     "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+     "verify": {
+      "lemma": "coser",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 2,
+      "number": "s",
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "subj-duda",
+     "level": "B1",
+     "tags": [
+      "subj-duda",
+      "B1",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "6549324",
+      "tatoeba_en": "6343868"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I don't think we should shut the window.",
+     "type": "cloze",
+     "prompt": "Completa con el presente de subjuntivo.",
+     "text": "No creo que ____ cerrar la ventana.",
+     "answer": "debamos",
+     "hint": "deber",
+     "explanation": "Duda, negación o posibilidad + que + subjuntivo (no creo que, dudo que, es posible que).",
+     "verify": {
+      "lemma": "deber",
+      "mood": "subjunctive",
+      "tense": "present",
+      "person": 1,
+      "number": "p",
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   }
+  ],
+  "review_items": []
+ },
+ "imperativo-afirmativo": {
+  "accepted": 22,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 2,
+   "conjugation": 4
+  },
+  "review": 8,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "imperativo-afirmativo-e59083e6f448",
+    "type": "multiple_choice",
+    "text": "____ un buen fin de semana.",
+    "answer": "Ten",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "imperativo-afirmativo-44df11f81069",
+    "type": "multiple_choice",
+    "text": "____ a sus disparos.",
+    "answer": "Responded",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "imperativo-afirmativo-ab9d180b2fea",
+    "type": "multiple_choice",
+    "text": "____ el mazo de cartas sobre la mesa de roble.",
+    "answer": "Pon",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "imperativo-afirmativo-c2a8efd2df39",
+    "type": "multiple_choice",
+    "text": "____ de reñiros.",
+    "answer": "Dejad",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "imperativo-afirmativo-0d6dfefc7a41",
+    "type": "multiple_choice",
+    "text": "¡____!",
+    "answer": "Parad",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "imperativo-afirmativo-d5ae998d4efd",
+    "type": "multiple_choice",
+    "text": "¡____!",
+    "answer": "Disparad",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "imperativo-afirmativo-9e27984a871d",
+    "type": "error_correction",
+    "text": "Bebéis un poco de té.",
+    "answer": "Bebed un poco de té.",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "imperativo-afirmativo-cc93d78ea7c0",
+    "type": "error_correction",
+    "text": "Cogeréis todas las galletas que queráis.",
+    "answer": "Coged todas las galletas que queráis.",
+    "reasons": [
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "imperativo-negativo-pronombres": {
+  "accepted": 24,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 4,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": []
+ },
+ "oraciones-relativo": {
+  "accepted": 17,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 1
+  },
+  "review": 17,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "oraciones-relativo-cdfca0f0cb9b",
+    "type": "cloze",
+    "text": "Usted estará al cargo de la mujer ____ trabaja en esta fábrica.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-6f2ad1a4a71e",
+    "type": "cloze",
+    "text": "No tenía a nadie a ____ recurrir.",
+    "answer": "quien",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-2ed7612509f8",
+    "type": "cloze",
+    "text": "Necesito encontrar gente con ____ relajarme.",
+    "answer": "quien",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-19b6f99b1c53",
+    "type": "cloze",
+    "text": "Aquí es ____ ocurrió aquel accidente.",
+    "answer": "donde",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-5d40a41a6050",
+    "type": "cloze",
+    "text": "Hay tantas estrellas en el cielo ____ no puedo contarlas todas.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-7aa18dcad3dd",
+    "type": "cloze",
+    "text": "Montgomery fue ____ comenzó todo.",
+    "answer": "donde",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-6fc091221948",
+    "type": "cloze",
+    "text": "Aquí está la revista ____ buscabas.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-9f509b540e8f",
+    "type": "cloze",
+    "text": "Coge todos los melocotones ____ quieras.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-92259707e4d5",
+    "type": "cloze",
+    "text": "Los exámenes empiezan la semana ____ viene.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-6de299b2604b",
+    "type": "cloze",
+    "text": "Le condecoraron por el valor ____ demostró en la batalla.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-eafaed30e5a2",
+    "type": "multiple_choice",
+    "text": "Hoy hace un frío ____ pela.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-c2b3eff9b0e6",
+    "type": "multiple_choice",
+    "text": "Es una pena ____ no puedas venir.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-2a17bf3b32e0",
+    "type": "multiple_choice",
+    "text": "Tengo un regalo ____ darte.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-9f7204c52ebe",
+    "type": "multiple_choice",
+    "text": "Esto es justo la cosa ____ necesitas.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-71d8b93f1148",
+    "type": "multiple_choice",
+    "text": "La torre ____ ves allá es la torre Eiffel.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-e03a25a5d373",
+    "type": "multiple_choice",
+    "text": "Tengo un proyecto ____ hacer.",
+    "answer": "que",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "oraciones-relativo-1d93fb221808",
+    "type": "error_correction",
+    "text": "No eres tú quienes debe decidirlo.",
+    "answer": "No eres tú quien debe decidirlo.",
+    "reasons": [
+     "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "subj-imperfecto-formacion": {
+  "accepted": 22,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 2,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": []
+ },
+ "subj-imperfecto-usos": {
+  "accepted": 24,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6,
+   "error_correction": 4,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": []
+ },
+ "si-reales": {
+  "accepted": 18,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 4,
+   "conjugation": 4
+  },
+  "review": 14,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "si-reales-b98be771a55c",
+    "type": "cloze",
+    "text": "¿Le importa si ____ la puerta?",
+    "answer": "abro",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-33e4578b277e",
+    "type": "cloze",
+    "text": "Puedo prestarte algo de dinero si ____.",
+    "answer": "quieres",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-8912d8dabc79",
+    "type": "cloze",
+    "text": "Atrápame si ____.",
+    "answer": "puedes",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-19459c1dc2e9",
+    "type": "cloze",
+    "text": "¿No le molesta si ____ la radio?",
+    "answer": "enciendo",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-881938888c3a",
+    "type": "cloze",
+    "text": "No sé si ____ tiempo.",
+    "answer": "tengo",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-71b9f6bb74e2",
+    "type": "cloze",
+    "text": "Preguntemos si ____ verdad.",
+    "answer": "es",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-dc509a98493b",
+    "type": "cloze",
+    "text": "Corrígeme si me ____.",
+    "answer": "equivoco",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-f0954f73836c",
+    "type": "cloze",
+    "text": "Pulsa el botón verde. Si lo ____, se encenderá la luz.",
+    "answer": "haces",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-7e3f7575638f",
+    "type": "cloze",
+    "text": "¿Sabes si ____ novia?",
+    "answer": "tiene",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-19fbbeafc607",
+    "type": "cloze",
+    "text": "No dudes en pedírmelo si ____ cualquier cosa.",
+    "answer": "necesitas",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-9eb79a89e39f",
+    "type": "multiple_choice",
+    "text": "Puedo hacer eso si me ____.",
+    "answer": "dejas",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-2c331948b5d5",
+    "type": "multiple_choice",
+    "text": "Si no ____, vivirás más.",
+    "answer": "fumas",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-bba627e9fc88",
+    "type": "multiple_choice",
+    "text": "Será mejor si ____.",
+    "answer": "entras",
+    "reasons": [
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "si-reales-2dcf8b489447",
+    "type": "multiple_choice",
+    "text": "Avísame si no ____ a llegar a tiempo.",
+    "answer": "vas",
+    "reasons": [
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "si-irreales": {
+  "accepted": 11,
+  "by_type": {
+   "cloze": 7,
+   "multiple_choice": 1,
+   "conjugation": 3
+  },
+  "review": 0,
+  "rejected": 4,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [
+   {
+    "item": {
+     "topic": "si-irreales",
+     "level": "B2",
+     "tags": [
+      "si-irreales",
+      "B2",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "1729725",
+      "tatoeba_en": "303507"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "He pretended not to be listening.",
+     "type": "cloze",
+     "prompt": "Completa con el imperfecto de subjuntivo.",
+     "text": "Él hizo como si no ____.",
+     "answer": "escuchara",
+     "hint": "escuchar",
+     "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+     "verify": {
+      "lemma": "escuchar",
+      "mood": "subjunctive",
+      "tense": "imperfect",
+      "person": null,
+      "number": null,
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "si-irreales",
+     "level": "B2",
+     "tags": [
+      "si-irreales",
+      "B2",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "6695018",
+      "tatoeba_en": "6694781"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "I'd probably be arrested if I did that.",
+     "type": "cloze",
+     "prompt": "Completa con el imperfecto de subjuntivo.",
+     "text": "Probablemente me apresarían si lo ____.",
+     "answer": "hiciera",
+     "hint": "hacer",
+     "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+     "verify": {
+      "lemma": "hacer",
+      "mood": "subjunctive",
+      "tense": "imperfect",
+      "person": null,
+      "number": null,
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "si-irreales",
+     "level": "B2",
+     "tags": [
+      "si-irreales",
+      "B2",
+      "grammar"
+     ],
+     "source": "tatoeba",
+     "source_ids": {
+      "tatoeba_es": "535215",
+      "tatoeba_en": "707084"
+     },
+     "attribution": "Tatoeba.org, CC BY 2.0 FR",
+     "translation": "It'd be better if you would come with me.",
+     "type": "cloze",
+     "prompt": "Completa con el imperfecto de subjuntivo.",
+     "text": "Sería mejor si ____ conmigo.",
+     "answer": "vinieras",
+     "hint": "venir",
+     "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+     "verify": {
+      "lemma": "venir",
+      "mood": "subjunctive",
+      "tense": "imperfect",
+      "person": 2,
+      "number": "s",
+      "compound": false,
+      "aux_tense": null
+     },
+     "alternatives": [],
+     "confidence": "high",
+     "notes": []
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   },
+   {
+    "item": {
+     "topic": "si-irreales",
+     "level": "B2",
+     "tags": [
+      "si-irreales",
+      "B2",
+      "grammar"
+     ],
+     "type": "conjugation",
+     "prompt": "Conjuga el verbo: imperfecto de subjuntivo · tú",
+     "answer": "fueras",
+     "alternatives": [],
+     "hint": "ser",
+     "explanation": "Si + imperfecto de subjuntivo → condicional (hipótesis improbable o irreal).",
+     "source": "wiktionary",
+     "source_ids": {
+      "wiktionary": "ser"
+     },
+     "attribution": "Wiktionary via kaikki.org, CC BY-SA 4.0",
+     "verify": {
+      "lemma": "ser",
+      "mood": "subjunctive",
+      "tense": "imperfect",
+      "person": 2,
+      "number": "s",
+      "compound": false,
+      "aux_tense": null
+     }
+    },
+    "reasons": [
+     "duplicate"
+    ]
+   }
+  ],
+  "review_items": []
+ },
+ "se-impersonal-pasiva-refleja": {
+  "accepted": 4,
+  "by_type": {
+   "cloze": 4
+  },
+  "review": 4,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "se-impersonal-pasiva-refleja-e90e53dd1b50",
+    "type": "cloze",
+    "text": "Se ____ mascotas.",
+    "answer": "permiten",
+    "reasons": [
+     "check that 'se' is passive/impersonal and not reflexive",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "se-impersonal-pasiva-refleja-c174ee85b277",
+    "type": "cloze",
+    "text": "Las bayas se ____ congelar.",
+    "answer": "pueden",
+    "reasons": [
+     "check that 'se' is passive/impersonal and not reflexive",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "se-impersonal-pasiva-refleja-cba9f485b4ee",
+    "type": "cloze",
+    "text": "Se ____ que el amor es ciego.",
+    "answer": "dice",
+    "reasons": [
+     "check that 'se' is passive/impersonal and not reflexive",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "se-impersonal-pasiva-refleja-8d8047c4c80e",
+    "type": "cloze",
+    "text": "Se ____ urgentemente nuevas ideas.",
+    "answer": "necesitan",
+    "reasons": [
+     "check that 'se' is passive/impersonal and not reflexive",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "voz-pasiva": {
+  "accepted": 16,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6
+  },
+  "review": 16,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "voz-pasiva-e7f6cb9ff4e4",
+    "type": "cloze",
+    "text": "¿Por qué te gustaría ser ____?",
+    "answer": "recordado",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-cc29ce88566a",
+    "type": "cloze",
+    "text": "Esos zapatos fueron ____ en Italia.",
+    "answer": "fabricados",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-14d72f773758",
+    "type": "cloze",
+    "text": "El chico fue ____.",
+    "answer": "regañado",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-b4f3c7eb6bb1",
+    "type": "cloze",
+    "text": "La gente es ____.",
+    "answer": "complicada",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-0db815e64ab8",
+    "type": "cloze",
+    "text": "El dinero fue ____ entre tres.",
+    "answer": "dividido",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-1c18aff471a2",
+    "type": "cloze",
+    "text": "Las fiestas son ____.",
+    "answer": "divertidas",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-221d78c2c3be",
+    "type": "cloze",
+    "text": "Nadie fue ____.",
+    "answer": "torturado",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-a614c2414342",
+    "type": "cloze",
+    "text": "Esta camisa necesita ser ____.",
+    "answer": "planchada",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-824ed847c45c",
+    "type": "cloze",
+    "text": "Esta granja parece haber sido ____.",
+    "answer": "abandonada",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-7ad4e0555551",
+    "type": "cloze",
+    "text": "La reunión de hoy ha sido ____.",
+    "answer": "cancelada",
+    "reasons": [
+     "agreement and passive reading checked only by the participle table",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-73384b960a10",
+    "type": "multiple_choice",
+    "text": "¿Dónde fueron ____ estas fotos?",
+    "answer": "tomadas",
+    "reasons": [
+     "participle agreement",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-e115bba430fb",
+    "type": "multiple_choice",
+    "text": "Él es ____.",
+    "answer": "odiado",
+    "reasons": [
+     "participle agreement",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-a87a2eb9f1ca",
+    "type": "multiple_choice",
+    "text": "Cuando lleguemos al hotel, nuestras maletas ya habrán sido ____.",
+    "answer": "entregadas",
+    "reasons": [
+     "participle agreement",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-5657e6aca79a",
+    "type": "multiple_choice",
+    "text": "No me gusta ser ____.",
+    "answer": "interrumpido",
+    "reasons": [
+     "participle agreement",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-a2c904366a91",
+    "type": "multiple_choice",
+    "text": "Miles de peces muertos fueron ____ flotando en el lago.",
+    "answer": "encontrados",
+    "reasons": [
+     "participle agreement",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "voz-pasiva-dfb0118d5740",
+    "type": "multiple_choice",
+    "text": "Mi plan fue ____.",
+    "answer": "rechazado",
+    "reasons": [
+     "participle agreement",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "conectores-contraste": {
+  "accepted": 2,
+  "by_type": {
+   "cloze": 2
+  },
+  "review": 2,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "conectores-contraste-c2daf1fe9d01",
+    "type": "cloze",
+    "text": "____ parezca mentira, no sentí ningún dolor en absoluto.",
+    "answer": "Aunque",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-contraste-1ff303516142",
+    "type": "cloze",
+    "text": "No lo haría ni ____ pudiese.",
+    "answer": "aunque",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "conectores-causa-consecuencia": {
+  "accepted": 16,
+  "by_type": {
+   "cloze": 10,
+   "multiple_choice": 6
+  },
+  "review": 16,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "conectores-causa-consecuencia-67cd6f6c9643",
+    "type": "cloze",
+    "text": "¿Puedo devolver esto ____ me lo reembolsen?",
+    "answer": "para que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-4fb9d83f18a3",
+    "type": "cloze",
+    "text": "El nieto hace zalamerías constantes a su abuela ____ le compre chucherías.",
+    "answer": "para que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-5b83f4d6267c",
+    "type": "cloze",
+    "text": "No quería resfriarme, ____ no salí.",
+    "answer": "así que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-0fd76e1bd3e4",
+    "type": "cloze",
+    "text": "Las plantas tienen que haberse muerto ____ nadie las regó.",
+    "answer": "porque",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-c3e496f8d057",
+    "type": "cloze",
+    "text": "Tom lo ha organizado ____ Mary se encuentre con John el miércoles.",
+    "answer": "para que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-55ced22e4c43",
+    "type": "cloze",
+    "text": "No me preocupé demasiado ____.",
+    "answer": "por eso",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-e14bd747d6b4",
+    "type": "cloze",
+    "text": "Estoy aquí ____ quiero.",
+    "answer": "porque",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-ca107079d1a9",
+    "type": "cloze",
+    "text": "Yo me ofendo ____.",
+    "answer": "por eso",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-52bcedde8789",
+    "type": "cloze",
+    "text": "Ella le presionó ____ dejase su trabajo.",
+    "answer": "para que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-1679777a75b7",
+    "type": "cloze",
+    "text": "Este resumen es demasiado escueto; hay que desarrollarlo más ____ sea comprensible.",
+    "answer": "para que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-cc185123bbff",
+    "type": "multiple_choice",
+    "text": "Tuve que ir allí andando ____ mi coche se estropeó.",
+    "answer": "porque",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-d9fe688195eb",
+    "type": "multiple_choice",
+    "text": "Yo caí ____.",
+    "answer": "por eso",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-e052a5d874d5",
+    "type": "multiple_choice",
+    "text": "No pudieron cogerle ____ corría demasiado rápido.",
+    "answer": "porque",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-bde9206c3a00",
+    "type": "multiple_choice",
+    "text": "Tom convenció a Mary ____ invitase a John a la fiesta.",
+    "answer": "para que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-e4c7c2bd290c",
+    "type": "multiple_choice",
+    "text": "Estas preguntas son demasiado difíciles ____ las conteste yo.",
+    "answer": "para que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "conectores-causa-consecuencia-939276e79cbf",
+    "type": "multiple_choice",
+    "text": "Pensé que sería una buena oportunidad ____ mejoraras tu francés.",
+    "answer": "para que",
+    "reasons": [
+     "several connectors may fit; check that the blank has one clear answer",
+     "confidence medium"
+    ]
+   }
+  ]
+ },
+ "subj-perfecto": {
+  "accepted": 6,
+  "by_type": {
+   "cloze": 2,
+   "conjugation": 4
+  },
+  "review": 0,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": []
+ },
+ "estilo-indirecto-presente": {
+  "accepted": 0,
+  "by_type": {},
+  "review": 0,
+  "rejected": 0,
+  "needs_llm": true,
+  "llm": "",
+  "rejected_items": [],
+  "review_items": []
+ },
+ "estilo-indirecto-pasado": {
+  "accepted": 25,
+  "by_type": {
+   "cloze": 6,
+   "multiple_choice": 6,
+   "conjugation": 4,
+   "transformation": 5,
+   "error_correction": 4
+  },
+  "review": 25,
+  "rejected": 0,
+  "needs_llm": false,
+  "llm": "from estilo-indirecto-pasado.json",
+  "rejected_items": [],
+  "review_items": [
+   {
+    "id": "estilo-indirecto-pasado-899b4ff09c94",
+    "type": "cloze",
+    "text": "«Estoy muy cansada» → Marta dijo que ____ muy cansada.",
+    "answer": "estaba",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-1c95c1ff46b6",
+    "type": "cloze",
+    "text": "«Mañana iré al médico» → Dijo que ____ al médico al día siguiente.",
+    "answer": "iría",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-ea56950ef62b",
+    "type": "cloze",
+    "text": "«Ya he terminado el informe» → Me explicó que ya ____ el informe.",
+    "answer": "había terminado",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-b8ecc9221e31",
+    "type": "cloze",
+    "text": "«Ven a mi casa» → Me dijo que ____ a su casa.",
+    "answer": "viniera",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-8abd10ecfda6",
+    "type": "cloze",
+    "text": "«¿Dónde vives?» → Me preguntó dónde ____.",
+    "answer": "vivía",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-a5d0d391627f",
+    "type": "cloze",
+    "text": "«Compré el billete ayer» → Dijo que ____ el billete el día anterior.",
+    "answer": "había comprado",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-642c4e0a16af",
+    "type": "multiple_choice",
+    "text": "«Tengo hambre» → Luis dijo que ____ hambre.",
+    "answer": "tenía",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-2139bb12eee6",
+    "type": "multiple_choice",
+    "text": "«Llegaré tarde» → Pedro dijo que ____ tarde.",
+    "answer": "llegaría",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-8b776b96ed10",
+    "type": "multiple_choice",
+    "text": "«¿Has visto mi móvil?» → Me preguntó ____ había visto su móvil.",
+    "answer": "si",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-3c0bc0aed548",
+    "type": "multiple_choice",
+    "text": "«Cierra la puerta» → Ana me dijo que ____ la puerta.",
+    "answer": "cerrara",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-7987acf6d885",
+    "type": "multiple_choice",
+    "text": "«Te llamaré mañana» → Me prometió que me ____ al día siguiente.",
+    "answer": "llamaría",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-495d0ecb4007",
+    "type": "multiple_choice",
+    "text": "«Hoy no trabajo» → Dijo que ____ no trabajaba.",
+    "answer": "ese día",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-bbcd3b059d05",
+    "type": "conjugation",
+    "text": "escribir",
+    "answer": "escribía",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-2759421568c4",
+    "type": "conjugation",
+    "text": "volver",
+    "answer": "había vuelto",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-9a04a32cab46",
+    "type": "conjugation",
+    "text": "hacer",
+    "answer": "haríamos",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-a94be487babf",
+    "type": "conjugation",
+    "text": "salir",
+    "answer": "salieras",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-3bfaa0cd8304",
+    "type": "transformation",
+    "text": "Ana dice: «Trabajo en Madrid».",
+    "answer": "Ana dijo que trabajaba en Madrid.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-b95c9593fad8",
+    "type": "transformation",
+    "text": "Luis dice: «Mañana iré a Valencia».",
+    "answer": "Luis dijo que iría a Valencia al día siguiente.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-2c6324c79264",
+    "type": "transformation",
+    "text": "Marta dice: «Ayer vi esa película».",
+    "answer": "Marta dijo que había visto esa película el día anterior.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-72036c541498",
+    "type": "transformation",
+    "text": "Mi madre me dice: «Come más verdura».",
+    "answer": "Mi madre me dijo que comiera más verdura.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-ef9c102bfdd6",
+    "type": "transformation",
+    "text": "Pablo pregunta: «¿Quieres un café?»",
+    "answer": "Pablo preguntó si quería un café.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-09303fc4417f",
+    "type": "error_correction",
+    "text": "Me dijo que cerrar la puerta.",
+    "answer": "Me dijo que cerrara la puerta.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-da0c0688ea80",
+    "type": "error_correction",
+    "text": "Pedro preguntó que si tenía hambre.",
+    "answer": "Pedro preguntó si tenía hambre.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-3bc38b9b6977",
+    "type": "error_correction",
+    "text": "Dijo estaba enfermo.",
+    "answer": "Dijo que estaba enfermo.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   },
+   {
+    "id": "estilo-indirecto-pasado-49bb48eae6f9",
+    "type": "error_correction",
+    "text": "Me prometió que me llamará al día siguiente.",
+    "answer": "Me prometió que me llamaría al día siguiente.",
+    "reasons": [
+     "LLM-generated: review",
+     "confidence medium"
+    ]
+   }
+  ]
+ }
+}

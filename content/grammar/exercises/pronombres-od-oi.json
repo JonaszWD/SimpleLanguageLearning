@@ -1,0 +1,216 @@
+{
+ "topic": "pronombres-od-oi",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "pronombres-od-oi-cfcc4f45024e",
+   "topic": "pronombres-od-oi",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre correcto (se, le o les).",
+   "text": "Ambos, Tom y Mary, ____ lo agradecieron a John.",
+   "answer": "se",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Le/les se convierten en se delante de lo, la, los, las: Se lo di.",
+   "translation": "Both Tom and Mary thanked John.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5797164",
+    "tatoeba_en": "3956115"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "le/les/se choice depends on number of the recipient: verify against the translation"
+   ],
+   "tags": [
+    "pronombres-od-oi",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pronombres-od-oi-7e4a38c22aea",
+   "topic": "pronombres-od-oi",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre correcto (se, le o les).",
+   "text": "Permítame que ____ lo aclare.",
+   "answer": "se",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Le/les se convierten en se delante de lo, la, los, las: Se lo di.",
+   "translation": "Let me just clarify that.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7262777",
+    "tatoeba_en": "4666451"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "le/les/se choice depends on number of the recipient: verify against the translation"
+   ],
+   "tags": [
+    "pronombres-od-oi",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pronombres-od-oi-def89bb4157c",
+   "topic": "pronombres-od-oi",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre correcto (se, le o les).",
+   "text": "El doctor ____ lo dio a ella.",
+   "answer": "se",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Le/les se convierten en se delante de lo, la, los, las: Se lo di.",
+   "translation": "The doctor gave it to her.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1322054",
+    "tatoeba_en": "27921"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "le/les/se choice depends on number of the recipient: verify against the translation"
+   ],
+   "tags": [
+    "pronombres-od-oi",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pronombres-od-oi-1abd59a5ac69",
+   "topic": "pronombres-od-oi",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre correcto (se, le o les).",
+   "text": "Tom no ____ lo creerá nunca.",
+   "answer": "se",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Le/les se convierten en se delante de lo, la, los, las: Se lo di.",
+   "translation": "Tom will never believe that.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2715079",
+    "tatoeba_en": "2713203"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "le/les/se choice depends on number of the recipient: verify against the translation"
+   ],
+   "tags": [
+    "pronombres-od-oi",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pronombres-od-oi-d3b1e317d598",
+   "topic": "pronombres-od-oi",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre correcto (se, le o les).",
+   "text": "Ellos ____ lo llevaron por la fuerza.",
+   "answer": "se",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Le/les se convierten en se delante de lo, la, los, las: Se lo di.",
+   "translation": "They took it by force.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6065868",
+    "tatoeba_en": "1315318"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "le/les/se choice depends on number of the recipient: verify against the translation"
+   ],
+   "tags": [
+    "pronombres-od-oi",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pronombres-od-oi-12a73305e254",
+   "topic": "pronombres-od-oi",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre correcto (se, le o les).",
+   "text": "Tom sabe que Mary no ____ lo contará a John.",
+   "answer": "se",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Le/les se convierten en se delante de lo, la, los, las: Se lo di.",
+   "translation": "Tom knows Mary won't tell John.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "5797161",
+    "tatoeba_en": "3201152"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "le/les/se choice depends on number of the recipient: verify against the translation"
+   ],
+   "tags": [
+    "pronombres-od-oi",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "pronombres-od-oi-e87dc388a1a2",
+   "topic": "pronombres-od-oi",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre correcto (se, le o les).",
+   "text": "¿A quién ____ lo diste?",
+   "answer": "se",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Le/les se convierten en se delante de lo, la, los, las: Se lo di.",
+   "translation": "Who did you give it to?",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "600196",
+    "tatoeba_en": "16543"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "le/les/se choice depends on number of the recipient: verify against the translation"
+   ],
+   "tags": [
+    "pronombres-od-oi",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

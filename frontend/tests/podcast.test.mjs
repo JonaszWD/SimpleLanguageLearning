@@ -1,0 +1,16 @@
+import { mapToParam, fmtTime } from "../js/podcast.js";
+import { sessionsFor, setListenMap, listenModeFor } from "../js/plan.js";
+const ok = (c, m) => { if (!c) { console.log("FAIL", m); process.exitCode = 1; } else console.log("ok  ", m); };
+const kinds = (d) => sessionsFor(d).flatMap((s) => s.tasks).map((t) => `${t.kind}:${t.min}`);
+const MON = new Date(2026, 10, 2), TUE = new Date(2026, 10, 3), SAT = new Date(2026, 10, 7);
+ok(mapToParam({ 1: "extensive", 2: "intensive", 3: "none" }) === "1:e,2:i,3:n", "weekday map → query string");
+ok(fmtTime(75) === "1:15" && fmtTime(5) === "0:05", "time format");
+setListenMap(undefined);
+ok(kinds(MON).includes("podcast:30") && kinds(TUE).includes("intensive:20"), "default: Mon extensive, Tue intensive");
+ok(!kinds(SAT).some((k) => /podcast|intensive/.test(k)), "weekend: no listening task");
+setListenMap({ 1: "intensive", 2: "none" });
+ok(kinds(MON).includes("intensive:20") && !kinds(MON).some((k) => k.startsWith("podcast")), "Monday switched to intensive");
+ok(!kinds(TUE).some((k) => /podcast|intensive/.test(k)) && listenModeFor(TUE) === "none", "Tuesday switched off");
+ok(kinds(MON).includes("anki:10") && kinds(MON).includes("grammar:20"), "other tasks unaffected");
+const ids = sessionsFor(MON).flatMap((s) => s.tasks).map((t) => t.id);
+ok(new Set(ids).size === ids.length, "task ids stay unique");

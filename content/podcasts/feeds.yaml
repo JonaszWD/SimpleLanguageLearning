@@ -1,0 +1,125 @@
+# Podcast feed registry. Edit by hand, or use:
+#   uv run python -m app.podcasts feeds resolve "<podcast name>"   (finds the RSS URL, asks before saving)
+#   uv run python -m app.podcasts feeds validate
+# feed_url stays empty until a URL has been resolved and confirmed. URLs are never guessed.
+feeds:
+- id: notes-in-spanish-intermediate
+  title: Notes in Spanish Intermediate
+  feed_url: https://rss.libsyn.com/shows/18817/destinations/13969.xml
+  level: B1
+  accent: Spain
+  mode: both
+  has_official_transcript: false
+  episode_length_min: 20
+  active: true
+  notes: Couple-hosted, Spain Spanish; transcript generated with ElevenLabs
+- id: notes-in-spanish-advanced
+  title: Notes in Spanish Advanced
+  feed_url: https://rss.libsyn.com/shows/18816/destinations/13965.xml
+  level: B2
+  accent: Spain
+  mode: both
+  has_official_transcript: false
+  episode_length_min: 20
+  active: true
+  notes: Couple-hosted, Spain Spanish; transcript generated with ElevenLabs
+- id: notes-in-spanish-conversations
+  title: Notes in Spanish Conversations
+  feed_url: https://rss.libsyn.com/shows/138062/destinations/859478.xml
+  level: B2
+  accent: Spain
+  mode: both
+  has_official_transcript: false
+  episode_length_min: 20
+  active: true
+  notes: Natural conversations; transcript generated with ElevenLabs
+- id: espanolistos
+  title: Españolistos
+  feed_url: ''
+  level: B1
+  accent: Spain
+  mode: both
+  has_official_transcript: false
+  episode_length_min: 20
+  active: false
+  notes: Learner-focused
+- id: hoy-hablamos
+  title: Hoy Hablamos
+  feed_url: ''
+  level: B1
+  accent: Spain
+  mode: extensive
+  has_official_transcript: false
+  episode_length_min: 10
+  active: false
+  notes: Short daily episodes
+- id: charlas-para-aprender-espanol
+  title: Charlas para aprender español
+  feed_url: ''
+  level: B1
+  accent: mixed
+  mode: both
+  has_official_transcript: false
+  episode_length_min: 20
+  active: false
+  notes: Conversational, learner-oriented
+- id: coffee-break-spanish
+  title: Coffee Break Spanish
+  feed_url: ''
+  level: A2
+  accent: Spain
+  mode: intensive
+  has_official_transcript: false
+  episode_length_min: 20
+  active: false
+  notes: Structured lessons, beginner to intermediate; likely below your level
+- id: espanol-con-juan
+  title: Español con Juan
+  feed_url: ''
+  level: B1
+  accent: Latin America
+  mode: extensive
+  has_official_transcript: false
+  episode_length_min: 20
+  active: false
+  notes: Clear speech, good for early months
+- id: rne-audios
+  title: RNE (Radio Nacional de España) podcasts
+  feed_url: ''
+  level: B2
+  accent: Spain
+  mode: extensive
+  has_official_transcript: false
+  episode_length_min: 20
+  active: false
+  notes: Many shows; pick specific ones on rtve.es/play/audios, then replace this entry
+- id: entiende-tu-mente
+  title: Entiende Tu Mente
+  feed_url: ''
+  level: C1
+  accent: Spain
+  mode: extensive
+  has_official_transcript: false
+  episode_length_min: 20
+  active: false
+  notes: Psychology
+- id: se-regalan-dudas
+  title: Se Regalan Dudas
+  feed_url: ''
+  level: C1
+  accent: Spain
+  mode: extensive
+  has_official_transcript: false
+  episode_length_min: 20
+  active: false
+  notes: Comedy and conversation, colloquial
+- id: radio-ambulante
+  title: Radio Ambulante
+  feed_url: ''
+  level: C1
+  accent: Latin America
+  mode: both
+  has_official_transcript: true
+  episode_length_min: 20
+  active: false
+  notes: Storytelling journalism; full transcripts on site

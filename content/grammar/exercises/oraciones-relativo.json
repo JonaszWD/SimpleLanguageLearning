@@ -1,0 +1,546 @@
+{
+ "topic": "oraciones-relativo",
+ "level": "B1",
+ "exercises": [
+  {
+   "id": "oraciones-relativo-cdfca0f0cb9b",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Usted estará al cargo de la mujer ____ trabaja en esta fábrica.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "You'll be in charge of the women working in this factory.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1590981",
+    "tatoeba_en": "71607"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-6f2ad1a4a71e",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "No tenía a nadie a ____ recurrir.",
+   "answer": "quien",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "I had no one to turn to.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "4392391",
+    "tatoeba_en": "2331699"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-2ed7612509f8",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Necesito encontrar gente con ____ relajarme.",
+   "answer": "quien",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "I need to find people to chill with.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3773691",
+    "tatoeba_en": "2413893"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-19b6f99b1c53",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Aquí es ____ ocurrió aquel accidente.",
+   "answer": "donde",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "This is where the accident happened.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "346401",
+    "tatoeba_en": "62144"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-5d40a41a6050",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Hay tantas estrellas en el cielo ____ no puedo contarlas todas.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "There are so many stars in the sky, I can't count them all.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "963079",
+    "tatoeba_en": "18315"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-7aa18dcad3dd",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Montgomery fue ____ comenzó todo.",
+   "answer": "donde",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "Montgomery was where it all began.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "6830564",
+    "tatoeba_en": "30322"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-6fc091221948",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Aquí está la revista ____ buscabas.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "Here's the magazine you were looking for.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "3455674",
+    "tatoeba_en": "2640798"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-9f509b540e8f",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Coge todos los melocotones ____ quieras.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "Take as many peaches as you like.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "568106",
+    "tatoeba_en": "240665"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-92259707e4d5",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Los exámenes empiezan la semana ____ viene.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "Tests start next week.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1334177",
+    "tatoeba_en": "325051"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-6de299b2604b",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "cloze",
+   "prompt": "Completa con el pronombre relativo.",
+   "text": "Le condecoraron por el valor ____ demostró en la batalla.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "Se ganó una condecoración por su valor demostrado en la batalla.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7482429",
+    "tatoeba_en": "5630473"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-eafaed30e5a2",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Hoy hace un frío ____ pela.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [
+    "que",
+    "quienes",
+    "quien",
+    "donde"
+   ],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "It's awfully cold today.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "869256",
+    "tatoeba_en": "19156"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-c2b3eff9b0e6",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Es una pena ____ no puedas venir.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [
+    "donde",
+    "quien",
+    "que",
+    "quienes"
+   ],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "It's a pity that you can't come.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "330149",
+    "tatoeba_en": "17704"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-2a17bf3b32e0",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Tengo un regalo ____ darte.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [
+    "quien",
+    "donde",
+    "que",
+    "quienes"
+   ],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "I have a nice present to give you.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "1244156",
+    "tatoeba_en": "17569"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-9f7204c52ebe",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Esto es justo la cosa ____ necesitas.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [
+    "donde",
+    "quienes",
+    "quien",
+    "que"
+   ],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "This is the very thing that you need.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "966857",
+    "tatoeba_en": "56132"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-71d8b93f1148",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "La torre ____ ves allá es la torre Eiffel.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [
+    "quienes",
+    "donde",
+    "que",
+    "quien"
+   ],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "That tower you see over there is the Eiffel Tower.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "969737",
+    "tatoeba_en": "240611"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-e03a25a5d373",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "multiple_choice",
+   "prompt": "Elige la palabra correcta.",
+   "text": "Tengo un proyecto ____ hacer.",
+   "answer": "que",
+   "alternatives": [],
+   "options": [
+    "quienes",
+    "donde",
+    "quien",
+    "que"
+   ],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "I have a project to do.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "2228345",
+    "tatoeba_en": "628665"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  },
+  {
+   "id": "oraciones-relativo-1d93fb221808",
+   "topic": "oraciones-relativo",
+   "level": "B1",
+   "type": "error_correction",
+   "prompt": "Corrige el error de la frase.",
+   "text": "No eres tú quienes debe decidirlo.",
+   "answer": "No eres tú quien debe decidirlo.",
+   "alternatives": [],
+   "options": [],
+   "hint": "",
+   "explanation": "Relativos: que, quien, donde, cuyo (concuerda con lo que posee), el cual.",
+   "translation": "That's not for you to decide.",
+   "source": "tatoeba",
+   "source_ids": {
+    "tatoeba_es": "7365993",
+    "tatoeba_en": "829619"
+   },
+   "attribution": "Tatoeba.org, CC BY 2.0 FR",
+   "verify": null,
+   "confidence": "medium",
+   "notes": [
+    "'que' also appears as a conjunction; blanks on 'que' are only appropriate when it is a relative pronoun"
+   ],
+   "tags": [
+    "oraciones-relativo",
+    "B1",
+    "grammar"
+   ]
+  }
+ ]
+}

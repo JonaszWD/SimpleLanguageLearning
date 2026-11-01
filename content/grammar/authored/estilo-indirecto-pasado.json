@@ -1,0 +1,257 @@
+{
+  "note": "Written by Claude in a chat session (no API call), in the same format as the generate tool's output. Built with: uv run python -m app.grammar.build --topic estilo-indirecto-pasado --items content/grammar/authored/estilo-indirecto-pasado.json",
+  "topic": "estilo-indirecto-pasado",
+  "items": [
+    {
+      "type": "cloze",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor está en pasado).",
+      "text": "«Estoy muy cansada» → Marta dijo que ____ muy cansada.",
+      "answer": "estaba",
+      "hint": "estar",
+      "explanation": "Present becomes imperfect after a past reporting verb.",
+      "translation": "“I'm very tired” → Marta said she was very tired.",
+      "verify": {"lemma": "estar", "mood": "indicative", "tense": "imperfect", "person": 3, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor está en pasado).",
+      "text": "«Mañana iré al médico» → Dijo que ____ al médico al día siguiente.",
+      "answer": "iría",
+      "hint": "ir",
+      "explanation": "Future becomes conditional; mañana becomes al día siguiente.",
+      "translation": "“Tomorrow I'll go to the doctor” → He said he would go to the doctor the next day.",
+      "verify": {"lemma": "ir", "mood": "indicative", "tense": "conditional", "person": 3, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor está en pasado).",
+      "text": "«Ya he terminado el informe» → Me explicó que ya ____ el informe.",
+      "answer": "había terminado",
+      "hint": "terminar",
+      "explanation": "Present perfect becomes pluperfect: había + participle.",
+      "translation": "“I've already finished the report” → She explained that she had already finished the report.",
+      "verify": {"lemma": "terminar", "mood": "indicative", "person": 3, "number": "s", "compound": true, "aux_tense": "imperfect"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor está en pasado).",
+      "text": "«Ven a mi casa» → Me dijo que ____ a su casa.",
+      "answer": "viniera",
+      "alternatives": ["viniese"],
+      "hint": "venir",
+      "explanation": "A command becomes the imperfect subjunctive after a past reporting verb.",
+      "translation": "“Come to my house” → He told me to come to his house.",
+      "verify": {"lemma": "venir", "mood": "subjunctive", "tense": "imperfect", "person": 1, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor está en pasado).",
+      "text": "«¿Dónde vives?» → Me preguntó dónde ____.",
+      "answer": "vivía",
+      "hint": "vivir",
+      "explanation": "In reported questions the question word stays and the verb shifts back.",
+      "translation": "“Where do you live?” → She asked me where I lived.",
+      "verify": {"lemma": "vivir", "mood": "indicative", "tense": "imperfect", "person": 1, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "cloze",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor está en pasado).",
+      "text": "«Compré el billete ayer» → Dijo que ____ el billete el día anterior.",
+      "answer": "había comprado",
+      "hint": "comprar",
+      "explanation": "The preterite becomes pluperfect; ayer becomes el día anterior.",
+      "translation": "“I bought the ticket yesterday” → He said he had bought the ticket the day before.",
+      "verify": {"lemma": "comprar", "mood": "indicative", "person": 3, "number": "s", "compound": true, "aux_tense": "imperfect"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "«Tengo hambre» → Luis dijo que ____ hambre.",
+      "answer": "tenía",
+      "options": ["tenía", "tendrá", "tuviera", "tenga"],
+      "explanation": "Present becomes imperfect indicative; the subjunctive is only for commands and wishes.",
+      "translation": "“I'm hungry” → Luis said he was hungry.",
+      "verify": {"lemma": "tener", "mood": "indicative", "tense": "imperfect", "person": 3, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "«Llegaré tarde» → Pedro dijo que ____ tarde.",
+      "answer": "llegaría",
+      "options": ["llegaría", "llegó", "llegue", "llegara"],
+      "explanation": "Future becomes conditional after a past reporting verb.",
+      "translation": "“I'll be late” → Pedro said he would be late.",
+      "verify": {"lemma": "llegar", "mood": "indicative", "tense": "conditional", "person": 3, "number": "s"},
+      "natural": true, "confidence": "medium"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Elige la palabra correcta.",
+      "text": "«¿Has visto mi móvil?» → Me preguntó ____ había visto su móvil.",
+      "answer": "si",
+      "options": ["si", "que", "qué", "cuándo"],
+      "explanation": "Yes/no questions are reported with si, not que.",
+      "translation": "“Have you seen my phone?” → He asked me if I had seen his phone.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "«Cierra la puerta» → Ana me dijo que ____ la puerta.",
+      "answer": "cerrara",
+      "options": ["cerrara", "cierro", "cierre", "cerraría"],
+      "explanation": "A command after a past reporting verb takes the imperfect subjunctive.",
+      "translation": "“Close the door” → Ana told me to close the door.",
+      "verify": {"lemma": "cerrar", "mood": "subjunctive", "tense": "imperfect", "person": 1, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Elige la forma correcta.",
+      "text": "«Te llamaré mañana» → Me prometió que me ____ al día siguiente.",
+      "answer": "llamaría",
+      "options": ["llamaría", "llamó", "llame", "llamara"],
+      "explanation": "Future becomes conditional; the time marker changes to al día siguiente.",
+      "translation": "“I'll call you tomorrow” → She promised she would call me the next day.",
+      "verify": {"lemma": "llamar", "mood": "indicative", "tense": "conditional", "person": 3, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "multiple_choice",
+      "prompt": "Elige el marcador correcto.",
+      "text": "«Hoy no trabajo» → Dijo que ____ no trabajaba.",
+      "answer": "ese día",
+      "options": ["ese día", "hoy mismo", "mañana", "ayer"],
+      "explanation": "Hoy becomes ese día in reported speech about another moment.",
+      "translation": "“Today I'm not working” → He said he wasn't working that day.",
+      "natural": true, "confidence": "medium"
+    },
+    {
+      "type": "conjugation",
+      "prompt": "Pasa «escribo» a estilo indirecto (dijo que…): imperfecto · yo",
+      "answer": "escribía",
+      "hint": "escribir",
+      "explanation": "Present becomes imperfect.",
+      "verify": {"lemma": "escribir", "mood": "indicative", "tense": "imperfect", "person": 1, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "conjugation",
+      "prompt": "Pasa «he vuelto» a estilo indirecto (dijo que…): pluscuamperfecto · yo",
+      "answer": "había vuelto",
+      "hint": "volver",
+      "explanation": "Present perfect becomes pluperfect.",
+      "verify": {"lemma": "volver", "mood": "indicative", "person": 1, "number": "s", "compound": true, "aux_tense": "imperfect"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "conjugation",
+      "prompt": "Pasa «haremos» a estilo indirecto (dijo que…): condicional · nosotros",
+      "answer": "haríamos",
+      "hint": "hacer",
+      "explanation": "Future becomes conditional (irregular stem har-).",
+      "verify": {"lemma": "hacer", "mood": "indicative", "tense": "conditional", "person": 1, "number": "p"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "conjugation",
+      "prompt": "Pasa «salga» a estilo indirecto (me dijo que…): imperfecto de subjuntivo · tú",
+      "answer": "salieras",
+      "alternatives": ["salieses"],
+      "hint": "salir",
+      "explanation": "Present subjunctive becomes imperfect subjunctive.",
+      "verify": {"lemma": "salir", "mood": "subjunctive", "tense": "imperfect", "person": 2, "number": "s"},
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "transformation",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor va en pasado).",
+      "text": "Ana dice: «Trabajo en Madrid».",
+      "answer": "Ana dijo que trabajaba en Madrid.",
+      "explanation": "Present becomes imperfect.",
+      "translation": "Ana said she worked in Madrid.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "transformation",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor va en pasado).",
+      "text": "Luis dice: «Mañana iré a Valencia».",
+      "answer": "Luis dijo que iría a Valencia al día siguiente.",
+      "explanation": "Future becomes conditional; mañana becomes al día siguiente.",
+      "translation": "Luis said he would go to Valencia the next day.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "transformation",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor va en pasado).",
+      "text": "Marta dice: «Ayer vi esa película».",
+      "answer": "Marta dijo que había visto esa película el día anterior.",
+      "explanation": "Preterite becomes pluperfect; ayer becomes el día anterior.",
+      "translation": "Marta said she had seen that film the day before.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "transformation",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor va en pasado).",
+      "text": "Mi madre me dice: «Come más verdura».",
+      "answer": "Mi madre me dijo que comiera más verdura.",
+      "alternatives": ["Mi madre me dijo que comiese más verdura."],
+      "explanation": "A command becomes the imperfect subjunctive.",
+      "translation": "My mother told me to eat more vegetables.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "transformation",
+      "prompt": "Pasa a estilo indirecto (el verbo introductor va en pasado).",
+      "text": "Pablo pregunta: «¿Quieres un café?»",
+      "answer": "Pablo preguntó si quería un café.",
+      "explanation": "Yes/no question: si + imperfect.",
+      "translation": "Pablo asked if I wanted a coffee.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "error_correction",
+      "prompt": "Corrige el error de la frase.",
+      "text": "Me dijo que cerrar la puerta.",
+      "answer": "Me dijo que cerrara la puerta.",
+      "alternatives": ["Me dijo que cerrase la puerta."],
+      "explanation": "After que, a reported command needs the imperfect subjunctive, not the infinitive.",
+      "translation": "He told me to close the door.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "error_correction",
+      "prompt": "Corrige el error de la frase.",
+      "text": "Pedro preguntó que si tenía hambre.",
+      "answer": "Pedro preguntó si tenía hambre.",
+      "explanation": "Reported yes/no questions take si, with no extra que.",
+      "translation": "Pedro asked if he was hungry.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "error_correction",
+      "prompt": "Corrige el error de la frase.",
+      "text": "Dijo estaba enfermo.",
+      "answer": "Dijo que estaba enfermo.",
+      "explanation": "Que cannot be dropped after decir in Spanish.",
+      "translation": "He said he was ill.",
+      "natural": true, "confidence": "high"
+    },
+    {
+      "type": "error_correction",
+      "prompt": "Corrige el error de la frase.",
+      "text": "Me prometió que me llamará al día siguiente.",
+      "answer": "Me prometió que me llamaría al día siguiente.",
+      "explanation": "With al día siguiente the reported future must be the conditional.",
+      "translation": "She promised she would call me the next day.",
+      "natural": true, "confidence": "high"
+    }
+  ]
+}
