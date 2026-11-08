@@ -357,7 +357,7 @@ def test_disliked_and_unfinished_shows_are_avoided(env):
     assert "mid" not in {i["feed"] for i in p["items"]} and any("too hard" in x for x in p["skipped"])
     # unfinished: planned on past days, never listened
     s2, feeds2 = planner_env(env)
-    recent = (date.today() - timedelta(days=3)).isoformat()
+    recent = (day - timedelta(days=3)).isoformat()   # relative to the plan day, not today
     s2.save_plan(recent, [{"mode": "extensive", "episode": "easy0", "why": []}, {"mode": "extensive", "episode": "easy1", "why": []}])
     p2 = planner.plan_for(s2, feeds2, date(2026, 11, 2), START, save=False)
     assert "easy" not in {i["feed"] for i in p2["items"]} and any("unfinished" in x for x in p2["skipped"])
