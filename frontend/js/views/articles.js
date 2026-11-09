@@ -110,6 +110,26 @@ function sentenceAround(p, i) {
   return { start, end: m ? m.index + m[0].length : p.length };
 }
 
+// Wraps the first occurrence of `part` in `text` in <mark>, if there is one.
+function highlight(text, part) {
+  const at = part ? text.toLowerCase().indexOf(part.toLowerCase()) : -1;
+  if (at < 0) return [text];
+  return [text.slice(0, at), h("mark", { class: "hl" }, text.slice(at, at + part.length)), text.slice(at + part.length)];
+}
+
+async function fetchTranslation(sentence, word, offset) {
+  let res;
+  try {
+    res = await fetch(apiUrl("/articles/translate"), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sentence, word, offset }) });
+  } catch {
+    throw new Error("Sentence translation needs a connection to your server.");
+  }
+  if ([404, 405, 501, 503].includes(res.status)) throw new Error("Sentence translation needs the backend server with a DeepL key. It isn't available here.");
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.detail || `Server error ${res.status}`);
+  return data;
+}
+
 export async function reader(ctx) {
   const timer = await timerFor(ctx);
   const item = await db.get("library", ctx.query.item);
@@ -118,6 +138,7 @@ export async function reader(ctx) {
   const paras = item.text.split(/\n\s*\n/);
   const gloss = item.glossary || {};
   let active = null;
+  let tapId = 0;
 
   const article = h("article", { class: "article" }, paras.map((p, pi) => {
     const el = h("p", {});
@@ -158,8 +179,40 @@ export async function reader(ctx) {
     active = w; w.classList.add("on");
     const word = w.textContent, p = paras[w.dataset.p], i = Number(w.dataset.i);
     const hits = gloss[word.toLowerCase()] || [];
+    const { start, end } = sentenceAround(p, i);
+    const raw = p.slice(start, end);
+    const sentence = raw.trim();
+    const off = i - start - (raw.length - raw.trimStart().length);
+    const english = h("p", { class: "muted", role: "status" }, "Translating…");
+    const note = h("p", { class: "caption muted" });
+    const spanish = h("p", { lang: "es" });
+    // The highlight covers the whole verb group once known ("ha llegado"), else just the tapped word.
+    const showSpanish = (from, to) => spanish.replaceChildren(sentence.slice(0, from), h("mark", { class: "hl" }, sentence.slice(from, to)), sentence.slice(to));
+    showSpanish(off, off + word.length);
+    const key = `${w.dataset.p}:${i}:v2`; // v2: results carry the verb group and note
+    const showEnglish = (r) => {
+      english.className = "";
+      english.replaceChildren(...highlight(r.translation, r.word_en));
+      if (r.end > r.start) showSpanish(r.start, r.end);
+      note.textContent = r.note || "";
+    };
+    const my = ++tapId;
+    (async () => {
+      try {
+        if (item.tr?.[key]) return showEnglish(item.tr[key]);
+        const r = await fetchTranslation(sentence, word, off);
+        if (my !== tapId) return;
+        showEnglish(r);
+        item.tr = { ...item.tr, [key]: r };
+        await db.put("library", item);
+      } catch (err) {
+        if (my === tapId) { english.className = "caption muted"; english.textContent = err.message; }
+      }
+    })();
     dlg.replaceChildren(
       h("h2", { class: "display-md" }, word),
+      h("div", { class: "stack sentence", style: "margin:16px 0" },
+        spanish, english, note),
       h("div", { class: "stack", style: "margin:16px 0" },
         hits.length ? hits.map((x) => h("div", {},
           h("div", { class: "row" }, h("span", { class: "title-sm" }, x.lemma), h("span", { class: "badge-pill" }, x.pos)),
@@ -184,7 +237,7 @@ export async function reader(ctx) {
     h("div", { class: "page has-top" },
       timer && h("div", { class: "feature-card" }, timer.el),
       h("h1", { class: "display-md" }, item.title),
-      h("p", { class: "caption muted" }, "Tap any word for its translation."),
+      h("p", { class: "caption muted" }, "Tap any word for its translation and the whole sentence in English."),
       article, dlg,
       h("button", { class: "btn btn-outline btn-block", onClick: remove }, "Delete article")));
 }

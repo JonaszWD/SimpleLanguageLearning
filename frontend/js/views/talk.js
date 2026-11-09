@@ -1,7 +1,7 @@
 import { h, icon, fmtClock } from "../util.js";
 import { currentTopic } from "../grammar.js";
 import { startTalk, talkStatus } from "../talk.js";
-import { topNav, timerFor, empty } from "./shared.js";
+import { topNav, timerFor, empty, volumeBar } from "./shared.js";
 
 const STATE_TEXT = { connecting: "Connecting…", listening: "Your turn", speaking: "Partner speaking", ended: "" };
 
@@ -70,10 +70,10 @@ export async function talk(ctx) {
   paintGuide();
   setMain();
 
-  const done = timer && h("button", { class: "btn btn-outline btn-block", onClick: async () => { await timer.markDone(); ctx.go("/today"); } }, "Mark done");
+  const done = timer && !timer.timed && h("button", { class: "btn btn-outline btn-block", onClick: async () => { await timer.markDone(); ctx.go("/today"); } }, "Mark done");
   return h("div", {}, nav,
     h("div", { class: "page has-top" },
       timer && h("div", { class: "feature-card" }, timer.el),
-      h("div", { class: "feature-card stack talk-card" }, options, guide, stateEl, clock, err, h("div", { class: "row" }, main), mute),
+      h("div", { class: "feature-card stack talk-card" }, options, guide, volumeBar(), stateEl, clock, err, h("div", { class: "row" }, main), mute),
       log, done));
 }

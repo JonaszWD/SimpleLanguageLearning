@@ -7,7 +7,7 @@ export async function taskPage(ctx) {
   const timer = await timerFor(ctx);
   if (!timer) return h("div", { class: "page" }, h("p", {}, "Open a task from Today."));
   const k = KINDS[timer.task.kind];
-  const done = h("button", { class: "btn btn-primary btn-block", onClick: async () => { await timer.markDone(); ctx.go("/today"); } }, "Mark done");
+  const done = !timer.timed && h("button", { class: "btn btn-primary btn-block", onClick: async () => { await timer.markDone(); ctx.go("/today"); } }, "Mark done");
   return h("div", {}, topNav(k.label),
     h("div", { class: "page has-top" },
       h("h1", { class: "display-lg" }, k.label),

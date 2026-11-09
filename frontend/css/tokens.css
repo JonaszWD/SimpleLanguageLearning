@@ -39,6 +39,7 @@
 
   --semantic-error: #dc2626;
   --semantic-success: #187574;
+  --flash-green: #86efac; /* light green for the timer-done flash */
 
   --font-display: "Inter", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;

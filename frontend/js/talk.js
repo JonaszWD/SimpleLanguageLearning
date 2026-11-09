@@ -2,6 +2,7 @@
 // (the API key never reaches the phone); audio goes straight between the phone and ElevenLabs.
 // Wire format: mic = 16 kHz mono PCM16 as base64 JSON; agent audio = PCM16 at the rate in its metadata.
 import { apiUrl } from "./config.js";
+import { makeBus } from "./volume.js";
 
 export const MIC_RATE = 16000;
 const CHUNK_MS = 100;
@@ -98,7 +99,7 @@ registerProcessor("mic", Mic);`;
  * state: "connecting" | "listening" | "speaking" | "ended". Returns { stop(), mute(bool) }.
  */
 export async function startTalk({ variables = {}, onState, onLine, onError }) {
-  let ws, ctx, stream, node, playhead = 0, ended = false, muted = false;
+  let ws, ctx, stream, node, bus, playhead = 0, ended = false, muted = false;
   const sources = new Set();
   let outRate = 16000;
 
@@ -110,6 +111,7 @@ export async function startTalk({ variables = {}, onState, onLine, onError }) {
     try { node?.disconnect(); } catch {}
     stream?.getTracks().forEach((t) => t.stop());
     stopPlayback();
+    bus?.close();
     ctx?.close().catch(() => {});
     onState("ended");
   };
@@ -124,7 +126,7 @@ export async function startTalk({ variables = {}, onState, onLine, onError }) {
     buf.copyToChannel(f32, 0);
     const src = ctx.createBufferSource();
     src.buffer = buf;
-    src.connect(ctx.destination);
+    src.connect(bus.input);   // shared volume bar: gain + limiter
     playhead = Math.max(playhead, ctx.currentTime + 0.02);
     src.start(playhead);
     playhead += buf.duration;
@@ -146,6 +148,7 @@ export async function startTalk({ variables = {}, onState, onLine, onError }) {
     ]);
     stream = mic;
     await ctx.resume();
+    bus = makeBus(ctx);
     const blob = URL.createObjectURL(new Blob([MIC_WORKLET], { type: "text/javascript" }));
     await ctx.audioWorklet.addModule(blob);
     URL.revokeObjectURL(blob);

@@ -162,7 +162,7 @@ export async function grammar(ctx) {
         missed.map((r) => h("p", { class: "body-sm" }, h("b", {}, r.ex.type === "cloze" ? r.ex.text.replace("____", r.ex.answer) : r.ex.answer), r.ex.hint ? ` (${r.ex.hint})` : ""))) : h("p", {}, "No mistakes. Nice."),
       h("button", { class: "btn btn-primary btn-block", onClick: write }, "Write 5 sentences"),
       h("button", { class: "btn btn-outline btn-block", onClick: async () => { session = await buildSession(ctx.query.focus); run(); } }, "More exercises"),
-      timer && h("button", { class: "btn btn-text", onClick: async () => { await timer.markDone(); ctx.go("/today"); } }, "Mark task done"));
+      timer && !timer.timed && h("button", { class: "btn btn-text", onClick: async () => { await timer.markDone(); ctx.go("/today"); } }, "Mark task done"));
   }
 
   async function write() {

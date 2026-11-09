@@ -39,7 +39,12 @@ const PATHS = {
   gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/>',
   download: '<path d="M12 4v12M7 11l5 5 5-5M4 20h16"/>',
   trash: '<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/>',
+  volume: '<path d="M4 9.5v5h3.5L12 18.5v-13L7.5 9.5zM15.5 9a4 4 0 0 1 0 6M18 6.5a8 8 0 0 1 0 11"/>',
   chevron: '<path d="m9 6 6 6-6 6"/>',
+  chat: '<path d="M4 5h16v11H9l-5 4z"/>',
+  grip: '<circle cx="9" cy="6" r="1"/><circle cx="15" cy="6" r="1"/><circle cx="9" cy="12" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="9" cy="18" r="1"/><circle cx="15" cy="18" r="1"/>',
+  expand: '<path d="M4 12h16M7 9l-3 3 3 3M17 9l3 3-3 3"/>',
+  shrink: '<path d="M4 12h5M15 12h5M7 9l3 3-3 3M17 9l-3 3 3 3"/>',
 };
 export function icon(name) {
   const s = document.createElementNS("http://www.w3.org/2000/svg", "svg");
@@ -77,6 +82,14 @@ export function toast(msg, action) {
   document.body.append(t);
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => t.remove(), action ? 5000 : 2200);
+}
+
+// Brief light-green glow in the four screen corners, e.g. when a task timer finishes.
+export function flashCorners() {
+  document.querySelector(".corner-flash")?.remove();
+  const f = h("div", { class: "corner-flash", "aria-hidden": "true" });
+  document.body.append(f);
+  f.addEventListener("animationend", () => f.remove());
 }
 
 // In-app navigation depth, kept in history.state so it survives back/forward and reloads.

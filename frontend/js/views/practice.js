@@ -5,7 +5,9 @@
 import { h, icon, fmtClock } from "../util.js";
 import * as db from "../db.js";
 import * as media from "../media.js";
-import { topNav, timerFor, empty } from "./shared.js";
+import { bentoGroups } from "../bento.js";
+import { KINDS } from "../plan.js";
+import { topNav, timerFor, empty, volumeBar } from "./shared.js";
 
 const MODES = {
   listen: { title: "Intensive listening", kinds: ["audio"], blurb: "5–10 minutes of audio with transcript." },
@@ -14,29 +16,45 @@ const MODES = {
 };
 const keep = (ctx) => (ctx.query.task ? `&task=${ctx.query.task}` : "");
 
+const LAYOUT_KEY = "practiceLayout";
+
 export async function practice() {
   const items = await db.getAll("library");
-  const podcastRow = h("a", { class: "list-row", href: "#/podcast" },
-    h("span", { class: "plate" }, icon("headphones")),
-    h("span", { class: "grow" }, h("span", { class: "title-sm", style: "display:block" }, "Podcasts"),
-      h("span", { class: "caption muted", style: "display:block" }, "Today's episodes, offline")), icon("chevron"));
-  const n = (kinds) => items.filter((i) => kinds.includes(i.kind)).length;
+  const n = (kinds) => items.filter((i) => kinds.includes(i.kind) && (i.kind !== "clips" || i.clips?.length)).length;
+  const count = (kinds) => `${n(kinds)} item${n(kinds) === 1 ? "" : "s"}`;
+  // Every plan task that opens a lesson (js/plan.js KINDS) gets a tile, so Today's lessons can always be practised here too.
+  // "notes" and "music" are not lessons, they only show a reminder on /task.
+  const k = (kind, extra) => ({ id: kind, href: `#${KINDS[kind].route}`, icon: KINDS[kind].icon, title: KINDS[kind].label, ...extra });
+  const tiles = [
+    k("anki", { caption: "Vocabulary reviews", tint: "coral" }),
+    k("grammar", { caption: "Video or exercises on this week's topic", tint: "blue" }),
+    k("podcast", { caption: "Podcast, no text", tint: "mint", defaultSpan: 2 }),
+    k("intensive", { caption: "One segment, three listens", tint: "sky" }),
+    k("shadowing", { caption: count(MODES.shadow.kinds), tint: "rose" }),
+    k("reading", { caption: count(MODES.read.kinds), tint: "lavender" }),
+    k("phrases", { caption: "Add new phrases", tint: "peach" }),
+    k("talk", { caption: "Free conversation with a partner", tint: "mint" }),
+    { id: "listen", href: "#/practice/listen", icon: "headphones", title: "Listening library", caption: count(MODES.listen.kinds), tint: "blue" },
+    { id: "podcast-hub", href: "#/podcast", icon: "headphones", title: "Podcasts", caption: "Today's episodes, offline", tint: "peach" },
+  ];
+  const by = (...ids) => ids.map((id) => tiles.find((t) => t.id === id));
+  const groups = [
+    { id: "listening", title: "Listening", items: by("podcast", "intensive", "listen", "podcast-hub") },
+    { id: "speaking", title: "Speaking", items: by("shadowing", "talk") },
+    { id: "reading", title: "Reading", items: by("reading").map((t) => ({ ...t, defaultSpan: 2 })) },
+    { id: "words", title: "Words & grammar", items: by("anki", "phrases", "grammar") },
+  ];
+  const saved = (await db.get("settings", LAYOUT_KEY))?.value;
+  const { toggle, status, el } = bentoGroups(groups, saved, (layout) => db.put("settings", { key: LAYOUT_KEY, value: layout }));
   return h("div", { class: "page" },
-    h("h1", { class: "display-lg" }, "Practice"),
-    h("div", { class: "feature-card", style: "padding-top:8px;padding-bottom:8px" },
-      podcastRow,
-      Object.entries(MODES).map(([k, m]) => h("a", { class: "list-row", href: `#/practice/${k}` },
-        h("span", { class: "plate" }, icon(k === "read" ? "book" : k === "shadow" ? "mic" : "headphones")),
-        h("span", { class: "grow" },
-          h("span", { class: "title-sm", style: "display:block" }, m.title),
-          h("span", { class: "caption muted", style: "display:block" }, `${n(m.kinds)} item${n(m.kinds) === 1 ? "" : "s"}`)),
-        icon("chevron")))));
+    h("div", { class: "row between" }, h("h1", { class: "display-lg" }, "Practice"), toggle),
+    status, el);
 }
 
 export async function library(ctx, mode) {
   const m = MODES[mode];
   const timer = await timerFor(ctx);
-  const items = (await db.getAll("library")).filter((i) => m.kinds.includes(i.kind)).sort((a, b) => (b.added || 0) - (a.added || 0));
+  const items = (await db.getAll("library")).filter((i) => m.kinds.includes(i.kind) && (i.kind !== "clips" || i.clips?.length)).sort((a, b) => (b.added || 0) - (a.added || 0));
   const target = mode === "read" ? "article" : "play";
   const href = (i) => i.kind === "clips"
     ? `#/practice/clips?item=${encodeURIComponent(i.id)}${keep(ctx)}`
@@ -118,6 +136,7 @@ export async function audioPlayer(ctx) {
   const url = URL.createObjectURL(item.audio);
   ctx.onLeave(() => URL.revokeObjectURL(url));
   const audio = h("audio", { src: url, preload: "auto" });
+  media.track(audio);
   ctx.onLeave(() => audio.pause());
 
   const speed = h("select", { class: "select-pill", "aria-label": "Speed", style: "width:auto", onChange: () => (audio.playbackRate = Number(speed.value)) },
@@ -139,6 +158,7 @@ export async function audioPlayer(ctx) {
       h("div", { class: "row" },
         h("button", { class: "icon-btn", "aria-label": "Back 5 seconds", onClick: () => (audio.currentTime = Math.max(0, audio.currentTime - 5)) }, icon("skipback")),
         playBtn, speed),
+      volumeBar(),
       h("div", { class: "feature-card" }, nodes.length ? nodes : h("p", { class: "muted" }, "No transcript for this item."))));
   }
 
@@ -166,6 +186,7 @@ export async function audioPlayer(ctx) {
         playBtn,
         h("button", { class: "icon-btn", "aria-label": "Replay clip", onClick: playClip }, icon("repeat")),
         h("button", { class: "icon-btn", "aria-label": "Next clip", onClick: () => load(i + 1) }, icon("skipfwd")))),
+    volumeBar(),
     h("div", { class: "row" }, showText, speed)));
 }
 
@@ -218,5 +239,6 @@ export async function clipShadow(ctx) {
         playBtn,
         h("button", { class: "icon-btn", "aria-label": "Replay clip", onClick: () => { token++; media.stop(); play(); } }, icon("repeat")),
         h("button", { class: "icon-btn", "aria-label": "Next clip", onClick: () => load(i + 1) }, icon("skipfwd")))),
+    volumeBar(),
     h("div", { class: "row" }, showBtn, speed)));
 }

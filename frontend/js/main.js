@@ -1,10 +1,13 @@
 import { h, icon, trackNav } from "./util.js";
 import * as db from "./db.js";
+import { initUsers, needsPlacement, placementDone } from "./users.js";
+import { runPlacement, applyLevel } from "./placement.js";
 import { initUpdates, isStale } from "./update.js";
 import { initSync, subscribe } from "./sync.js";
 import { setMixing } from "./media.js";
+import { setVolume } from "./volume.js";
 import { today } from "./views/today.js";
-import { decks, study, browse, editNote } from "./views/cards.js";
+import { words, study, browse, editNote } from "./views/cards.js";
 import { add } from "./views/add.js";
 import { practice, library, audioPlayer, clipShadow } from "./views/practice.js";
 import { addArticle, reader } from "./views/articles.js";
@@ -13,11 +16,12 @@ import { grammar, addMistake } from "./views/grammar.js";
 import { podcastHub, listen, intensive, shadowQueue } from "./views/podcast.js";
 import { talk } from "./views/talk.js";
 import { setListenMap } from "./plan.js";
+import { report } from "./views/report.js";
 import { stats, settings, importDeck } from "./views/more.js";
 
 const ROUTES = [
   ["/today", today],
-  ["/cards", decks],
+  ["/cards", words],
   ["/cards/study", study],
   ["/cards/browse", browse],
   ["/cards/edit", editNote],
@@ -38,6 +42,7 @@ const ROUTES = [
   ["/talk", talk],
   ["/grammar", grammar],
   ["/grammar/mistake", addMistake],
+  ["/report", report],
   ["/stats", stats],
   ["/settings", settings],
   ["/import", importDeck],
@@ -94,13 +99,13 @@ export function go(path) {
 
 const TABS = [
   { path: "/today", label: "Today", icon: "today", match: (p) => p === "/today" || p === "/task" },
-  { path: "/cards", label: "Cards", icon: "cards", match: (p) => p.startsWith("/cards") || p === "/import" },
+  { path: "/cards", label: "Words", icon: "cards", match: (p) => p.startsWith("/cards") || p === "/import" },
   { path: "/practice", label: "Practice", icon: "practice", match: (p) => p.startsWith("/practice") },
 ];
 
 const sheet = h("dialog", { class: "sheet", "aria-label": "More" },
   h("nav", {},
-    ...[["/stats", "Stats", "stats"], ["/grammar/mistake", "Add a mistake", "note"], ["/import", "Import Anki deck", "upload"], ["/settings", "Settings", "gear"]].map(
+    ...[["/stats", "Stats", "stats"], ["/grammar/mistake", "Add a mistake", "note"], ["/report", "Report a problem", "note"], ["/import", "Content packs", "download"], ["/settings", "Settings", "gear"]].map(
       ([p, l, i]) => h("a", { class: "list-row", href: "#" + p, onClick: () => sheet.close() }, h("span", { class: "plate" }, icon(i)), h("span", { class: "grow" }, l), icon("chevron")),
     ),
   ),
@@ -128,8 +133,15 @@ function markTabs(path) {
 addEventListener("hashchange", render);
 
 (async () => {
+  await initUsers();
   await db.seed();
+  if (needsPlacement()) {
+    const level = await runPlacement();
+    if (level) await applyLevel(level);
+    placementDone();
+  }
   setMixing((await db.getSettings()).mixAudio);
+  setVolume((await db.getSettings()).volume);
   setListenMap((await db.getSettings()).listenMap);
   navigator.storage?.persist?.();
   initUpdates().catch(console.error);

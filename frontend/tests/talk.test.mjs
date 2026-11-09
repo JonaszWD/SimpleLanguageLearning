@@ -28,3 +28,10 @@ const SAT = new Date(2026, 10, 7), SUN = new Date(2026, 10, 8);
 const kinds = (d) => sessionsFor(d).flatMap((s) => s.tasks).map((t) => `${t.id}:${t.min}`);
 ok(kinds(SAT).join() === "s1-anki:10,s2-talk:15", "Saturday = Anki + 15 min talk");
 ok(kinds(SUN).join() === "s1-anki:10", "Sunday stays Anki only");
+
+import { getVolume, setVolume, onVolume, MAX } from "../js/volume.js";
+let seen = null; onVolume((v) => (seen = v));
+setVolume(2.5); ok(getVolume() === 2.5 && seen === 2.5, "volume change notifies listeners");
+setVolume(9); ok(getVolume() === MAX, "volume capped at 300%");
+setVolume(-1); ok(getVolume() === 0, "volume floors at 0");
+setVolume(undefined); ok(getVolume() === 1, "missing saved volume falls back to 100%");

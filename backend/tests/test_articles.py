@@ -93,3 +93,44 @@ def test_daily_cache(tmp_path, monkeypatch, dic):
     assert daily.get(daily.article_id(items[1]["url"]), tmp_path) is None  # too short: skipped
     assert daily.get("../x", tmp_path) is None
     assert daily.refresh(dic, tmp_path) == 0  # nothing new, nothing refetched
+
+
+def _deepl(reply, seen=None):
+    import httpx
+
+    def handler(request):
+        if seen is not None:
+            seen.append(json.loads(request.content))
+        return httpx.Response(200, json={"translations": [{"text": reply}]})
+    return httpx.Client(transport=httpx.MockTransport(handler))
+
+
+def test_translate_returns_tagged_words_and_caches(monkeypatch):
+    from app import translate as tr
+    monkeypatch.setenv("DEEPL_API_KEY", "k:fx")
+    monkeypatch.setattr(tr.verbs, "conjugator", lambda: None)  # no verb table: just the tapped word
+    tr._CACHE.clear()
+    seen = []
+    client = _deepl("The president <x>has arrived</x> &amp; left.", seen)
+    out = tr.translate("El presidente ha llegado & se fue.", "ha", client=client)
+    assert out["translation"] == "The president has arrived & left." and out["word_en"] == "has arrived"
+    assert seen[0]["text"] == ["El presidente <x>ha</x> llegado &amp; se fue."]
+    assert seen[0]["tag_handling"] == "xml" and seen[0]["source_lang"] == "ES"
+    tr.translate("El presidente ha llegado & se fue.", "HA", client=client)
+    assert len(seen) == 1
+
+
+def test_translate_without_tag_has_no_highlight(monkeypatch):
+    from app import translate as tr
+    monkeypatch.setenv("DEEPL_API_KEY", "k")
+    monkeypatch.setattr(tr.verbs, "conjugator", lambda: None)
+    tr._CACHE.clear()
+    out = tr.translate("Hola amigo.", "amigo", client=_deepl("Hello friend."))
+    assert (out["translation"], out["word_en"], out["note"]) == ("Hello friend.", "", "")
+    assert (out["start"], out["end"]) == (5, 10)
+
+
+def test_translate_endpoint_needs_key(monkeypatch):
+    monkeypatch.delenv("DEEPL_API_KEY", raising=False)
+    res = TestClient(app).post("/api/articles/translate", json={"sentence": "Hola.", "word": "Hola"})
+    assert res.status_code == 503

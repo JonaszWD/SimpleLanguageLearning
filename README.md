@@ -24,6 +24,10 @@ Service workers need HTTPS except on localhost. To install on an iPhone, serve o
 
 The service worker precaches the shell. Cards, progress and settings are in IndexedDB. Only Anki import needs the server. Settings → Export keeps a backup.
 
+## Users
+
+Several people can share one phone. Each user has their own IndexedDB database (`language-app-<id>`: cards, progress, settings, downloaded audio, so audio is stored once per user). The profile list and optional passcode hashes live in localStorage (`frontend/js/users.js`). Existing data becomes the first user, "Me". Every launch shows all users: tap a name, enter its passcode (if it has one). Settings → Switch or add user. "Continue as guest" opens an empty throwaway profile (wiped on sign-out, no background downloads). A passcode keeps casual users apart; it is not real security.
+
 ## Weekly plan
 
 `frontend/js/plan.js`. Anki is 10 min every day including weekends. Saturday adds a 15 min talking unit.
@@ -36,12 +40,18 @@ None yet. Listening, shadowing and reading read from the IndexedDB `library` sto
 
 ```sh
 cd backend && uv run python -m app.packs build ../deck.apkg --id spanish-9000 --title "Spanish 9000 sentences (B1+)" --min-difficulty 2500
+cd backend && uv run python -m app.packs vocab ../New_Spanish_Top_5000_Vocabulary.apkg --id spanish-top-5000 --title "Spanish top 5000 words"
 ```
+The sentence pack (`spanish-9000`) is shadowing only: after `build`, run `uv run python -m app.packs sentences spanish-9000` to drop its cards, so installing it adds clips and audio but no flashcards.
+
+The vocabulary pack is the app's flashcard deck: 5000 words by frequency, each with examples and audio. It has no CEFR data, so the A1/A2/B1/B2 points are cut by rank in `LEVELS` (`app/packs.py`): A1 1–600, A2 601–1500, B1 1501–3000, B2 3001–5000. Notes are tagged with their level and Stats shows progress per level.
+
 Packs live in `content/packs/` (committed; mounted into Docker; `index.json` lists them). On the phone: More → Import Anki deck → Download for offline.
 
 ## Reading (El Mundo / El País) with tap-to-translate
 
 - Server fetches El Mundo articles (allowlist in `app/articles.py`, extend with `ARTICLE_HOSTS`). El País blocks automated fetches, so paste its text instead.
+- Tapping a word also translates its whole sentence into English, with the tapped word highlighted in both. This calls DeepL through the backend (`POST /api/articles/translate`, needs `DEEPL_API_KEY` in `.env`; free-plan keys ending `:fx` are detected; `DEEPL_TARGET_LANG` defaults to `EN-GB`). DeepL has no word alignment, so the word is sent inside an XML tag and the highlight follows where DeepL places it. For verbs it also highlights the whole group (tapping *ha* or *llegado* marks "ha llegado" and "arrived") and shows a one-line note: tense, verb, person and what it is for. That note comes from the conjugation table (`data/grammar/conj.sqlite`, built by `app.grammar.conjugation`); verbs missing from it get no note. Results are saved with the article, so a sentence you looked up once works offline. Not available on static hosting.
 - Every import looks each word up in an offline dictionary and stores the glossary with the article, so reading works offline.
 - Build the dictionary once (about 1.1 GB download, 180 MB result):
 

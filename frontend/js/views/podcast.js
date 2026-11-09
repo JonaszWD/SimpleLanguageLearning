@@ -3,7 +3,7 @@ import * as db from "../db.js";
 import * as media from "../media.js";
 import * as P from "../podcast.js";
 import { apiUrl } from "../config.js";
-import { topNav, timerFor, empty } from "./shared.js";
+import { topNav, timerFor, empty, volumeBar } from "./shared.js";
 
 const SPEEDS_EXT = [0.75, 1, 1.25, 1.5, 1.75];
 const SPEEDS_INT = [0.75, 0.9, 1];
@@ -159,6 +159,7 @@ export async function listen(ctx) {
         h("p", { class: "caption muted" }, st.show || meta.show || ""), source(meta, st)),
       h("div", { class: "stack" }, seek, h("div", { class: "row between" }, pos,
         speedSelect(SPEEDS_EXT, (v) => { el.playbackRate = v; localStorage.setItem("podcastRate", v); }, rate))),
+      volumeBar(),
       h("div", { class: "row", style: "justify-content:center" },
         h("button", { class: "icon-btn", "aria-label": "Back 15 seconds", onClick: () => (el.currentTime = Math.max(0, el.currentTime - 15)) }, icon("skipback")),
         playBtn,
@@ -216,7 +217,7 @@ export async function intensive(ctx) {
   const header = h("section", { class: "stack" },
     h("div", { class: "row between" }, levelBadge(meta.level || st.level), h("span", { class: "caption muted" }, `Segment ${chunk.index + 1} / ${tr.chunks.length} · ${P.fmtTime(chunk.end - chunk.start)}`)),
     h("h1", { class: "display-sm" }, meta.title || st.title), source(meta, st));
-  const show = (...k) => body.replaceChildren(...[timer && h("div", { class: "feature-card" }, timer.el), header, ...k.flat()].filter(Boolean));
+  const show = (...k) => body.replaceChildren(...[timer && h("div", { class: "feature-card" }, timer.el), header, volumeBar(), ...k.flat()].filter(Boolean));
   const stop = () => { ctl?.stop(); ctl = null; };
 
   // steps 1 and 4: no text
@@ -397,6 +398,7 @@ export async function shadowQueue(ctx) {
         h("button", { class: "btn btn-primary", "aria-label": "Play", onClick: play }, icon("play")),
         h("button", { class: "icon-btn", "aria-label": "Replay", onClick: play }, icon("repeat")),
         h("button", { class: "icon-btn", "aria-label": "Next", onClick: () => load(i + 1) }, icon("skipfwd")))),
+    volumeBar(),
     h("div", { class: "row" }, showBtn, speedSelect(SPEEDS_INT, (v) => { rate = v; ctl?.rate(v); }),
       h("button", { class: "btn btn-text", onClick: async () => { await db.del("shadowq", rows[i].k); ctx.go("/practice/shadow-queue"); } }, "Remove"))));
 }

@@ -54,3 +54,27 @@ def test_endpoint():
     r = client.post("/api/anki/import", files={"file": ("d.apkg", b"nope")})
     assert r.status_code == 422
     assert client.get("/api/health").json() == {"status": "ok"}
+
+
+def test_vocab_pack_levels():
+    from app.packs import LEVELS, level_for
+
+    assert [level_for(r) for r in (1, 600, 601, 1500, 1501, 3000, 3001, 5000)] == \
+        ["A1", "A1", "A2", "A2", "B1", "B1", "B2", "B2"]
+    assert LEVELS[0][1] == 1 and LEVELS[-1][2] == 5000
+    assert all(a[2] + 1 == b[1] for a, b in zip(LEVELS, LEVELS[1:]))  # no gaps between levels
+
+
+def test_sentences_only_keeps_clips_and_drops_cards(tmp_path):
+    import json
+    from app.packs import sentences_only
+    pack = tmp_path / "p"
+    pack.mkdir()
+    (pack / "manifest.json").write_text(json.dumps({"id": "p", "models": [1], "decks": [1], "notes": [1], "cards": [1],
+                                                    "clips": [{"text": "Hola."}], "audio": ["a.mp3"]}))
+    (pack / "pack.json").write_text(json.dumps({"id": "p", "notes": 1, "clips": 1, "version": "x"}))
+    meta = sentences_only(pack)
+    m = json.loads((pack / "manifest.json").read_text())
+    assert m["notes"] == m["cards"] == [] and m["clips"] and m["audio"] == ["a.mp3"]
+    assert meta["notes"] == 0 and meta["clips"] == 1 and meta["version"] != "x"
+    assert json.loads((tmp_path / "index.json").read_text())[0]["id"] == "p"

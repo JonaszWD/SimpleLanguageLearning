@@ -93,6 +93,13 @@ export async function exercisesFor(topic) {
   return out;
 }
 
+/** Start the syllabus at `week` this week (placement test: skip topics below the learner's level). */
+export async function startAtWeek(week) {
+  const s = await db.getSettings();
+  s.grammarStart = dateKey(new Date(addDays(startOfDay(parseKey(mondayKey(new Date()))), -7 * (week - 1))));
+  await db.saveSettings(s);
+}
+
 /** Hold the syllabus for a week (repeat the current topic) by moving the start date later. */
 export async function repeatCurrentTopic() {
   const s = await db.getSettings();

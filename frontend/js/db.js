@@ -1,7 +1,19 @@
 // All user data lives in IndexedDB so the app works fully offline.
-const NAME = "language-app";
-const VERSION = 4;
+let NAME = "language-app";
+const VERSION = 5;
 let dbp;
+
+// Each user has their own database. Call before the first query, and again only after close().
+export function useDatabase(name) {
+  NAME = name;
+  dbp = undefined;
+}
+
+export async function close() {
+  if (!dbp) return;
+  (await dbp).close();
+  dbp = undefined;
+}
 
 export function open() {
   dbp ??= new Promise((resolve, reject) => {
@@ -42,6 +54,7 @@ export function open() {
         db.createObjectStore("epstate", { keyPath: "id" });
         db.createObjectStore("shadowq", { autoIncrement: true });
       }
+      if (old < 5) db.createObjectStore("reports", { keyPath: "id" }); // problems the user noted about the app
     };
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => reject(req.error);
@@ -98,6 +111,7 @@ export const DEFAULT_SETTINGS = {
   language: "es",
   autoSync: true,
   mixAudio: true,
+  volume: 1,                   // playback gain, 0-3 (above 1 boosts)
   devMode: false,
   // Grammar: ~15% of new cards are grammar/mistake cards; the syllabus advances one topic a week.
   grammarShare: 0.15,

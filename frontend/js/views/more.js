@@ -1,15 +1,17 @@
 import { h, dateKey, addDays, startOfDay, toast, icon } from "../util.js";
 import * as db from "../db.js";
 import { allTasks } from "../plan.js";
-import { mergeDeck, installPack, installedPacks, availablePacks } from "../packs.js";
+import { installPack, installedPacks, availablePacks } from "../packs.js";
 import { topNav } from "./shared.js";
 import { checkNow, runningVersion } from "../update.js";
 import { syncAll } from "../sync.js";
 import { stats as grammarStats } from "../grammar.js";
 import { weekSummary } from "../podcast.js";
+import { activityTerrain } from "../terrain.js";
 import { setListenMap } from "../plan.js";
-import { apiUrl } from "../config.js";
 import { setMixing } from "../media.js";
+import { runPlacement, applyLevel } from "../placement.js";
+import { canLock, currentUser, listUsers, setPasscode, removePasscode, check, switchUser, deleteCurrentUser, MIN_LENGTH } from "../users.js";
 
 const isDone = async (d) => {
   const day = await db.get("days", dateKey(d));
@@ -31,6 +33,27 @@ async function listeningSection() {
       h("span", { class: "caption" }, x.minutes),
       h("div", { class: "bar" }, h("i", { style: `height:${Math.round((x.minutes / max) * 100)}%` })),
       h("span", { class: "caption muted" }, new Date(x.from).toLocaleDateString(undefined, { day: "numeric", month: "numeric" }))))));
+}
+
+const VOCAB_LEVELS = ["A1", "A2", "B1", "B2"];
+
+// Words you have started learning (their first card has left "new"), per CEFR band of the vocab pack.
+async function vocabSection() {
+  const notes = (await db.getAll("notes")).filter((n) => n.tags?.includes("vocab"));
+  if (!notes.length) return null;
+  const levelOf = new Map(notes.map((n) => [n.id, n.tags.find((t) => VOCAB_LEVELS.includes(t))]));
+  const totals = Object.fromEntries(VOCAB_LEVELS.map((l) => [l, 0]));
+  const seen = Object.fromEntries(VOCAB_LEVELS.map((l) => [l, 0]));
+  for (const l of levelOf.values()) if (l) totals[l]++;
+  for (const c of await db.getAll("cards")) {
+    const l = levelOf.get(c.nid);
+    if (l && c.ord === 0 && c.kind !== "new") seen[l]++;
+  }
+  return h("div", { class: "feature-card stack" },
+    h("span", { class: "caption-uppercase muted" }, "Vocabulary by level"),
+    VOCAB_LEVELS.map((l) => h("div", { class: "acc-row" },
+      h("div", { class: "row between" }, h("span", { class: "body-sm" }, l), h("span", { class: "caption" }, `${seen[l]} / ${totals[l]}`)),
+      h("div", { class: "progress" }, h("i", { style: `width:${totals[l] ? Math.round((seen[l] / totals[l]) * 100) : 0}%` })))));
 }
 
 async function grammarSection() {
@@ -60,6 +83,23 @@ async function grammarSection() {
         h("div", { class: "progress" }, h("i", { style: `width:${r.acc == null ? 0 : Math.round(r.acc * 100)}%` }))))));
 }
 
+async function activitySection(now) {
+  const byDate = new Map((await db.getAll("days")).map((d) => [d.date, d]));
+  const counts = [];
+  for (let i = 364; i >= 0; i--) {
+    const day = byDate.get(dateKey(new Date(addDays(startOfDay(now), -i))));
+    // Cards studied plus finished daily tasks.
+    counts.push(day ? day.newDone + day.revDone + Object.values(day.tasks).filter((t) => t.done).length : 0);
+  }
+  const endDate = dateKey(now);
+  const last = (n) => counts.slice(-n);
+  return activityTerrain({ unit: "activities", title: "Activity", ranges: [
+    { label: "Week", span: "week", counts: last(7), endDate },
+    { label: "Month", span: "month", counts: last(30), endDate },
+    { label: "Year", span: "year", counts, endDate },
+  ] });
+}
+
 export async function stats() {
   const now = new Date();
   const days = [];
@@ -70,22 +110,69 @@ export async function stats() {
   let streak = 0;
   for (let i = days[6].done ? 6 : 5; i >= 0 && days[i].done; i--) streak++;
   const today = await db.getDay(dateKey(now));
-  const letters = "SMTWTFS";
   return h("div", { class: "page" },
     h("h1", { class: "display-lg" }, "Stats"),
-    h("section", { class: "gradient-orb-card orb-peach stack" },
+    h("section", { class: "gradient-orb-card orb-peach row between", style: "padding:var(--s-sm) var(--s-lg)" },
       h("span", { class: "caption-uppercase muted" }, "Current streak"),
-      h("div", { class: "display-lg" }, `${streak} day${streak === 1 ? "" : "s"}`)),
-    h("div", { class: "feature-card stack" },
-      h("span", { class: "caption-uppercase muted" }, "Last 7 days"),
-      h("div", { class: "week" }, days.map(({ d, done }, i) => h("div", { class: "stack", style: "gap:4px" },
-        h("div", { class: `dot ${done ? "done" : ""} ${i === 6 ? "today" : ""}` }, done ? icon("check") : null),
-        h("span", { class: "caption muted" }, letters[d.getDay()]))))),
+      h("span", { class: "title-md" }, `${streak} day${streak === 1 ? "" : "s"}`)),
+    await activitySection(now),
     h("div", { class: "feature-card stack" },
       h("span", { class: "caption-uppercase muted" }, "Cards today"),
       h("div", { class: "title-md" }, `${today.newDone} new · ${today.revDone} reviewed`)),
+    await vocabSection(),
     await listeningSection(),
     await grammarSection());
+}
+
+async function accountSection(ctx) {
+  const user = currentUser();
+  if (user.guest) return h("div", { class: "feature-card stack" },
+    h("span", { class: "title-sm" }, "Browsing as guest"),
+    h("p", { class: "body-sm muted" }, "Nothing is saved: your progress is erased when you sign out. Background downloads are off, so there are few cards to study."),
+    h("button", { class: "btn btn-primary btn-block", onClick: switchUser }, "Sign in or create user"));
+  const on = !!user.hash;
+  const field = (label, auto) => h("input", { class: "text-input", type: "password", autocomplete: auto, "aria-label": label, placeholder: label });
+  const msg = h("p", { class: "caption error", role: "alert" });
+  const fail = (t) => { msg.textContent = t; };
+  const body = [
+    h("span", { class: "title-sm" }, `Signed in as ${user.name}`),
+    h("p", { class: "body-sm muted" }, `Cards, progress, settings and downloaded audio are kept per user on this device.${listUsers().length > 1 ? "" : " Add another user from the switch screen."}`),
+    h("button", { class: "btn btn-outline btn-block", onClick: switchUser }, "Switch or add user"),
+  ];
+  if (!canLock) {
+    body.push(h("p", { class: "body-sm muted" }, "Passcodes need a secure connection (HTTPS). Not available on this address."));
+  } else if (!on) {
+    const pass = field("New passcode", "new-password"), again = field("Repeat passcode", "new-password");
+    body.push(
+      h("span", { class: "title-sm" }, "Passcode"),
+      h("p", { class: "body-sm muted" }, "Ask for a passcode when you sign in and after 5 minutes in the background. It can't be recovered: if you forget it, clear this site's data in Safari (that deletes every user's cards)."),
+      pass, again, msg,
+      h("button", { class: "btn btn-outline btn-block", onClick: async () => {
+        if (pass.value.length < MIN_LENGTH) return fail(`Use at least ${MIN_LENGTH} characters.`);
+        if (pass.value !== again.value) return fail("The two passcodes differ.");
+        await setPasscode(pass.value);
+        toast("Passcode set");
+        ctx.go("/settings");
+      } }, "Set passcode"));
+  }
+  const cur = on ? field("Current passcode", "current-password") : null;
+  const verified = async () => !on || (await check(user, cur.value)) || (fail("Wrong passcode."), false);
+  if (on) body.push(h("span", { class: "title-sm" }, "Passcode"), cur, msg,
+    h("button", { class: "btn btn-outline btn-block", onClick: async () => {
+      if (!(await verified())) return;
+      removePasscode();
+      toast("Passcode removed");
+      ctx.go("/settings");
+    } }, "Remove passcode"));
+  body.push(
+    h("span", { class: "title-sm" }, "Delete user"),
+    h("p", { class: "body-sm muted" }, `Deletes ${user.name}'s cards, progress and downloads from this device. Export a backup first.`),
+    h("button", { class: "btn btn-outline btn-block", onClick: async () => {
+      if (!(await verified())) return;
+      if (!confirm(`Delete ${user.name} and all their data on this device?`)) return;
+      await deleteCurrentUser();
+    } }, "Delete this user"));
+  return h("div", { class: "feature-card stack" }, body);
 }
 
 export async function settings(ctx) {
@@ -138,6 +225,10 @@ export async function settings(ctx) {
     sel.addEventListener("change", () => { s.listenMap = { ...s.listenMap, [d]: sel.value }; });
     return h("div", { class: "row between" }, h("span", {}, label), sel);
   });
+  const retest = async () => {
+    const level = await runPlacement();
+    if (level) { await applyLevel(level); toast(`Level: ${level}`); ctx.go("/settings"); }
+  };
   const syncNow = async () => { toast("Syncing…"); await syncAll({ force: true }); toast("Content is up to date"); };
 
   const ver = h("p", { class: "caption muted" }, "Version …");
@@ -147,6 +238,8 @@ export async function settings(ctx) {
     try { await checkNow(); toast("Up to date, or updating now"); } catch { toast("Couldn't reach the server"); }
     ver.textContent = `Version ${(await runningVersion()) || "unknown"}`;
   };
+
+  const accountCard = await accountSection(ctx);
 
   return h("div", {}, topNav("Settings", "/today"), h("div", { class: "page has-top" },
     h("h1", { class: "display-lg" }, "Settings"),
@@ -159,6 +252,10 @@ export async function settings(ctx) {
       h("div", { class: "field" }, h("label", {}, "Listening by weekday"), h("div", { class: "stack", style: "gap:8px" }, listenRows),
         h("p", { class: "caption muted" }, "Extensive: 30 min, no text. Intensive: guided 5–10 min segment. Save to apply.")),
       num("podcastKeepDays", "Keep listened episodes on this phone (days)"),
+      h("div", { class: "field" }, h("label", {}, "Level"),
+        h("div", { class: "row between" }, h("span", {}, s.level || "Not tested"),
+          h("button", { class: "btn btn-outline", onClick: retest }, s.level ? "Retake test" : "Take test")),
+        h("p", { class: "caption muted" }, "Sets where the grammar course starts.")),
       h("div", { class: "field" }, h("label", {}, "Grammar syllabus start (week 1)"), gStart),
       h("div", { class: "field" }, h("label", {}, "Grammar share of new cards (%)"), share),
       num("mistakeCardsPerDay", "Mistake cards per day (max)"),
@@ -169,6 +266,7 @@ export async function settings(ctx) {
         h("label", {}, "Keep other audio playing"), mix,
         h("p", { class: "caption muted" }, "On: your music keeps playing while a card or clip plays. The iPhone silent switch then mutes the app too. Off: the app pauses other audio but ignores the switch.")),
       h("button", { class: "btn btn-primary btn-block", onClick: save }, "Save")),
+    accountCard,
     h("div", { class: "feature-card stack" },
       h("span", { class: "title-sm" }, "Backup"),
       h("p", { class: "body-sm muted" }, "Data lives on this device. Add the app to your Home Screen and keep a backup: Safari can clear website data."),
@@ -187,34 +285,13 @@ export async function settings(ctx) {
 }
 
 export async function importDeck(ctx) {
-  const status = h("p", { class: "body-sm" });
-  const file = h("input", { type: "file", accept: ".apkg,.colpkg", onChange: async (e) => {
-    const f = e.target.files[0];
-    if (!f) return;
-    status.className = "body-sm"; status.textContent = "Importing…";
-    try {
-      const body = new FormData();
-      body.append("file", f);
-      const res = await fetch(apiUrl("/anki/import"), { method: "POST", body });
-      if ([404, 405, 501].includes(res.status)) throw new Error("Importing needs the backend server. It isn't available on this hosting.");
-      if (!res.ok) throw new Error((await res.json().catch(() => ({}))).detail || `Server error ${res.status}`);
-      const data = await res.json();
-      const r = await mergeDeck(data);
-      status.textContent = `Imported ${r.notes} notes (${r.cards} cards). ${r.skipped} duplicates skipped.`;
-      status.className = "body-sm success";
-    } catch (err) {
-      status.className = "body-sm error";
-      status.textContent = err instanceof TypeError ? "Import needs a connection to your server." : err.message;
-    }
-  } });
-
   const packBox = h("div", { class: "stack" });
   const drawPacks = async () => {
     let metas = [];
     try { metas = await availablePacks(); } catch { /* offline */ }
     const have = await installedPacks();
     packBox.replaceChildren(...metas.map((m) => {
-      const label = h("span", { class: "caption muted" }, `${m.notes} cards · ${m.clips} shadowing clips · ${Math.round(m.audioBytes / 1e6)} MB audio`);
+      const label = h("span", { class: "caption muted" }, `${[m.notes && `${m.notes} words`, m.clips && `${m.clips} shadowing clips`].filter(Boolean).join(" · ")} · ${Math.round(m.audioBytes / 1e6)} MB audio`);
       const bar = h("i");
       const track = h("div", { class: "progress thick", hidden: true }, bar);
       const btn = h("button", { class: have.has(m.id) ? "btn btn-outline btn-block" : "btn btn-primary btn-block" }, have.has(m.id) ? "Re-check audio" : "Download for offline");
@@ -237,13 +314,7 @@ export async function importDeck(ctx) {
   };
   drawPacks();
 
-  return h("div", {}, topNav("Import Anki deck", "/cards"), h("div", { class: "page has-top" },
-    h("h1", { class: "display-lg" }, "Import"),
-    h("span", { class: "caption-uppercase muted" }, "Content packs"),
-    packBox,
-    h("span", { class: "caption-uppercase muted" }, "Anki file"),
-    h("p", {}, "Choose an .apkg or .colpkg exported from Anki (tick “Support older Anki versions”). Needs a connection once; afterwards everything works offline."),
-    h("button", { class: "btn btn-primary btn-block", onClick: () => file.click() }, "Choose file"), file,
-    status,
-    h("p", { class: "caption muted" }, "Scheduling is kept. Media (audio, images) is not imported yet.")));
+  return h("div", {}, topNav("Content packs", "/cards"), h("div", { class: "page has-top" },
+    h("h1", { class: "display-lg" }, "Content packs"),
+    packBox));
 }

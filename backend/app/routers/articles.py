@@ -4,7 +4,7 @@ import httpx
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
 
-from .. import articles, daily
+from .. import articles, daily, translate as translation
 from ..dictionary import Dictionary
 
 router = APIRouter(tags=["articles"])
@@ -27,6 +27,12 @@ class PasteText(BaseModel):
     text: str = Field(max_length=200_000)
     url: str = Field("", max_length=2048)
     source: str = Field("", max_length=100)
+
+
+class TranslateRequest(BaseModel):
+    sentence: str = Field(max_length=translation.MAX_SENTENCE)
+    word: str = Field(max_length=100)
+    offset: int | None = Field(None, ge=0, le=translation.MAX_SENTENCE)  # where the word starts in the sentence
 
 
 async def _run(fn, *args):
@@ -52,6 +58,18 @@ async def import_url(body: ImportUrl) -> dict:
 @router.post("/prepare")
 async def prepare(body: PasteText) -> dict:
     return await _run(lambda: articles.prepare(**body.model_dump(), dictionary=dictionary()))
+
+
+@router.post("/translate")
+async def translate_sentence(body: TranslateRequest) -> dict:
+    if not translation.available():
+        raise HTTPException(503, "Sentence translation needs DEEPL_API_KEY on the server.")
+    try:
+        return await asyncio.to_thread(translation.translate, body.sentence, body.word, body.offset)
+    except ValueError as exc:
+        raise HTTPException(422, str(exc)) from exc
+    except Exception as exc:  # DeepL errors: network, quota, bad key
+        raise HTTPException(502, "Translation failed. Try again.") from exc
 
 
 _refresh_lock = asyncio.Lock()

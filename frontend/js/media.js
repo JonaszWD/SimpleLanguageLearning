@@ -1,6 +1,7 @@
 // Audio from the `media` store. One persistent <audio> element: iOS only lets it play
 // after it was started from a tap, so callers prepare() ahead and play() inside the tap.
 import * as db from "./db.js";
+import { getVolume, onVolume, makeBus } from "./volume.js";
 
 const el = new Audio();
 
@@ -18,6 +19,37 @@ function applySession() {
   } catch { /* unsupported value: keep the default */ }
 }
 applySession();
+
+// Volume: elements only go through Web Audio once the volume is moved off 100 %, and only after the
+// context is running. If it can't start (no tap yet), audio keeps playing natively instead of going silent.
+let actx = null, bus = null, tracked = new Set([el]);
+const wired = new WeakSet();
+function wireAll() {
+  if (actx?.state !== "running") return;
+  bus ??= makeBus(actx);
+  for (const e of tracked) {
+    if (wired.has(e)) continue;
+    try { actx.createMediaElementSource(e).connect(bus.input); wired.add(e); } catch { /* already routed elsewhere */ }
+  }
+}
+function ensureGraph() {
+  if (getVolume() === 1 && !actx) return;
+  if (!actx) {
+    actx = new (window.AudioContext || window.webkitAudioContext)();
+    actx.addEventListener("statechange", wireAll);
+  }
+  actx.resume().then(wireAll).catch(() => {});
+}
+onVolume(ensureGraph);
+el.addEventListener("play", ensureGraph);
+
+/** Route another <audio> element (e.g. a library item) through the same volume control. */
+export function track(e) {
+  tracked.add(e);
+  e.addEventListener("play", ensureGraph);
+  if (actx) ensureGraph();
+}
+
 const urls = new Map(); // name -> object URL
 let current = null;
 
@@ -35,6 +67,7 @@ export function release() {
   for (const u of urls.values()) URL.revokeObjectURL(u);
   urls.clear();
   current = null;
+  tracked = new Set([el]);
 }
 
 export async function prepare(name) {
