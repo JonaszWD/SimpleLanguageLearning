@@ -1,5 +1,7 @@
 # Language App
 
+[![CI](https://github.com/JonaszWD/SimpleLanguageLearning/actions/workflows/ci.yml/badge.svg)](https://github.com/JonaszWD/SimpleLanguageLearning/actions/workflows/ci.yml)
+
 Offline-first iPhone web app (PWA) for a daily Spanish routine. JS frontend (no build step), FastAPI backend, uv + Docker.
 
 ```
@@ -15,6 +17,8 @@ cd backend && uv sync && uv run uvicorn app.main:app --reload   # http://localho
 docker compose up --build                                        # same, containerised
 cd backend && uv run pytest
 ```
+
+Frontend logic tests (no dependencies, Node 22+): `node --test frontend/tests/*.test.mjs`. Both suites run in CI on every push and pull request.
 
 Service workers need HTTPS except on localhost. To install on an iPhone, serve over HTTPS (reverse proxy / tunnel), open in Safari, Share → Add to Home Screen.
 
